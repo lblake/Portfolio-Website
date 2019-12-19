@@ -1,20 +1,11 @@
-#footer {
-  padding: 7% 15%;
-  text-align: center;
-}
-
-#footer h3 {
-  font-size: small;
-}
-
 .social-icon {
   margin: 15px 10px;
   color: black;
 }
 
 #title {
-  background-color: #6679B6;
-  color: white;
+  background-color: #6679b6;
+  color: whitesmoke;
 }
 
 .navbar-brand {
@@ -28,16 +19,13 @@
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 5px;
-
-  
 }
 
-.css-icon{
+.css-icon {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 5px;
-
 }
 
 .pencil-icon {
@@ -45,20 +33,52 @@
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 5px;
-
 }
 
 #work h3 {
   text-align: center;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
 }
 .card-header {
   background-color: #f9ceb7;
 }
-p{
+p {
   font-family: Lora, serif;
   font-weight: 400;
   font-size: 18px;
 }
 
+#header-title h2 {
+  font-family: Lora, sans-serif;
+}
+
+#header-title h2 {
+  position: absolute;
+  font-family: Lora, sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  padding: 3%;
+  color: whitesmoke;
+}
+#footer {
+  text-align: center;
+  background-color: #6679b6;
+  padding: 7% 15%;
+}
+
+#footer h3 {
+  font-size: small;
+  color: whitesmoke;
+  font-family: Lora, sans-serif;
+}
+
+.nav-item {
+  font-family: Lora, sans-serif;
+  font-weight: lighter;
+  color: whitesmoke;
+}
+
+span {
+  color: black;
+}
