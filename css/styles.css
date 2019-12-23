@@ -1,3 +1,10 @@
+/* body {
+    margin: 0;
+} */
+
+/* * {
+    box-sizing: border-box;
+} */
 .social-icon {
   margin: 15px 10px;
   color: black;
@@ -40,9 +47,15 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 24px;
 }
-.card-header {
-  background-color: #f9ceb7;
+#work {
+  padding: 50px;
+  margin-bottom: 7%;
 }
+
+.card-header {
+  /* background-color: #f9ceb7; */
+}
+
 p {
   font-family: Lora, serif;
   font-weight: 400;
@@ -61,6 +74,7 @@ p {
   padding: 3%;
   color: whitesmoke;
 }
+
 #footer {
   text-align: center;
   background-color: #6679b6;
@@ -81,4 +95,35 @@ p {
 
 span {
   color: black;
+}
+
+#about {
+  padding: 3% 15%;
+}
+
+#portfolio {
+  background-color: #a8b0c8;
+  text-align: center;
+  padding: 3% 15%;
+  margin-bottom: 15%;
+}
+
+.testimonials-image {
+  width: 60%;
+  margin-bottom: 1rem;
+  border-style: solid;
+  border-color: whitesmoke;
+}
+
+.carousel-item h2 {
+  font-family: Lora, sans-serif;
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 1rem;
+}
+
+a {
+  font-family: Lora, sans-serif;
+  color: whitesmoke;
+  font-weight: lighter;
 }
