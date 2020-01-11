@@ -122,6 +122,10 @@ span {
   padding: 1rem;
 }
 
+.carousel-item{
+  padding-bottom: 2rem;
+}
+
 a {
   font-family: Lora, sans-serif;
   color: whitesmoke;
