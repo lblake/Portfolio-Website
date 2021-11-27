@@ -11,14 +11,48 @@
   flex: 1;
 }
 
-.introLeftWrapper{
-    padding: 50px;
+.introLeftWrapper {
+  padding: 50px;
 }
 
-.introIntro{
-
+.introIntro {
+  font-size: 30px;
+  font-weight: 300;
 }
 
-.introName{
-    
+.introName {
+  font-size: 60px;
+}
+
+.introTitle {
+  height: 50px;
+  overflow: hidden;
+}
+
+.introTitleWrapper {
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.introTitleItem {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
 }
