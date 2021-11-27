@@ -1,0 +1,24 @@
+.intro {
+  display: flex;
+  height: 100vh;
+}
+
+.introLeft {
+  flex: 1;
+}
+
+.introRight {
+  flex: 1;
+}
+
+.introLeftWrapper{
+    padding: 50px;
+}
+
+.introIntro{
+
+}
+
+.introName{
+    
+}
