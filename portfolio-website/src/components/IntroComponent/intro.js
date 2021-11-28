@@ -1,10 +1,11 @@
 import React from 'react';
 import styles from './intro.module.css';
+import image from '../images/me3.jpg'
 
 function Intro() {
   return (
     <div className={styles.intro}>
-      <div className={styles.introRight}>
+      <div className={styles.introLeft}>
         <div className={styles.introLeftWrapper}>
           <h2 className={styles.introIntro}>Hello, My name is</h2>
           <h1 className={styles.introName}>Lloyd Blake</h1>
@@ -19,9 +20,16 @@ function Intro() {
               <div className={styles.introTitleItem}>Test Analyst</div>
             </div>
           </div>
+          <div className={styles.introTitleDescription}>
+            I design and develop services for customers of all sizes,
+            specializing in creating stylish, modern websites, web services and
+            online stores.
+          </div>
         </div>
       </div>
-      <div className={styles.introLeft}>Left</div>
+      <div className={styles.introRight}>
+        <img src={image} alt="" className="introImage" />
+      </div>
     </div>
   );
 }
