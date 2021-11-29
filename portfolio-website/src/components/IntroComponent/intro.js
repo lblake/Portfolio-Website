@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './intro.module.css';
-import image from '../images/me3.jpg'
+import image from '../../images/me3.jpeg'
 
 function Intro() {
   return (
