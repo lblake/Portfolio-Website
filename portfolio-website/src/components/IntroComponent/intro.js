@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './intro.module.css';
-import image from '../../images/me3.jpg';
+import image from '../../images/me3-removebg.png';
 
 function Intro() {
   return (
@@ -11,12 +11,12 @@ function Intro() {
           <h1 className={styles.introName}>Lloyd Blake</h1>
           <div className={styles.introTitle}>
             <div className={styles.introTitleWrapper}>
-              <div className={styles.introTitleItem}>Web Developer</div>
+              <div className={styles.introTitleItem}>FrontEnd Developer</div>
               <div className={styles.introTitleItem}>
                 Senior Automation Engineer
               </div>
               <div className={styles.introTitleItem}>Senior QA Engineer</div>
-              <div className={styles.introTitleItem}>PPC/SEO Excutive</div>
+              <div className={styles.introTitleItem}>PPC/SEO Executive</div>
               <div className={styles.introTitleItem}>Test Analyst</div>
             </div>
           </div>
@@ -30,7 +30,7 @@ function Intro() {
       <div className={styles.introRight}>
         <div className={styles.introBackground}></div>
 
-        <img src={image} alt='' className='introImage' />
+        <img src={image} alt='' className={styles.introImage} />
       </div>
     </div>
   );
