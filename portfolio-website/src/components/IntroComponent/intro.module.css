@@ -1,3 +1,7 @@
+/* Primary colour: #C98D3D
+Secondary colour: #3D79C9
+Tertiary colour: #A1BEE5 */
+
 .intro {
   display: flex;
   height: 100vh;
@@ -26,10 +30,12 @@
 .introIntro {
   font-size: 30px;
   font-weight: 300;
+  color: #3d79c9;
 }
 
 .introName {
   font-size: 60px;
+  color: #a1bee5;
 }
 
 .introTitle {
@@ -63,10 +69,11 @@
   font-weight: bold;
   display: flex;
   align-items: center;
-  color: #59b256;
+  color: #3d79c9;
 }
 
 .introTitleDescription {
+  color: #a1bee5;
 }
 
 .introImage {
@@ -78,7 +85,7 @@
 
 .introBackground {
   clip-path: polygon(100% 0%, 100% 51%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-  background-color: #59b256;
+  background-color: #3d79c9;
   width: 100%;
   height: 100%;
   position: absolute;

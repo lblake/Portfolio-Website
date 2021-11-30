@@ -30,7 +30,7 @@ function Intro() {
       <div className={styles.introRight}>
         <div className={styles.introBackground}></div>
 
-        <img src={image} alt='' className={styles.introImage} />
+        <img src={image} alt='lloyd' className={styles.introImage} />
       </div>
     </div>
   );
