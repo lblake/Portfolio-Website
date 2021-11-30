@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './intro.module.css';
-import image from '../../images/me3.jpeg'
+import image from '../../images/me3.jpg';
 
 function Intro() {
   return (
@@ -28,7 +28,9 @@ function Intro() {
         </div>
       </div>
       <div className={styles.introRight}>
-        <img src={image} alt="" className="introImage" />
+        <div className={styles.introBackground}></div>
+
+        <img src={image} alt='' className='introImage' />
       </div>
     </div>
   );
