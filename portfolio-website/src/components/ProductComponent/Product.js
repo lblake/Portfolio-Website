@@ -3,7 +3,7 @@ import styles from './product.module.css'
 
 export default function Product() {
     return (
-        <div>
+        <div className={styles.product}>
             card
         </div>
     )
