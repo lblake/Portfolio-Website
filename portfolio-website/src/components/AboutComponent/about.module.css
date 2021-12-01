@@ -1,0 +1,25 @@
+.about {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.aboutLeft {
+  flex: 1;
+}
+
+.aboutRight {
+  flex: 1;
+}
+
+.about {
+}
+
+.aboutCardBackground {
+}
+
+.aboutCard {
+}
+
+.aboutImage {
+}
