@@ -45,10 +45,10 @@ Tertiary colour: #A1BEE5 */
 
 .introTitleWrapper {
   height: 100%;
-  animation: move 10s ease-in-out infinite alternate;
+  /* animation: move 10s ease-in-out infinite alternate; */
 }
 
-@keyframes move {
+/* @keyframes move {
   25% {
     transform: translateY(-50px);
   }
@@ -61,7 +61,7 @@ Tertiary colour: #A1BEE5 */
   100% {
     transform: translateY(-200px);
   }
-}
+} */
 
 .introTitleItem {
   height: 50px;
