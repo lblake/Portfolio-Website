@@ -1,8 +1,7 @@
 import React from 'react';
 import styles from './intro.module.css';
 import image from '../../images/me3-removebg.png';
-// import mouse from './mouse.svg'
-import MouseImage from '../MouseComponent/mouse'
+import MouseImage from '../MouseComponent/mouse';
 
 function Intro() {
   return (
@@ -13,13 +12,7 @@ function Intro() {
           <h1 className={styles.introName}>Lloyd Blake</h1>
           <div className={styles.introTitle}>
             <div className={styles.introTitleWrapper}>
-              <div className={styles.introTitleItem}>FrontEnd Developer</div>
-              {/* <div className={styles.introTitleItem}>
-                Senior Automation Engineer
-              </div>
-              <div className={styles.introTitleItem}>Senior QA Engineer</div>
-              <div className={styles.introTitleItem}>PPC/SEO Executive</div>
-              <div className={styles.introTitleItem}>Test Analyst</div> */}
+              <div className={styles.introTitleItem}>Frontend Developer</div>
             </div>
           </div>
           <p className={styles.introTitleDescription}>
@@ -28,8 +21,7 @@ function Intro() {
             online stores.
           </p>
         </div>
-        {/* <img src={mouse} alt="mouse"  /> */}
-        <MouseImage/>
+        <MouseImage />
       </div>
       <div className={styles.introRight}>
         <div className={styles.introBackground}></div>
