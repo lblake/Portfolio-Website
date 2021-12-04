@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './intro.module.css';
 import image from '../../images/me3-removebg.png';
-import mouse from './mouse.svg'
+// import mouse from './mouse.svg'
+import MouseImage from '../MouseComponent/mouse'
 
 function Intro() {
   return (
@@ -27,7 +28,8 @@ function Intro() {
             online stores.
           </p>
         </div>
-        <img src={mouse} alt="" />
+        {/* <img src={mouse} alt="mouse"  /> */}
+        <MouseImage/>
       </div>
       <div className={styles.introRight}>
         <div className={styles.introBackground}></div>

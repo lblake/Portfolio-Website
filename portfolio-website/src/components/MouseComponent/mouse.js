@@ -1,3 +1,10 @@
+import React from 'react'
+import styles from './mouse.module.css'
+
+
+export default function mouse() {
+    return (
+        // <div>
 
 <svg
           width='75'
@@ -55,3 +62,7 @@
             </g>
           </g>
         </svg>
+            
+        // </div>
+    )
+}

@@ -75,12 +75,12 @@ Tertiary colour: #A1BEE5 */
 .introTitleDescription {
   color: #a1bee5;
 }
-.introScroll{
+/* .introScroll{
   width: 30px;
   height: 30px;
   position: absolute;
   bottom: 20px;
-}
+} */
 .introImage {
   width: 100%;
   height: 100%;
