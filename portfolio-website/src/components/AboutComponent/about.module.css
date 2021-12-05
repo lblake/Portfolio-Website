@@ -17,11 +17,11 @@
   flex: 1;
 }
 
-.about {
+/* .about {
   height: 100vh;
   display: flex;
   align-items: center;
-}
+} */
 
 .aboutCardBackground {
   position: absolute;
@@ -42,4 +42,43 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.aboutTitle{
+  font-weight: 400;
+
+}
+
+.aboutSubHeading{
+  margin: 20px 0px;
+
+}
+
+.aboutDescription{
+  font-weight: 300;
+
+}
+
+@media screen and (max-width:480px) {
+  .about{
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .aboutLeft {
+    width: 100%;
+  }
+
+  .aboutCard {
+    height: 30vh;
+  }
+
+  .aboutCardBackground {
+    display: none;
+  }
+
+  .aboutRight{
+    padding: 20px;
+  }
 }
