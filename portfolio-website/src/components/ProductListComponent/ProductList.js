@@ -5,7 +5,7 @@ import { products } from '../../data';
 
 export default function ProductList() {
   return (
-    <div className={styles.productList}>
+    <div className={styles.product}>
       <div className={styles.productListText}>
         <h1 className={styles.productListTitle}>Create & inspire. It's Lama</h1>
         <p className={styles.productListDescription}>

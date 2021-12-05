@@ -1,0 +1,27 @@
+.product {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.productListText {
+  width: 65%;
+}
+
+.productListTitle {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.productListDescription {
+  margin: 20px 0px;
+}
+
+.productList {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

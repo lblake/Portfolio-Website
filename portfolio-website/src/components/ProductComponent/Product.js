@@ -10,7 +10,7 @@ export default function Product({ link, img }) {
         <div className={styles.circle}></div>
       </div>
       <a href={link} target='_blank' rel='noreferrer'>
-        <img src={img} alt='' className='p-img' />
+        <img src={img} alt='' className={styles.productImage} />
       </a>
     </div>
   );
