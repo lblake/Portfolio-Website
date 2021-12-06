@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    img: "",
+    img: "../src/images/screencapture-image-gallery-flexbox.png",
     link: "http://lama.dev",
   },
   {
