@@ -1,32 +1,32 @@
 export const products = [
   {
     id: 1,
-    img: "../src/images/screencapture-image-gallery-flexbox.png",
-    link: "http://lama.dev",
+    img: '../src/images/screencapture-image-gallery-flexbox.png',
+    link: 'https://image-gallery-flexbox.netlify.app/',
   },
   {
     id: 2,
-    img: "",
-    link: "http://lama.dev",
+    img: '',
+    link: 'http://lama.dev',
   },
   {
     id: 3,
-    img: "",
-    link: "http://lama.dev",
+    img: '',
+    link: 'http://lama.dev',
   },
   {
     id: 4,
-    img: "",
-    link: "http://lama.dev",
+    img: '',
+    link: 'http://lama.dev',
   },
   {
     id: 5,
-    img: "",
-    link: "http://lama.dev",
+    img: '',
+    link: 'http://lama.dev',
   },
   {
     id: 6,
-    img: "",
-    link: "http://lama.dev",
+    img: '',
+    link: 'http://lama.dev',
   },
 ];
