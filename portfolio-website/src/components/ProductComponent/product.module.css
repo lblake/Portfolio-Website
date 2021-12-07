@@ -30,7 +30,7 @@
 }
 
 .product:hover .productImage {
-  transform: translateY(-100%);
+  transform: translateY(-54%);
 }
 
 @media screen and (max-width: 480px) {

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './intro.module.css';
-import image from '../../images/me3-removebg.png';
+import image from './me3-removebg.png'
 import MouseImage from '../MouseComponent/mouse';
 
 function Intro() {

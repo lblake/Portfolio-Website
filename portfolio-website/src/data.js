@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    img: '../src/images/screencapture-image-gallery-flexbox.png',
+    img: '/images/screencapture-image-gallery-flexbox.png',
     link: 'https://image-gallery-flexbox.netlify.app/',
   },
   {
