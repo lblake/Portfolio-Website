@@ -1,7 +1,7 @@
 import Intro from './components/IntroComponent/Intro';
 import About from './components/AboutComponent/About';
 import ProductList from './components/ProductListComponent/ProductList';
-// import Product from './components/ProductComponent/Product';
+import Contact from './components/ContactComponent/Contact';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Intro />
       <About />
       <ProductList />
-      {/* <Product /> */}
+      <Contact />
     </div>
   );
 }
