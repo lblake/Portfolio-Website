@@ -1,4 +1,4 @@
-import './contact.module.css';
+import styles from './contact.module.css';
 import Phone from '../../img/phone.png';
 import Email from '../../img/email.png';
 import Address from '../../img/address.png';
@@ -33,60 +33,59 @@ export default function Contact() {
   };
 
   return (
-    <div className='c'>
-      <div className='c-bg'></div>
-      <div className='c-wrapper'>
-        <div className='c-left'>
-          <h1 className='c-title'>Let's discuss your project</h1>
-          <div className='c-info'>
-            <div className='c-info-item'>
-              <img src={Phone} alt='' className='c-icon' />
-              +1 1234 556 75
-            </div>
-            <div className='c-info-item'>
-              <img className='c-icon' src={Email} alt='' />
-              contact@lama.dev
-            </div>
-            <div className='c-info-item'>
-              <img className='c-icon' src={Address} alt='' />
-              245 King Street, Touterie Victoria 8520 Australia
-            </div>
+    <div className={styles.contact}>
+      <div className={styles.contactBackground}></div>
+      <div className={styles.contactWrapper}></div>
+      <div className={styles.contactLeft}>
+        <h1 className={styles.contactTitle}>Let's discuss your project</h1>
+        <div className={styles.contactInfo}>
+          <div className={styles.contactInfoItem}>
+            <img src={Phone} alt='' className={styles.contactIcon} />
+            +1 1234 556 75
+          </div>
+          <div className={styles.contactInfo}>
+            <img className={styles.contactIcon} src={Email} alt='' />
+            contact@lama.dev
+          </div>
+          <div className={styles.contactInfoItem}>
+            <img className={styles.contactInfo} src={Address} alt='' />
+            245 King Street, Touterie Victoria 8520 Australia
           </div>
         </div>
-        <div className='c-right'>
-          <p className='c-desc'>
-            <b>What’s your story?</b> Get in touch. Always available for
-            freelancing if the right project comes along. me.
-          </p>
-          <form ref={formRef} onSubmit={handleSubmit}>
-            <input
-              style={{ backgroundColor: darkMode && '#333' }}
-              type='text'
-              placeholder='Name'
-              name='user_name'
-            />
-            <input
-              style={{ backgroundColor: darkMode && '#333' }}
-              type='text'
-              placeholder='Subject'
-              name='user_subject'
-            />
-            <input
-              style={{ backgroundColor: darkMode && '#333' }}
-              type='text'
-              placeholder='Email'
-              name='user_email'
-            />
-            <textarea
-              style={{ backgroundColor: darkMode && '#333' }}
-              rows='5'
-              placeholder='Message'
-              name='message'
-            />
-            <button>Submit</button>
-            {done && 'Thank you...'}
-          </form>
-        </div>
+      </div>
+      <div className={styles.contactRight}>
+        <p className={styles.contactDescription}>
+          <b>What’s your story?</b> Get in touch. Always available for
+          freelancing if the right project comes along. me.
+        </p>
+        <form ref={formRef} onSubmit={handleSubmit}>
+          <input
+            style={{ backgroundColor: darkMode && '#333' }}
+            type='text'
+            placeholder='Name'
+            name='user_name'
+          />
+          <input
+            style={{ backgroundColor: darkMode && '#333' }}
+            type='text'
+            placeholder='Subject'
+            name='user_subject'
+          />
+          <input
+            style={{ backgroundColor: darkMode && '#333' }}
+            type='text'
+            placeholder='Email'
+            name='user_email'
+          />
+          <textarea
+            style={{ backgroundColor: darkMode && '#333' }}
+            rows='5'
+            placeholder='Message'
+            name='message'
+          />
+          <button>Submit</button>
+          {done && 'Thank you...'}
+        </form>
       </div>
     </div>
   );
