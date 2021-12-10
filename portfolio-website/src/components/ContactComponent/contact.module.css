@@ -1,25 +1,25 @@
-.c {
+.contact {
   height: 100vh;
   position: relative;
 }
 
-.c-bg {
+.contactBackground {
   width: 20px;
   height: 100%;
   background-color: #59b256;
   position: absolute;
 }
 
-.c-wrapper {
+.contacWrapper {
   padding: 50px;
   display: flex;
 }
 
-.c-left {
+.contactLeft {
   flex: 1;
 }
 
-.c-right {
+.contactRight {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -27,12 +27,12 @@
   justify-content: center;
 }
 
-.c-title {
+.contactTitle {
   font-size: 60px;
   width: 80%;
 }
 
-.c-info-item {
+.contactInfoItem {
   display: flex;
   align-items: center;
   margin: 50px 0px;
@@ -40,13 +40,13 @@
   width: 70%;
 }
 
-.c-icon {
+.contactIcon {
   width: 30px;
   height: 30px;
   margin-right: 20px;
 }
 
-.c-desc {
+.contactDescription {
   font-weight: 200;
 }
 
@@ -81,21 +81,21 @@ button {
 }
 
 @media screen and (max-width: 480px) {
-  .c-wrapper {
+  .contactWrapper {
     flex-direction: column;
     padding: 0px 50px;
   }
 
-  .c-title {
+  .contactTitle {
     font-size: 30px;
   }
 
-  .c-info-item {
+  .contactInfoItem {
     margin: 20px 0px;
     width: 100%;
   }
 
-  .c-desc {
+  .contactDescription {
     display: none;
   }
 
