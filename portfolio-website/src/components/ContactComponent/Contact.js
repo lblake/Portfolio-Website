@@ -4,13 +4,13 @@ import Email from '../../img/email.png';
 import Address from '../../img/address.png';
 import { useContext, useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
-import { ThemeContext } from '../../context';
+// import { ThemeContext } from '../../context';
 
 export default function Contact() {
   const formRef = useRef();
   const [done, setDone] = useState(false);
-  const theme = useContext(ThemeContext);
-  const darkMode = theme.state.darkMode;
+  // const theme = useContext(ThemeContext);
+  // const darkMode = theme.state.darkMode;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -48,7 +48,7 @@ export default function Contact() {
             contact@lama.dev
           </div>
           <div className={styles.contactInfoItem}>
-            <img className={styles.contactInfo} src={Address} alt='' />
+            <img className={styles.contactIcon} src={Address} alt='' />
             245 King Street, Touterie Victoria 8520 Australia
           </div>
         </div>
@@ -60,25 +60,25 @@ export default function Contact() {
         </p>
         <form ref={formRef} onSubmit={handleSubmit}>
           <input
-            style={{ backgroundColor: darkMode && '#333' }}
+            style={{ backgroundColor: '#333' }}
             type='text'
             placeholder='Name'
             name='user_name'
           />
           <input
-            style={{ backgroundColor: darkMode && '#333' }}
+            style={{ backgroundColor: '#333' }}
             type='text'
             placeholder='Subject'
             name='user_subject'
           />
           <input
-            style={{ backgroundColor: darkMode && '#333' }}
+            style={{ backgroundColor: '#333' }}
             type='text'
             placeholder='Email'
             name='user_email'
           />
           <textarea
-            style={{ backgroundColor: darkMode && '#333' }}
+            style={{ backgroundColor: '#333' }}
             rows='5'
             placeholder='Message'
             name='message'
