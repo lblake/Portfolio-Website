@@ -5,6 +5,8 @@ import Email from '../../img/email.png';
 import Address from '../../img/address.png';
 import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 // import { ThemeContext } from '../../context';
 
 export default function Contact() {
@@ -43,7 +45,9 @@ export default function Contact() {
           <div className={styles.contactInfoItem}>
             <img src={Phone} alt='' className={styles.contactIcon} />
             +1 1234 556 75
+      
           </div>
+
           <div className={styles.contactInfo}>
             <img className={styles.contactIcon} src={Email} alt='' />
             contact@lama.dev
