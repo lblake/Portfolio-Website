@@ -6,6 +6,7 @@ import Address from '../../img/address.png';
 import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 // import { ThemeContext } from '../../context';
 
@@ -44,8 +45,8 @@ export default function Contact() {
         <div className={styles.contactInfo}>
           <div className={styles.contactInfoItem}>
             <img src={Phone} alt='' className={styles.contactIcon} />
+            <FontAwesomeIcon icon={faPhoneAlt}></FontAwesomeIcon>
             +1 1234 556 75
-      
           </div>
 
           <div className={styles.contactInfo}>
