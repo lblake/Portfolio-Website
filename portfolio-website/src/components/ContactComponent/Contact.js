@@ -1,12 +1,16 @@
 import React from 'react';
 import styles from './contact.module.css';
-import Phone from '../../img/phone.png';
-import Email from '../../img/email.png';
-import Address from '../../img/address.png';
+// import Phone from '../../img/phone.png';
+// import Email from '../../img/email.png';
+// import Address from '../../img/address.png';
 import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
+import {
+  faPhoneAlt,
+  faEnvelopeSquare,
+  faMapMarked,
+} from '@fortawesome/free-solid-svg-icons';
 
 // import { ThemeContext } from '../../context';
 
@@ -44,17 +48,28 @@ export default function Contact() {
         <h1 className={styles.contactTitle}>Let's discuss your project</h1>
         <div className={styles.contactInfo}>
           <div className={styles.contactInfoItem}>
-            <img src={Phone} alt='' className={styles.contactIcon} />
-            <FontAwesomeIcon icon={faPhoneAlt}></FontAwesomeIcon>
+            {/* <img src={Phone} alt='' className={styles.contactIcon} /> */}
+            <FontAwesomeIcon
+              icon={faPhoneAlt}
+              className={styles.contactIcon}
+            ></FontAwesomeIcon>
             +1 1234 556 75
           </div>
 
           <div className={styles.contactInfo}>
-            <img className={styles.contactIcon} src={Email} alt='' />
+            {/* <img className={styles.contactIcon} src={Email} alt='' /> */}
+            <FontAwesomeIcon
+              icon={faEnvelopeSquare}
+              className={styles.contactIcon}
+            ></FontAwesomeIcon>
             contact@lama.dev
           </div>
           <div className={styles.contactInfoItem}>
-            <img className={styles.contactIcon} src={Address} alt='' />
+            {/* <img className={styles.contactIcon} src={Address} alt='' /> */}
+            <FontAwesomeIcon
+              icon={faMapMarked}
+              className={styles.contactIcon}
+            ></FontAwesomeIcon>
             245 King Street, Touterie Victoria 8520 Australia
           </div>
         </div>
