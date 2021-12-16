@@ -41,9 +41,12 @@
 }
 
 .contactIcon {
-  width: 30px;
-  height: 30px;
+  /* width: 30px;
+  height: 30px; */
   margin-right: 20px;
+  color: blue;
+  font-size: 40px;
+  margin-left: 10px;
 }
 
 .contactDescription {
