@@ -1,9 +1,9 @@
 export const products = [
   {
     id: 1,
-    img: '/images/screencapture-image-gallery-flexbox.png',
-    link: 'https://image-gallery-flexbox.netlify.app/',
-    title: 'Flexbox Gallery',
+    img: '/images/pricing-component-annually-screenshot.png',
+    link: 'https://frontend-mentor-pricing-component-with-toggle.netlify.app/',
+    // title: 'Flexbox Gallery',
   },
   {
     id: 2,
