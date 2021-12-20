@@ -16,9 +16,15 @@ export default function ProductList() {
       </div>
       <div className={styles.productList}>
         {products.map((item) => (
-          <Product key={item.id} img={item.img} link={item.link} title={item.title} />
+          <Product
+            key={item.id}
+            img={item.img}
+            link={item.link}
+            title={item.title}
+          />
         ))}
       </div>
+      
     </div>
   );
 }

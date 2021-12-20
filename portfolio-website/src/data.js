@@ -9,7 +9,7 @@ export const products = [
     id: 2,
     img: '',
     link: 'http://lama.dev',
-    title: 'Flexbox Gallery',
+    description: 'Flexbox Gallery',
   },
   {
     id: 3,
