@@ -13,9 +13,9 @@ export const products = [
   },
   {
     id: 3,
-    img: '',
-    link: 'http://lama.dev',
-    title: 'Flexbox Gallery',
+    img: '/images/3-column-preview-component.png',
+    link: 'https://frontend-mentor-3-column-preview-component.netlify.app/',
+    // title: 'Flexbox Gallery',
   },
   // {
   //   id: 4,
