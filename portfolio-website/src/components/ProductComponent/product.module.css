@@ -26,11 +26,14 @@
 
 .productImage {
   width: 100%;
-  transition: all 10s ease;
+  height: 100%;
+  object-fit: cover;
+
+  /* transition: all 10s ease; */
 }
 
 .product:hover .productImage {
-  transform: translateY(-100%);
+  /* transform: translateY(-100%); */
 }
 .productTitle {
   display: flex;

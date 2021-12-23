@@ -7,11 +7,11 @@ export default function ProductList() {
   return (
     <div className={styles.product}>
       <div className={styles.productListText}>
-        <h1 className={styles.productListTitle}>Create & inspire. It's Lama</h1>
+        <h1 className={styles.productListTitle}>Create & inspire. {/*It's Lama*/}</h1>
         <p className={styles.productListDescription}>
-          Lama is a creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+          Below are some examples of work that I have completed.
+          {/* Beautiful homes, stunning portfolio styles & a whole lot more awaits
+          inside. */}
         </p>
       </div>
       <div className={styles.productList}>
