@@ -8,8 +8,9 @@ export default function Product({ link, img, title }) {
         <div className={styles.circle}></div>
         <div className={styles.circle}></div>
         <div className={styles.circle}></div>
-        <div className={styles.productTitle}>{title}</div>
+        <div className={styles.productTitle}></div>
       </div>
+
       <a href={link} target='_blank' rel='noreferrer'>
         <img src={img} alt='' className={styles.productImage} />
       </a>
