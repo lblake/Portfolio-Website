@@ -17,22 +17,22 @@ export const products = [
     link: 'https://frontend-mentor-3-column-preview-component.netlify.app/',
     // title: 'Flexbox Gallery',
   },
-  {
-    id: 4,
-    // img: '',
-    // link: 'http://lama.dev',
-    // title: 'Flexbox Gallery',
-  },
-  {
-    id: 5,
-    // img: '',
-    // link: 'http://lama.dev',
-    // title: 'Flexbox Gallery',
-  },
-  {
-    id: 6,
-    // img: '',
-    // link: 'http://lama.dev',
-    // title: 'Flexbox Gallery kaskfjsalkjklsafjlaksjflaksjflaskjflaskjflaskflaksjflaskjf kkjsdlkjflksdjflksjdfkljsd',
-  },
+  // {
+  //   // id: 4,
+  //   // img: '',
+  //   // link: 'http://lama.dev',
+  //   // title: 'Flexbox Gallery',
+  // },
+  // {
+  //   // id: 5,
+  //   // img: '',
+  //   // link: 'http://lama.dev',
+  //   // title: 'Flexbox Gallery',
+  // },
+  // {
+  //   // id: 6,
+  //   // img: '',
+  //   // link: 'http://lama.dev',
+  //   // title: 'Flexbox Gallery kaskfjsalkjklsafjlaksjflaksjflaskjflaskjflaskflaksjflaskjf kkjsdlkjflksdjflksjdfkljsd',
+  // },
 ];
