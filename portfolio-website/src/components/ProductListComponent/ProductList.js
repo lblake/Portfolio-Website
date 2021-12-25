@@ -9,7 +9,7 @@ export default function ProductList() {
       <div className={styles.productListText}>
         <h1 className={styles.productListTitle}>Create & inspire. {/*It's Lama*/}</h1>
         <p className={styles.productListDescription}>
-          Below are some examples of work that I have completed.
+          Below are some of the projects that I have completed.
           {/* Beautiful homes, stunning portfolio styles & a whole lot more awaits
           inside. */}
         </p>

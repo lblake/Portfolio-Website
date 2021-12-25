@@ -33,6 +33,6 @@ export const products = [
     id: 6,
     // img: '',
     // link: 'http://lama.dev',
-    // title: 'Flexbox Gallery',
+    // title: 'Flexbox Gallery kaskfjsalkjklsafjlaksjflaksjflaskjflaskjflaskflaksjflaskjf kkjsdlkjflksdjflksjdfkljsd',
   },
 ];
