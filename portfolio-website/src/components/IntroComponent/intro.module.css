@@ -29,18 +29,24 @@ Tertiary colour: #A1BEE5 */
 
 .introIntro {
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 700;
+  font-family: 'Exo', sans-serif;
   color: #3d79c9;
 }
 
 .introName {
   font-size: 60px;
   color: #a1bee5;
+  font-family: 'Exo', sans-serif;
 }
 
 .introTitle {
   height: 50px;
   overflow: hidden;
+}
+
+.introTitleItem {
+  font-family: 'Exo', sans-serif;
 }
 
 .introTitleWrapper {

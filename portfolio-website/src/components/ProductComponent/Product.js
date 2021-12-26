@@ -11,7 +11,7 @@ export default function Product({ link, img, title }) {
         {/* <div className={styles.productTitle}></div> */}
       </div>
 
-      <a href={link} target='_blank' rel='noreferrer'>
+      <a href={link} target='_blank' rel='noopener noreferrer'>
         <img src={img} alt='' className={styles.productImage} />
       </a>
     </div>
