@@ -33,9 +33,11 @@
   /* transition: all 10s ease; */
 }
 
-.product:hover .productImage {
-  /* transform: translateY(-100%); */
-}
+/* .product:hover .productImage {
+  transform: translateY(-100%);
+} */
+
+
 .productTitle {
   display: flex;
   align-items: center;
@@ -69,6 +71,7 @@
 .text {
   color: white;
   font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
   position: absolute;
   top: 50%;
   left: 50%;

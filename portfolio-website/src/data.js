@@ -3,19 +3,19 @@ export const products = [
     id: 1,
     img: '/images/pricing-component-annually-screenshot.png',
     link: 'https://frontend-mentor-pricing-component-with-toggle.netlify.app/',
-    // title: 'Flexbox Gallery',
+    description: 'CSS, HTML Component with Toggle',
   },
   {
     id: 2,
     img: '/images/body.png',
     link: 'https://lblake.github.io/body-analysis/',
-    description: 'Flexbox Gallery',
+    description: 'JavaScript Body Analysis',
   },
   {
     id: 3,
     img: '/images/3-column-preview-component.png',
     link: 'https://frontend-mentor-3-column-preview-component.netlify.app/',
-    // title: 'Flexbox Gallery',
+    description: 'React API Users',
   },
   // {
   //   // id: 4,
