@@ -9,7 +9,7 @@ export const products = [
     id: 2,
     img: '/images/body.png',
     link: 'https://lblake.github.io/body-analysis/',
-    // description: 'Flexbox Gallery',
+    description: 'Flexbox Gallery',
   },
   {
     id: 3,
