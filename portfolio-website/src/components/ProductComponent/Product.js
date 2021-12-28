@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './product.module.css';
 
-export default function Product({ link, img, title }) {
+export default function Product({ link, img, description }) {
   return (
     <div className={styles.product}>
       <div className={styles.productBrowser}>
@@ -15,9 +15,7 @@ export default function Product({ link, img, title }) {
           <img src={img} alt='' className={styles.productImage} />
         </a>
         <div className={styles.overLay}>
-          <div className={styles.text}>{title}
-          
-           </div>
+          <div className={styles.text}>{description}</div>
         </div>
       </div>
     </div>
