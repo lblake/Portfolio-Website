@@ -1,8 +1,5 @@
 import React from 'react';
 import styles from './contact.module.css';
-// import Phone from '../../img/phone.png';
-// import Email from '../../img/email.png';
-// import Address from '../../img/address.png';
 import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,13 +9,9 @@ import {
   faMapMarked,
 } from '@fortawesome/free-solid-svg-icons';
 
-// import { ThemeContext } from '../../context';
-
 export default function Contact() {
   const formRef = useRef();
   const [done, setDone] = useState(false);
-  // const theme = useContext(ThemeContext);
-  // const darkMode = theme.state.darkMode;
 
   const handleSubmit = (e) => {
     e.preventDefault();
