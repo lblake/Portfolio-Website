@@ -17,10 +17,10 @@ export default function Contact() {
     e.preventDefault();
     emailjs
       .sendForm(
-        'service_rrvnzco',
-        'template_3v5nih4',
+        'service_58cipbi',
+        'template_96445if',
         formRef.current,
-        'user_DrriDPTGKO2Zj4RDXCA6W'
+        'user_N3yjJT2u7zVc8iphfkUXD'
       )
       .then(
         (result) => {
