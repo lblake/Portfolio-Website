@@ -13,8 +13,8 @@ export const products = [
   },
   {
     id: 3,
-    img: '/images/3-column-preview-component.png',
-    link: 'https://frontend-mentor-3-column-preview-component.netlify.app/',
+    img: '/images/react-api-users.png',
+    link: 'https://react-users-api.netlify.app/',
     description: 'React API Users',
   },
   // {
