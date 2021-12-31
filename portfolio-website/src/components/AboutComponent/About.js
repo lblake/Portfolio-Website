@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './about.module.css';
+import image from './Lloyd-Desk.jpg'
 
 export default function About() {
   return (
@@ -8,7 +9,7 @@ export default function About() {
         <div className={styles.aboutCardBackground}></div>
         <div className={styles.aboutCard}>
           <img
-            src='https://images.pexels.com/photos/3585047/pexels-photo-3585047.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'
+            src={image}
             alt=''
             className={styles.aboutImage}
           />
