@@ -32,21 +32,32 @@ Tertiary colour: #A1BEE5 */
   font-weight: 700;
   font-family: 'Exo', sans-serif;
   color: #3d79c9;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 80px;
 }
 
 .introName {
   font-size: 60px;
   color: #a1bee5;
   font-family: 'Exo', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 0px;
 }
 
 .introTitle {
   height: 50px;
   overflow: hidden;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .introTitleItem {
   font-family: 'Exo', sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* line-height: 0px; */
 }
 
 .introTitleWrapper {
