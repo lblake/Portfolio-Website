@@ -1,6 +1,7 @@
 .contact {
   height: 100vh;
   position: relative;
+  font-family: 'Exo', sans-serif;
 }
 
 .contactBackground {
@@ -28,6 +29,7 @@
 
 .contactTitle {
   font-size: 60px;
+  font-family: 'Exo', sans-serif;
   width: 80%;
 }
 
