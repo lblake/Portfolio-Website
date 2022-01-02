@@ -104,7 +104,7 @@ Tertiary colour: #A1BEE5 */
   right: 0;
 }
 
-@media screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .intro {
     flex-direction: column;
   }
@@ -120,5 +120,10 @@ Tertiary colour: #A1BEE5 */
   .introTitleDescription {
     display: none;
   }
-  
+  .introImage {
+    display: none;
+  }
+  .introBackground {
+    display: none;
+  }
 }
