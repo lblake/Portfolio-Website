@@ -74,25 +74,25 @@ export default function Contact() {
         </p>
         <form ref={formRef} onSubmit={handleSubmit}>
           <input
-            style={{ backgroundColor: '#333' }}
+            style={{ backgroundColor: '#3d79c9' }}
             type='text'
             placeholder='Name'
             name='user_name'
           />
           <input
-            style={{ backgroundColor: '#333' }}
+            style={{ backgroundColor: '#3d79c9' }}
             type='text'
             placeholder='Subject'
             name='user_subject'
           />
           <input
-            style={{ backgroundColor: '#333' }}
+            style={{ backgroundColor: '#3d79c9' }}
             type='text'
             placeholder='Email'
             name='user_email'
           />
           <textarea
-            style={{ backgroundColor: '#333' }}
+            style={{ backgroundColor: '#3d79c9' }}
             rows='5'
             placeholder='Message'
             name='message'

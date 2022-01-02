@@ -28,9 +28,10 @@
 }
 
 .contactTitle {
-  font-size: 60px;
+  font-size: 50px;
   font-family: 'Exo', sans-serif;
   width: 80%;
+  
 }
 
 .contactInfoItem {
@@ -60,7 +61,7 @@ input {
   width: 50%;
   height: 50px;
   border: none;
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
@@ -76,7 +77,7 @@ textarea {
 button {
   border: none;
   padding: 15px;
-  background-color: #59b256;
+  background-color: #3d79c9;
   color: white;
   font-weight: 500;
   cursor: pointer;
