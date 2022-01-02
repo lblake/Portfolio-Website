@@ -53,13 +53,6 @@ Tertiary colour: #A1BEE5 */
   margin-bottom: 0px;
 }
 
-.introTitleItem {
-  font-family: 'Exo', sans-serif;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  /* line-height: 0px; */
-}
-
 .introTitleWrapper {
   height: 100%;
   /* animation: move 10s ease-in-out infinite alternate; */
@@ -87,6 +80,7 @@ Tertiary colour: #A1BEE5 */
   display: flex;
   align-items: center;
   color: #3d79c9;
+  font-family: 'Exo', sans-serif;
 }
 
 .introTitleDescription {
@@ -108,4 +102,23 @@ Tertiary colour: #A1BEE5 */
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .introLeftWrapper {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+
+  .introTitleDescription {
+    display: none;
+  }
+  
 }
