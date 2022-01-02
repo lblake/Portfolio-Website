@@ -38,7 +38,7 @@ export default function Contact() {
       <div className={styles.contactBackground}></div>
       <div className={styles.contactWrapper}></div>
       <div className={styles.contactLeft}>
-        <h1 className={styles.contactTitle}>Let's discuss your project</h1>
+        <h1 className={styles.contactTitle}>Contact Me</h1>
         <div className={styles.contactInfo}>
           <div className={styles.contactInfoItem}>
             {/* <img src={Phone} alt='' className={styles.contactIcon} /> */}
@@ -46,7 +46,7 @@ export default function Contact() {
               icon={faPhoneAlt}
               className={styles.contactIcon}
             ></FontAwesomeIcon>
-            +1 1234 556 75
+            +44 7800-634-799
           </div>
 
           <div className={styles.contactInfo}>
@@ -55,7 +55,7 @@ export default function Contact() {
               icon={faEnvelopeSquare}
               className={styles.contactIcon}
             ></FontAwesomeIcon>
-            contact@lama.dev
+            treleven.lloyd@gmail.com
           </div>
           <div className={styles.contactInfoItem}>
             {/* <img className={styles.contactIcon} src={Address} alt='' /> */}
@@ -63,7 +63,7 @@ export default function Contact() {
               icon={faMapMarked}
               className={styles.contactIcon}
             ></FontAwesomeIcon>
-            245 King Street, Touterie Victoria 8520 Australia
+            Purley, Surrey
           </div>
         </div>
       </div>

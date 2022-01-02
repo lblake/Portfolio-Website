@@ -31,9 +31,9 @@
   font-size: 50px;
   font-family: 'Exo', sans-serif;
   width: 80%;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .contactInfoItem {
