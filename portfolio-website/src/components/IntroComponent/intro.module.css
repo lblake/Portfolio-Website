@@ -5,7 +5,7 @@ Tertiary colour: #A1BEE5 */
 .intro {
   display: flex;
   height: 100vh;
-  max-width: 1300px; 
+  max-width: 1300px;
 }
 
 .introLeft {
@@ -105,8 +105,9 @@ Tertiary colour: #A1BEE5 */
   right: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
   .intro {
+    margin: 0 auto;
     flex-direction: column;
   }
 
@@ -121,10 +122,8 @@ Tertiary colour: #A1BEE5 */
   .introTitleDescription {
     display: none;
   }
-  .introImage {
-    display: none;
-  }
-  .introBackground {
+
+  .introRight {
     display: none;
   }
 }

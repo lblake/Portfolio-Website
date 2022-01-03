@@ -58,7 +58,7 @@
   font-weight: 400;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 480px) {
   .about {
     flex-direction: column;
     text-align: center;
