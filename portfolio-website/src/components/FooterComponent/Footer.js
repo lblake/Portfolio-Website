@@ -3,7 +3,9 @@ import styles from './footer.module.css';
 
 export default function Footer() {
     return (
-        <div>
+        <div className={styles.footer}>
+
+        <p>This is some content in a sticky footer</p>
             
         </div>
     )
