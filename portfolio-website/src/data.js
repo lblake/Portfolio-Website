@@ -3,13 +3,13 @@ export const products = [
     id: 1,
     img: '/images/pricing-component-annually-screenshot.png',
     link: 'https://frontend-mentor-pricing-component-with-toggle.netlify.app/',
-    description: 'CSS, HTML Component with Toggle',
+    description: 'CSS, HTML, JavaScript Component with Toggle',
   },
   {
     id: 2,
-    img: '/images/body.png',
-    link: 'https://lblake.github.io/body-analysis/',
-    description: 'JavaScript Body Analysis',
+    img: '/images/3-column-preview-card.png',
+    link: 'https://frontend-mentor-3-column-preview-component.netlify.app/',
+    description: 'CSS, HTML 3 Column Preview Component',
   },
   {
     id: 3,
@@ -18,9 +18,9 @@ export const products = [
     description: 'React API Users App',
   },
   {
-    id: 3,
+    id: 4,
     img: '/images/react-api-users.png',
-    link: 'https://react-users-api.netlify.app/',
+    link: 'https://api-react-weather.netlify.app/',
     description: 'React API Weather App',
   },
 ];
