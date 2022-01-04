@@ -2,6 +2,7 @@
   height: 100vh;
   position: relative;
   font-family: 'Exo', sans-serif;
+  
 }
 
 .contactBackground {
@@ -57,6 +58,7 @@
 
 form {
   margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 input {
