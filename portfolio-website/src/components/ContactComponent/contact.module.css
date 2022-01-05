@@ -2,7 +2,6 @@
   height: 100vh;
   position: relative;
   font-family: 'Exo', sans-serif;
-  
 }
 
 .contactBackground {
@@ -32,9 +31,7 @@
   font-size: 50px;
   font-family: 'Exo', sans-serif;
   width: 80%;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+  color: #437dcb;
 }
 
 .contactInfoItem {
@@ -95,6 +92,8 @@ button {
 
   .contactTitle {
     font-size: 30px;
+    flex-direction: column;
+    text-align: center;
   }
 
   .contactInfoItem {
@@ -104,6 +103,10 @@ button {
 
   .contactDescription {
     display: none;
+  }
+
+  .contactTitle {
+    font-size: 40px;
   }
 
   form {

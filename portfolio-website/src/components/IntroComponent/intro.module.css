@@ -111,6 +111,13 @@ Tertiary colour: #A1BEE5 */
     flex-direction: column;
   }
 
+  .introIntro {
+    margin-bottom: 1.5rem;
+  }
+  .introName {
+    margin-bottom: .7em;
+  }
+
   .introLeftWrapper {
     padding: 10px;
     align-items: center;

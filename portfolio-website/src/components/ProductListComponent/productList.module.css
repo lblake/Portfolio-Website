@@ -14,6 +14,7 @@
   font-size: 50px;
   font-weight: 700;
   font-family: 'Exo', sans-serif;
+  color: #437dcb;
 }
 
 .productListDescription {
@@ -38,5 +39,9 @@
 
   .productListDescription {
     display: none;
+  }
+
+  .productListTitle {
+    line-height: 3rem;
   }
 }
