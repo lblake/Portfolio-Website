@@ -1,5 +1,6 @@
 .product {
-  width: 30%;
+  /* the width of each screen shot */
+  width: 45%;
   height: 40vh;
   margin: 20px 10px;
   border: 2px solid rgb(243, 242, 242);
@@ -13,7 +14,7 @@
   display: flex;
   align-items: center;
   position: sticky;
-  z-index: 2;
+  /* z-index: 1; */
 }
 
 .circle {
