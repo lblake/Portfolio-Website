@@ -5,7 +5,7 @@ Tertiary colour: #A1BEE5 */
 .intro {
   display: flex;
   height: 100vh;
-  max-width: 1300px;
+  max-width: 1328px;
 }
 
 .introLeft {
@@ -86,6 +86,7 @@ Tertiary colour: #A1BEE5 */
 
 .introTitleDescription {
   color: #a1bee5;
+  font-weight: 500;
 }
 
 .introImage {
