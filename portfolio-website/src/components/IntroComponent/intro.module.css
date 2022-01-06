@@ -93,6 +93,7 @@ Tertiary colour: #A1BEE5 */
   height: 100%;
   object-fit: cover;
   position: absolute;
+  border-bottom-left-radius: 10px 10px;
 }
 
 .introBackground {
@@ -115,7 +116,7 @@ Tertiary colour: #A1BEE5 */
     margin-bottom: 1.5rem;
   }
   .introName {
-    margin-bottom: .7em;
+    margin-bottom: 0.7em;
   }
 
   .introLeftWrapper {

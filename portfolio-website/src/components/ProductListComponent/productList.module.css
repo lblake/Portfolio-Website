@@ -44,5 +44,6 @@
 
   .productListTitle {
     line-height: 3rem;
+    margin-top: 0;
   }
 }

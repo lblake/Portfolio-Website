@@ -84,4 +84,7 @@
   .aboutRight {
     padding: 20px;
   }
+  .aboutDescription{
+    margin-bottom: 0px;
+  }
 }
