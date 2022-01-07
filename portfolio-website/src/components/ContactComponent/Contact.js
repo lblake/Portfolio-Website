@@ -40,31 +40,28 @@ export default function Contact() {
       <div className={styles.contactLeft}>
         <h1 className={styles.contactTitle}>Contact Me</h1>
         <div className={styles.contactInfo}>
-          <div className={styles.contactInfoItem}>
-            {/* <img src={Phone} alt='' className={styles.contactIcon} /> */}
+          {/* <div className={styles.contactInfoItem}>
             <FontAwesomeIcon
               icon={faPhoneAlt}
               className={styles.contactIcon}
             ></FontAwesomeIcon>
             +44 7800-634-799
-          </div>
+          </div> */}
 
-          <div className={styles.contactInfo}>
-            {/* <img className={styles.contactIcon} src={Email} alt='' /> */}
+          {/* <div className={styles.contactInfo}>
             <FontAwesomeIcon
               icon={faEnvelopeSquare}
               className={styles.contactIcon}
             ></FontAwesomeIcon>
             treleven.lloyd@gmail.com
-          </div>
-          <div className={styles.contactInfoItem}>
-            {/* <img className={styles.contactIcon} src={Address} alt='' /> */}
+          </div> */}
+          {/* <div className={styles.contactInfoItem}>
             <FontAwesomeIcon
               icon={faMapMarked}
               className={styles.contactIcon}
             ></FontAwesomeIcon>
             Purley, Surrey
-          </div>
+          </div> */}
         </div>
       </div>
       <div className={styles.contactRight}>

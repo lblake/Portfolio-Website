@@ -32,6 +32,7 @@
   font-family: 'Exo', sans-serif;
   width: 80%;
   color: #437dcb;
+  margin-left: 50px;
 }
 
 .contactInfoItem {
@@ -69,13 +70,14 @@ input {
 }
 
 textarea {
-  width: 100%;
+  width: 50%;
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
 }
 
 button {
+  display: flex;
   border: none;
   padding: 15px;
   background-color: #3d79c9;

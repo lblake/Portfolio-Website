@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <div className={styles.footer}>
 
-        <p>This is some content in a sticky footer</p>
+        <p>Site Created By: Lloyd Blake</p>
             
         </div>
     )
