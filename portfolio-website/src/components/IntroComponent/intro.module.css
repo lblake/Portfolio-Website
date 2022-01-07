@@ -42,8 +42,8 @@ Tertiary colour: #A1BEE5 */
   font-size: 60px;
   color: #a1bee5;
   font-family: 'Exo', sans-serif;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: -70px;
+  margin-bottom: -50px;
   line-height: 0px;
 }
 
@@ -87,6 +87,7 @@ Tertiary colour: #A1BEE5 */
 .introTitleDescription {
   color: #a1bee5;
   font-weight: 500;
+  margin-top: -70px;
 }
 
 .introImage {
