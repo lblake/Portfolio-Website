@@ -36,9 +36,6 @@ Tertiary colour: #A1BEE5 */
   height: 100%;
 }
 
-
-
-
 .introIntro {
   font-size: 30px;
   font-weight: 700;
@@ -54,6 +51,7 @@ Tertiary colour: #A1BEE5 */
   color: #a1bee5;
   font-family: 'Exo', sans-serif;
   margin-bottom: 0.7em;
+  line-height: 1.1;
   /* margin-top: -70px;
   margin-bottom: -50px;
   line-height: 0px; */
@@ -68,6 +66,8 @@ Tertiary colour: #A1BEE5 */
 
 .introTitleWrapper {
   height: 100%;
+  width: 280px;
+
   /* animation: move 10s ease-in-out infinite alternate; */
 }
 
@@ -94,6 +94,7 @@ Tertiary colour: #A1BEE5 */
   align-items: center;
   color: #3d79c9;
   font-family: 'Exo', sans-serif;
+  line-height: 0.8;
 }
 
 .introTitleDescription {
@@ -120,35 +121,3 @@ Tertiary colour: #A1BEE5 */
   top: 0;
   right: 0;
 }
-/* 
-@media screen and (max-width: 480px) {
-  .intro {
-    /* margin: 0 auto;
-    /* flex-direction: column; */
-    /* height: 50vh;  */
-  /* } */
-
-  .introIntro {
-    /* margin-bottom: 5.5rem; */
-    
-  }
-  .introName {
-    /* margin-bottom: 0.7em; */
-  }
-
-  .introLeftWrapper {
-    /* padding: 10px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 100%; */
-  }
-
-  .introTitleDescription {
-    /* display: none; */
-  }
-
-  .introRight {
-    /* display: none; */
-  }
-/* } */
