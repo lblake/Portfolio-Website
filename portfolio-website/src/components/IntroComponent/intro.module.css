@@ -2,9 +2,8 @@
 Secondary colour: #3D79C9
 Tertiary colour: #A1BEE5 */
 
-.intro {
+.introContainer {
   display: flex;
-  height: 50vh;
   max-width: 1328px;
   margin: 0 auto;
   flex-direction: column;
@@ -24,8 +23,6 @@ Tertiary colour: #A1BEE5 */
 }
 
 .introLeftWrapper {
-  /* padding: 50px;
-  height: 50%; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -33,17 +30,17 @@ Tertiary colour: #A1BEE5 */
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: 100%;
 }
 
-.introIntro {
+.introHeading {
   font-size: 30px;
   font-weight: 700;
   font-family: 'Exo', sans-serif;
+  height: 20vh; /* at 50vh there was too much white space  */
   color: #3d79c9;
   margin-top: 0px;
   margin-bottom: 0px;
-  line-height: 80px;
+  padding: 20px 0px 20px 0px;
 }
 
 .introName {
@@ -52,13 +49,9 @@ Tertiary colour: #A1BEE5 */
   font-family: 'Exo', sans-serif;
   margin-bottom: 0.7em;
   line-height: 1.1;
-  /* margin-top: -70px;
-  margin-bottom: -50px;
-  line-height: 0px; */
 }
 
 .introTitle {
-  height: 50px;
   overflow: hidden;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -67,24 +60,7 @@ Tertiary colour: #A1BEE5 */
 .introTitleWrapper {
   height: 100%;
   width: 280px;
-
-  /* animation: move 10s ease-in-out infinite alternate; */
 }
-
-/* @keyframes move {
-  25% {
-    transform: translateY(-50px);
-  }
-  50% {
-    transform: translateY(-100px);
-  }
-  75% {
-    transform: translateY(-150px);
-  }
-  100% {
-    transform: translateY(-200px);
-  }
-} */
 
 .introTitleItem {
   height: 50px;
