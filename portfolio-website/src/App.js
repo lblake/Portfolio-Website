@@ -1,6 +1,5 @@
-
 import React from 'react';
-import Intro from './components/IntroComponent/Intro';
+import Intro from './components/IntroComponent/intro';
 import About from './components/AboutComponent/About';
 import ProductList from './components/ProductListComponent/ProductList';
 import Contact from './components/ContactComponent/Contact';
