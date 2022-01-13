@@ -7,6 +7,7 @@ Tertiary colour: #A1BEE5 */
   max-width: 1328px;
   margin: 0 auto;
   flex-direction: column;
+  height: 50vh;
 }
 
 .introLeft {
@@ -36,7 +37,6 @@ Tertiary colour: #A1BEE5 */
   font-size: 30px;
   font-weight: 700;
   font-family: 'Exo', sans-serif;
-  height: 20vh; /* at 50vh there was too much white space  */
   color: #3d79c9;
   margin-top: 0px;
   margin-bottom: 0px;
