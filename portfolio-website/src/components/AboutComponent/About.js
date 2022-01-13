@@ -4,7 +4,7 @@ import image from './Lloyd-Desk.jpg'
 
 export default function About() {
   return (
-    <div className={styles.about}>
+    <div className={styles.aboutContainer}>
       <div className={styles.aboutLeft}>
         <div className={styles.aboutCardBackground}></div>
         <div className={styles.aboutCard}>
