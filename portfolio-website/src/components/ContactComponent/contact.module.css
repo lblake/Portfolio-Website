@@ -1,132 +1,61 @@
-.contact {
-  height: 100vh;
+.contactContainer {
+  height: 50vh;
   position: relative;
   font-family: 'Exo', sans-serif;
 }
 
-.contactBackground {
-  width: 20px;
-  height: 100%;
-  position: absolute;
-}
-
-.contactWrapper {
-  padding: 50px;
-  display: flex;
-}
-
-.contactLeft {
-  flex: 1;
-}
-
-.contactRight {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .contactTitle {
-  font-size: 50px;
-  font-family: 'Exo', sans-serif;
-  /* width: 80%; */
-  color: #437dcb;
-  /* margin-left: 50px; */
-  text-align: center;
-  
-}
-
-.contactInfoItem {
-  display: flex;
-  align-items: center;
-  margin: 50px 0px;
-  font-weight: 300;
-  width: 70%;
-}
-
-.contactIcon {
-  margin-right: 20px;
-  color: blue;
   font-size: 40px;
-  margin-left: 10px;
+  font-family: 'Exo', sans-serif;
+  color: #437dcb;
+  text-align: center;
 }
 
-.contactDescription {
-  font-weight: 200;
-}
-
-form {
-  margin-top: 20px;
-  margin-bottom: 80px;
-}
-
-input {
-  width: 50%;
-  height: 50px;
-  border: none;
-  /* border-bottom: 1px solid black; */
-  margin: 10px 0px;
-  font-size: 14px;
-  padding-left: 10px;
-}
-
-textarea {
-  width: 50%;
-  margin: 10px 0px;
-  font-size: 14px;
-  padding-left: 10px;
-}
-
-button {
-  display: flex;
+.contactButton {
+  font-family: 'Montserrat', sans-serif;
   border: none;
   padding: 15px;
   background-color: #3d79c9;
   color: white;
   font-weight: 500;
   cursor: pointer;
+  text-align: center;
+  margin-top: 40px;
+  border: 2px solid black;
+  background-color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 50%);
+  -ms-transform: translate(-50%, 50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
-@media screen and (max-width: 480px) {
-  .contactWrapper {
-    flex-direction: column;
-    padding: 0px 50px;
-  }
+.contactButton {
+  border-color: #a1bee5;
+  color: #3d79c9;
+}
+.contactButton:hover {
+  background: rgb(243, 242, 242);
+  color: #3d79c9;
+}
 
-  .contactTitle {
-    font-size: 30px;
-    flex-direction: column;
-    text-align: center;
-  }
+a:link {
+  text-decoration: none;
+}
 
-  .contactInfoItem {
-    margin: 20px 0px;
-    width: 100%;
-  }
+a:visited {
+  text-decoration: none;
+}
 
-  .contactDescription {
-    display: none;
-  }
+a:hover {
+  text-decoration: none;
+}
 
-  .contactTitle {
-    font-size: 40px;
-  }
-
-  form {
-    margin-top: 0px;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  input {
-    width: 35%;
-    height: 40px;
-    margin: 10px;
-    margin-left: 0;
-  }
-
-  button {
-    margin-top: 10px;
-  }
+a:active {
+  text-decoration: none;
 }
