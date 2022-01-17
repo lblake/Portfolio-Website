@@ -10,7 +10,7 @@
   text-align: center;
 }
 
-.contactButton {
+.contactEmail {
   font-family: 'Montserrat', sans-serif;
   border: none;
   padding: 15px;
@@ -34,11 +34,11 @@
   text-align: center;
 }
 
-.contactButton {
+.contactEmail {
   border-color: #a1bee5;
   color: #3d79c9;
 }
-.contactButton:hover {
+.contactEmail:hover {
   background: rgb(243, 242, 242);
   color: #3d79c9;
 }
