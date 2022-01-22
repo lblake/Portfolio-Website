@@ -1,6 +1,6 @@
 .contactContainer {
   font-family: 'Exo', sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 112px;
   margin-top: 50px;
   text-align: center;
 }
@@ -20,7 +20,7 @@
   color: #437dcb;
   border: 2px solid #437dcb;
   background-color: white;
-  margin: 50px 0 50px 0;
+  margin: 50px 0 0px 0;
   padding: 14px 28px;
   cursor: pointer;
 }

@@ -8,6 +8,8 @@ Tertiary colour: #A1BEE5 */
   margin: 0 auto;
   flex-direction: column;
   height: 50vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .introLeft {
@@ -40,7 +42,7 @@ Tertiary colour: #A1BEE5 */
   color: #3d79c9;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding: 20px 0px 20px 0px;
+  padding: 0px 0px 20px 0px;
 }
 
 .introName {

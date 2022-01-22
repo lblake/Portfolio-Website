@@ -1,4 +1,4 @@
-.aboutContainer{
+.aboutContainer {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -59,14 +59,13 @@
   font-weight: 500;
   line-height: 1.5em;
   margin-right: 30px;
-  color:#a1bee5;
+  color: #a1bee5;
 }
 
 @media only screen and (max-width: 480px) {
   .aboutContainer {
     flex-direction: column;
     text-align: center;
-    margin-top: 50px;
   }
 
   .aboutLeft {
@@ -84,7 +83,7 @@
   .aboutRight {
     padding: 20px;
   }
-  .aboutDescription{
+  .aboutDescription {
     margin-bottom: 0px;
   }
 }

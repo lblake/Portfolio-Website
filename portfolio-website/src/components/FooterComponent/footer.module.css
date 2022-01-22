@@ -1,6 +1,8 @@
 .footer {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  font-family: 'Exo', sans-serif;
+  font-weight:550;
   margin-top: 1rem;
   padding: 1rem;
   background-color: #a6c2e6;
@@ -8,4 +10,11 @@
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+p {
+  text-align: center;
+  color: #3d79c9;
+  
+  
 }
