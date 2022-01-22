@@ -1,7 +1,7 @@
 .aboutContainer {
-  height: 100vh;
   display: flex;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 .aboutLeft {
@@ -9,19 +9,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+  /* position: relative; */
   height: 100%;
 }
 
 .aboutRight {
   flex: 1;
 }
-
-/* .about {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-} */
 
 .aboutCardBackground {
   position: absolute;
@@ -31,11 +25,12 @@
 }
 
 .aboutCard {
-  width: 60%;
+  width: 90%;
   height: 70vh;
   border-radius: 30px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
 .aboutImage {
@@ -47,8 +42,9 @@
 .aboutTitle {
   font-weight: 700;
   font-family: 'Exo', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   color: #437dcb;
+  margin-bottom:20px;
 }
 
 .aboutSubHeading {
@@ -58,7 +54,7 @@
 .aboutDescription {
   font-weight: 500;
   line-height: 1.5em;
-  margin-right: 30px;
+  /* margin-right: 30px; */
   color: #a1bee5;
 }
 
