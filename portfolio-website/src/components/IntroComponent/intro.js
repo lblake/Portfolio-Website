@@ -20,7 +20,6 @@ function Intro() {
             online stores.
           </p>
         </div>
-        {/* <MouseImage /> */}
       </div>
       <div className={styles.introRight}>
         <div className={styles.introBackground}></div>
