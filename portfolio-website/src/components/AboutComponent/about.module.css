@@ -1,6 +1,8 @@
 .aboutContainer {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  text-align: center;
   padding-bottom: 50px;
 }
 
@@ -26,7 +28,7 @@
 
 .aboutCard {
   width: 90%;
-  height: 70vh;
+  height: 30vh;
   border-radius: 30px;
   position: relative;
   overflow: hidden;
@@ -44,7 +46,7 @@
   font-family: 'Exo', sans-serif;
   font-size: 40px;
   color: #437dcb;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 .aboutSubHeading {
@@ -54,14 +56,12 @@
 .aboutDescription {
   font-weight: 500;
   line-height: 1.5em;
-  /* margin-right: 30px; */
   color: #a1bee5;
+  margin-bottom: 0px;
 }
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
   .aboutContainer {
-    flex-direction: column;
-    text-align: center;
   }
 
   .aboutLeft {
@@ -82,4 +82,4 @@
   .aboutDescription {
     margin-bottom: 0px;
   }
-}
+} */
