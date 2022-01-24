@@ -1,9 +1,10 @@
 .product {
-  padding: 50px 100px;
+  /* padding: 50px 100px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .productListText {
@@ -11,10 +12,13 @@
 }
 
 .productListTitle {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   font-family: 'Exo', sans-serif;
+  line-height: 3rem;
+  margin-top: 0;
   color: #437dcb;
+  /* gap:20px; */
 }
 
 .productListDescription {
@@ -30,7 +34,7 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .productList {
     padding: 10px;
   }
@@ -44,7 +48,5 @@
   }
 
   .productListTitle {
-    line-height: 3rem;
-    margin-top: 0;
   }
-}
+} */
