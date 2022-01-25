@@ -31,7 +31,7 @@
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 /* @media screen and (max-width: 480px) {
