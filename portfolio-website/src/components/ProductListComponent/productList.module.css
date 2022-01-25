@@ -18,13 +18,13 @@
   line-height: 3rem;
   margin-top: 0;
   color: #437dcb;
-  /* gap:20px; */
 }
 
 .productListDescription {
   margin: 20px 0px;
   color: #a1bee5;
   font-weight: 500;
+  line-height: 1.5em;
 }
 
 .productList {
