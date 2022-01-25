@@ -7,11 +7,9 @@ export default function ProductList() {
   return (
     <div className={styles.product}>
       <div className={styles.productListText}>
-        <h1 className={styles.productListTitle}>Create & Inspire {/*It's Lama*/}</h1>
+        <h1 className={styles.productListTitle}>Create & Inspire</h1>
         <p className={styles.productListDescription}>
           Below are some of the projects that I created.
-          {/* Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside. */}
         </p>
       </div>
       <div className={styles.productList}>
@@ -24,7 +22,6 @@ export default function ProductList() {
           />
         ))}
       </div>
-      
     </div>
   );
 }

@@ -1,9 +1,10 @@
 .product {
-  padding: 50px 100px;
+  /* padding: 50px 100px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .productListText {
@@ -11,9 +12,11 @@
 }
 
 .productListTitle {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 700;
   font-family: 'Exo', sans-serif;
+  line-height: 3rem;
+  margin-top: 0;
   color: #437dcb;
 }
 
@@ -21,16 +24,17 @@
   margin: 20px 0px;
   color: #a1bee5;
   font-weight: 500;
+  line-height: 1.5em;
 }
 
 .productList {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   .productList {
     padding: 10px;
   }
@@ -44,7 +48,5 @@
   }
 
   .productListTitle {
-    line-height: 3rem;
-    margin-top: 0;
   }
-}
+} */
