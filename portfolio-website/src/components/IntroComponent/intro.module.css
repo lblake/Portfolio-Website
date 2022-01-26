@@ -101,7 +101,6 @@
     width: 70%;
   }
   .introContainer {
-    /* should this be 30 or 25vh*/
     height: 30vh;
   }
 }

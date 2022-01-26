@@ -69,29 +69,4 @@
     padding-left: 50px;
     font-size: 20px;
   }
-  
 }
-
-/* @media only screen and (max-width: 480px) {
-  .aboutContainer {
-  }
-
-  .aboutLeft {
-    width: 100%;
-  }
-
-  .aboutCard {
-    height: 30vh;
-  }
-
-  .aboutCardBackground {
-    display: none;
-  }
-
-  .aboutRight {
-    padding: 20px;
-  }
-  .aboutDescription {
-    margin-bottom: 0px;
-  }
-} */
