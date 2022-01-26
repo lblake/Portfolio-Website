@@ -1,7 +1,3 @@
-/* Primary colour: #C98D3D
-Secondary colour: #3D79C9
-Tertiary colour: #A1BEE5 */
-
 .introContainer {
   display: flex;
   max-width: 1328px;
@@ -75,10 +71,7 @@ Tertiary colour: #A1BEE5 */
 }
 
 .introTitleDescription {
-  color: #a1bee5;
-  font-weight: 500;
-  margin-top: -70px;
-  display: none;
+  visibility: hidden;
 }
 
 .introImage {
@@ -97,4 +90,18 @@ Tertiary colour: #A1BEE5 */
   position: absolute;
   top: 0;
   right: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .introTitleDescription {
+    color: #a1bee5;
+    font-size: 20px;
+    line-height: 1.5;
+    visibility: visible;
+    width: 70%;
+  }
+  .introContainer {
+    /* should this be 30 or 25vh*/
+    height: 30vh;
+  }
 }

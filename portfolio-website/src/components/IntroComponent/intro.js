@@ -15,9 +15,8 @@ function Intro() {
             </div>
           </div>
           <p className={styles.introTitleDescription}>
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
+            I design and develop websites for customers of all sizes,
+            specializing in creating stylish, modern websites, web services. 
           </p>
         </div>
       </div>
