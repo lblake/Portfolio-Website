@@ -19,7 +19,7 @@ export const products = [
   },
   {
     id: 4,
-    img: '/images/react-api-users.png',
+    img: '/images/react-weather.png',
     link: 'https://api-react-weather.netlify.app/',
     description: 'React API Weather App',
   },
