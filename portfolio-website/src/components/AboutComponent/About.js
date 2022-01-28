@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './about.module.css';
 import image from './Lloyd-Desk.jpg';
+import lloyd_image from './Lloyd.jpg';
 
 export default function About() {
   return (
@@ -8,7 +9,9 @@ export default function About() {
       <div className={styles.aboutLeft}>
         <div className={styles.aboutCardBackground}></div>
         <div className={styles.aboutCard}>
-          <img src={image} alt='' className={styles.aboutImage} />
+          <img src={lloyd_image} alt='lloyd' className={styles.lloydImage} />
+
+          <img src={image} alt='desktop' className={styles.aboutImage} />
         </div>
       </div>
       <div className={styles.aboutRight}>
