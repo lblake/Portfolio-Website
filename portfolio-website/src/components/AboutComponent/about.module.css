@@ -87,6 +87,10 @@
       height: 40vh;
     }
 
+    .aboutDescription {
+      font-size: 14px;
+    }
+
     .lloydImage {
       display: block;
       width: 100%;

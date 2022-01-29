@@ -103,4 +103,11 @@
   .introContainer {
     height: 30vh;
   }
+
+  @media only screen and (min-width: 992px){
+    .introTitleDescription {
+      font-size:14px;
+    }
+
+  }
 }
