@@ -6,18 +6,18 @@
   padding-bottom: 50px;
 }
 
-.aboutLeft {
+/* .aboutLeft {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* position: relative; */
+  position: relative;
   height: 100%;
 }
 
 .aboutRight {
   flex: 1;
-}
+} */
 
 .aboutCardBackground {
   position: absolute;
@@ -60,6 +60,10 @@
   margin-bottom: 0px;
 }
 
+.lloydImage {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   .aboutCard {
     margin-top: 50px;
@@ -68,5 +72,30 @@
     padding-right: 50px;
     padding-left: 50px;
     font-size: 20px;
+  }
+
+  .lloydImage {
+    display: none;
+  }
+
+  @media only screen and (min-width: 992px) {
+    .aboutImage {
+      display: none;
+    }
+    .aboutCard {
+      width: 320px;
+      height: 40vh;
+    }
+
+    .aboutDescription {
+      font-size: 14px;
+    }
+
+    .lloydImage {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
   }
 }

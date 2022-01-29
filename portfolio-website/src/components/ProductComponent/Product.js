@@ -16,8 +16,8 @@ export default function Product({ link, img, description }) {
         {/* </a> */}
         <div className={styles.overLay}>
           <div className={styles.text}>{description}</div>
-          <a href={link} target='_blank' rel='noopener noreferrer'>
-            <button className={styles.button}>More Info</button>
+          <a  className={styles.button} href={link} target='_blank' rel='noopener noreferrer'>
+            More Info
           </a>
         </div>
       </div>

@@ -28,25 +28,12 @@
 }
 
 .productList {
-  width: 100%;
+  max-width: 1048px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-/* @media screen and (max-width: 480px) {
-  .productList {
-    padding: 10px;
-  }
 
-  .productListText {
-    width: 100%;
-  }
 
-  .productListDescription {
-    display: none;
-  }
 
-  .productListTitle {
-  }
-} */

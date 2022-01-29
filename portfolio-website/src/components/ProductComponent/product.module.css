@@ -86,22 +86,6 @@
 }
 
 .button {
-  /* font-family: 'Montserrat', sans-serif;
-  margin-top: 40px;
-  border: 2px solid black;
-  background-color: white;
-  color: black;
-  padding: 14px 28px;
-  font-size: 16px;
-  font-weight: 400;
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, 50%);
-  -ms-transform: translate(-50%, 50%);
-  transform: translate(-50%, 50%);
-  text-align: center; */
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -109,7 +93,7 @@
   color: #437dcb;
   border: 2px solid #437dcb;
   background-color: white;
-  margin: 70px 0px 0px 0px;
+  margin: 0px;
   padding: 14px 28px;
   cursor: pointer;
 }
@@ -139,9 +123,23 @@ a:active {
   text-decoration: none;
 }
 
-/* @media screen and (max-width: 480px) {
+@media only screen and (min-width: 768px) {
   .product {
-    width: 100%; 
-     height: 30vh;
+    width: 90%;
+    height: 50vh;
+    margin: 10px 10px;
   }
-} */
+}
+
+@media only screen and (min-width: 992px) {
+  .overLay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .product {
+    width: 45%;
+    height: 40vh;
+    margin: 10px 10px;
+  }
+}
