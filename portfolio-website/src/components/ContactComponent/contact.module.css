@@ -13,6 +13,7 @@
 }
 
 .contactEmail {
+  
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -20,9 +21,10 @@
   color: #437dcb;
   border: 2px solid #437dcb;
   background-color: white;
-  margin: 50px 0 0px 0;
+  margin: 50px 10px 0px 0;
   padding: 14px 28px;
   cursor: pointer;
+  width: 150px;
 }
 
 .contactEmail:hover {

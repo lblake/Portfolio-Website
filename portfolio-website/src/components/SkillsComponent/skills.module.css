@@ -21,9 +21,15 @@
   margin-top: 20px;
 }
 
+.text {
+  /* visibility: hidden; */
+  border: 2px solid #437dcb;
+  font-weight: 500;
+}
 img {
   width: 80px;
   height: 80px;
+  padding-bottom: 10px;
 }
 
 li {
@@ -36,10 +42,11 @@ li {
   transition: margin 0.2s ease-in-out;
 }
 
-li:hover {
+li:hover .text {
   background: rgb(243, 242, 242);
   cursor: pointer;
-  margin-top: -5px;
+  /* margin-top: -5px; */
+  /* visibility: visible; */
 }
 
 /* @media only screen and (min-width: 600px) {

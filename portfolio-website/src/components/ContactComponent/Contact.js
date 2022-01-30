@@ -8,6 +8,9 @@ export default function Contact() {
       <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
         send me an email
       </a>
+      <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
+        download resume  
+      </a>
     </div>
   );
 }
