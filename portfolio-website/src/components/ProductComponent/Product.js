@@ -11,12 +11,15 @@ export default function Product({ link, img, description }) {
         {/* <div className={styles.productTitle}></div> */}
       </div>
       <div className={styles.container}>
-        {/* <a href={link} target='_blank' rel='noopener noreferrer'> */}
-          <img src={img} alt='' className={styles.productImage} />
-        {/* </a> */}
+        <img src={img} alt='' className={styles.productImage} />
         <div className={styles.overLay}>
           <div className={styles.text}>{description}</div>
-          <a  className={styles.button} href={link} target='_blank' rel='noopener noreferrer'>
+          <a
+            className={styles.button}
+            href={link}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             More Info
           </a>
         </div>
