@@ -28,7 +28,6 @@ img {
 
 li {
   border: 2px solid #437dcb;
-  background: rgb(243, 242, 242);
   padding: 0.5rem;
 }
 
@@ -38,10 +37,10 @@ li {
 }
 
 li:hover {
-  cursor:pointer;
+  background: rgb(243, 242, 242);
+  cursor: pointer;
   margin-top: -5px;
 }
-
 
 /* @media only screen and (min-width: 600px) {
   
