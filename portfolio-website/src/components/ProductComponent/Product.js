@@ -20,7 +20,7 @@ export default function Product({ link, img, description }) {
             target='_blank'
             rel='noopener noreferrer'
           >
-            More Info
+            LEARN MORE
           </a>
         </div>
       </div>

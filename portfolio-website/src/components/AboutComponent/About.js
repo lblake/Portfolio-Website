@@ -21,12 +21,26 @@ export default function About() {
           I'm Frontend developer who loves to convert beautiful designs, into
           pixel perfect web interfaces. I have a really good eye for details, so
           this kind of challenges are really amazing for me. Currently I'm being
-          mentored by a Senior Software Engineer from Cinch.co.uk, who has
-          helped me level up my technical skills, showing me different ways to
-          resolve my issues, and how to write clean and modular code. I have
-          created multiple projects from Frontend Mentor, and some set by my
-          mentor. My favourite tools of the trade are CSS, JavaScript, React and
-          I'm ready to take on new challenges.
+          mentored by a Senior Software Engineer from{' '}
+          <a
+            href='https://www.cinch.co.uk'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Cinch.co.uk
+          </a>
+          , who has helped me level up my technical skills, showing me different
+          ways to resolve my issues, and how to write clean and modular code. I
+          have created multiple projects from{' '}
+          <a
+            href='https://www.frontendmentor.io/challenges'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Frontend Mentor
+          </a>
+          , and some set by my mentor. My favourite tools of the trade are CSS,
+          JavaScript, React and I'm ready to take on new challenges.
         </p>
       </div>
     </div>
