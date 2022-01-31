@@ -22,9 +22,9 @@
 }
 
 .text {
-  /* visibility: hidden; */
   border: 2px solid #437dcb;
   font-weight: 500;
+  padding: 2px;
 }
 img {
   width: 80px;
