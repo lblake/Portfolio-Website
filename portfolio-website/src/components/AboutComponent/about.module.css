@@ -58,10 +58,8 @@
   line-height: 1.5em;
   color: #a1bee5;
   margin-bottom: 0px;
-}
-
-.lloydImage {
-  display: none;
+  max-width: 1070px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -73,70 +71,31 @@
     padding-left: 50px;
     font-size: 20px;
   }
-
-  .lloydImage {
-    display: none;
-  }
 }
 
-
-  @media only screen and (min-width: 992px) {
-
-    .aboutContainer{
-    /* height: 100vh; */
+@media only screen and (min-width: 992px) {
+  .aboutContainer {
     display: flex;
-    /* align-items: center; */
+    flex-direction: row;
     /* justify-content: space-between; */
-     
-    }
-    /* .aboutDescription{} */
-
-    /* .aboutLeft{
-    flex: 1 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 100%;
-    } */
-
-    /* .aboutCard{
-      position: absolute;
-      top: 50px;
-      left: 50px;
-      background-color: #333;
-    } */
-
-    /* .aboutRight{
-      flex: 1 1;
-    }
-
-    .aboutDescription{
-      font-weight: 500;
-    line-height: 1.5em;
-    margin-right: 30px;
-    color: #a1bee5;
-    } */
-
-   
-    .aboutImage {
-      display: none;
-    }
-    .aboutCard {
-      width: 320px;
-      height: 40vh;
-    }
-
-    .aboutDescription {
-      font-size: 14px;
-      
-    }
-
-    .lloydImage {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
   }
 
+  .aboutLeft {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .aboutDescription {
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+  }
+
+  .aboutDescription {
+    font-size: 14px;
+  }
+
+  .aboutCard {
+    margin: 0px 0px 0px 50px;
+  }
+}
