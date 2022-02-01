@@ -6,19 +6,6 @@
   padding-bottom: 50px;
 }
 
-/* .aboutLeft {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  height: 100%;
-}
-
-.aboutRight {
-  flex: 1;
-} */
-
 .aboutCardBackground {
   position: absolute;
   top: 50px;
@@ -77,7 +64,9 @@
   .aboutContainer {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1048px;
   }
 
   .aboutLeft {
@@ -85,14 +74,21 @@
     justify-content: space-evenly;
   }
 
-  .aboutDescription {
-    padding-right: 50px;
+  .aboutRight {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .aboutTitle {
     padding-left: 50px;
-    font-size: 20px;
+    margin-top: 0px;
   }
 
   .aboutDescription {
-    font-size: 14px;
+    font-size: 20px;
+    text-align: left;
   }
 
   .aboutCard {
