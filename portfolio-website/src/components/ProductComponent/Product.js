@@ -8,7 +8,6 @@ export default function Product({ link, img, description }) {
         <div className={styles.circle}></div>
         <div className={styles.circle}></div>
         <div className={styles.circle}></div>
-        {/* <div className={styles.productTitle}></div> */}
       </div>
       <div className={styles.container}>
         <img src={img} alt='' className={styles.productImage} />

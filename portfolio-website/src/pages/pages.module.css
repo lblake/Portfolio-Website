@@ -1,0 +1,7 @@
+.image {
+  height: 100%;
+  /* background-image: url('./Pricing.jpg'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

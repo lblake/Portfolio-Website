@@ -1,8 +1,12 @@
+// import React from 'react';
+// import {Link} from 'react-router-dom'
+
 export const products = [
   {
     id: 1,
     img: '/images/pricing-component-annually-screenshot.png',
-    link: 'https://frontend-mentor-pricing-component-with-toggle.netlify.app/',
+    link: '/images/Pricing.jpg',
+    // link: <Link to='/images/Pricing.jpg'></Link>,
     description: 'CSS, HTML, JavaScript Component with Toggle',
   },
   {
