@@ -1,12 +1,10 @@
-// import React from 'react';
-// import {Link} from 'react-router-dom'
-
 export const products = [
   {
     id: 1,
     img: '/images/pricing-component-annually-screenshot.png',
-    link: '/images/Pricing.jpg',
-    // link: <Link to='/images/Pricing.jpg'></Link>,
+    // link: I want this link to take the user to the landing page component for each project.
+    // this 'link attribute is used in the 'Product component when you,
+    // click on the 'Learn More' button
     description: 'CSS, HTML, JavaScript Component with Toggle',
   },
   {
