@@ -2,9 +2,7 @@ export const products = [
   {
     id: 1,
     img: '/images/pricing-component-annually-screenshot.png',
-    // link: I want this link to take the user to the landing page component for each project.
-    // this 'link attribute is used in the 'Product component when you,
-    // click on the 'Learn More' button
+    link: '/projects/pricing',
     description: 'CSS, HTML, JavaScript Component with Toggle',
   },
   {

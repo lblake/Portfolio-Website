@@ -1,11 +1,6 @@
 import React from 'react';
-import Intro from './components/IntroComponent/intro';
-import About from './components/AboutComponent/About';
-import ProductList from './components/ProductListComponent/ProductList';
-import Contact from './components/ContactComponent/Contact';
-import Footer from './components/FooterComponent/Footer';
-import Skills from './components/SkillsComponent/Skills';
-import PricingPage from './Pages/Pricing';
+import ProjectPage from './components/ProjectPageComponent/ProjectPage';
+import Home from './components/HomeComponent/Home';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -13,16 +8,10 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path='/projects/:projectName' element={<PricingPage />} />
+          <Route exact path='/' element={<Home />} />
+          <Route path='/projects/:projectName' element={<ProjectPage />} />
         </Routes>
       </Router>
-
-      <Intro />
-      <About />
-      <ProductList />
-      <Skills />
-      <Contact />
-      <Footer />
     </div>
   );
 }
