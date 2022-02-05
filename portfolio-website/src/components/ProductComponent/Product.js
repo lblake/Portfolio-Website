@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './product.module.css';
+import { Link } from 'react-router-dom';
 
 export default function Product({ link, img, description }) {
   return (
@@ -13,14 +14,13 @@ export default function Product({ link, img, description }) {
         <img src={img} alt='' className={styles.productImage} />
         <div className={styles.overLay}>
           <div className={styles.text}>{description}</div>
-          <a
+          <Link
             className={styles.button}
-            href={link}
-            target='_blank'
-            rel='noopener noreferrer'
+            to={link}
+        
           >
             Learn More
-          </a>
+          </Link>
         </div>
       </div>
     </div>

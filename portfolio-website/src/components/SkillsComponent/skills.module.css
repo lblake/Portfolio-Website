@@ -26,7 +26,8 @@
   font-weight: 500;
   padding: 2px;
 }
-img {
+
+.icon {
   width: 80px;
   height: 80px;
   padding-bottom: 10px;

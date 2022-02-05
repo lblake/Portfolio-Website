@@ -15,7 +15,7 @@ export default function skills() {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <img src={icon.img} alt={icon.alt} />
+              <img className={styles.icon}  src={icon.img} alt={icon.alt} />
               <p className={styles.text}>More Info</p>
             </a>
           </li>

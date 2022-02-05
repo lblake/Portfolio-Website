@@ -1,21 +1,26 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import pricing_image from './images/Pricing.jpg';
-import blocks_image from './images/Blocks.jpg';
-import filter_image from './images/Filter.jpg';
-import weather_image from './images/Weather.jpeg';
+import { projects } from './projectData';
 import styles from './project.module.css';
+import Footer from '../FooterComponent/Footer'
+
 
 export default function ProjectPage() {
   const { projectName } = useParams();
 
   return (
-    <div>
-      <img
+    <div className={styles.container}>
+    <div >
+      {/* <img className={styles.mainImage} src={projects[projectName].topPricingImage} alt=''/> */}
+    </div>
+    <h1 className={styles.heading}>{projects[projectName].title}</h1>
+      {/* <p>{projects[projectName].description}</p> */}
+      <img 
         className={styles.backgroundImage}
-        src={pricing_image}
+        src={projects[projectName].image}
         alt='projects'
       />
+      <Footer/>
     </div>
   );
 }

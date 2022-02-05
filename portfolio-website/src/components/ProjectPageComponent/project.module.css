@@ -1,13 +1,31 @@
-.backgroundImage {
-    /* The image used */
-  /* background-image: url("./images/Pricing.jpg"); */
 
+
+
+.mainImage {
   /* Full height */
-  height: 100%;
+  /* height: 50%; */
 
-  /* Center and scale the image nicely */
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  
+  
+}
 
+.backgroundImage {
+  /* max-width:1430px; */
+   /* margin: 0 auto;
+   padding-top: 10px; 
+   padding-top: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;  */
+  
+}
+
+.heading {
+   text-align: center;
 }
