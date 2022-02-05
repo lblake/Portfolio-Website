@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './intro.module.css';
-import image from './Lloyd-removebg.png';
 
 function Intro() {
   return (
@@ -16,14 +15,12 @@ function Intro() {
           </div>
           <p className={styles.introTitleDescription}>
             I design and develop websites for customers of all sizes,
-            specializing in creating stylish, modern websites. 
+            specializing in creating stylish, modern websites.
           </p>
         </div>
       </div>
       <div className={styles.introRight}>
         <div className={styles.introBackground}></div>
-
-        <img src={image} alt='lloyd' className={styles.introImage} />
       </div>
     </div>
   );

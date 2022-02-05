@@ -1,20 +1,20 @@
 import React from 'react';
-import Intro from './components/IntroComponent/intro';
-import About from './components/AboutComponent/About';
-import ProductList from './components/ProductListComponent/ProductList';
-import Contact from './components/ContactComponent/Contact';
-import Footer from './components/FooterComponent/Footer';
-import Skills from './components/SkillsComponent/Skills';
+import ProjectPage from './components/ProjectPageComponent/ProjectPage';
+import Home from './components/HomeComponent/Home';
+import ErrorPage from './components/ErrorPageComponent/ErrorPage';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Intro />
-      <About />
-      <ProductList />
-      <Skills/>
-      <Contact />
-      <Footer />
+      <Router>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+
+          <Route path='/projects/:projectName' element={<ProjectPage />} />
+          <Route path='*' element={<ErrorPage />} />
+        </Routes>
+      </Router>
     </div>
   );
 }
