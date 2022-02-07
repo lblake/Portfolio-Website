@@ -1,25 +1,27 @@
 .container {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; */
-  position: relative;
-  /* max-width:800px; */
+  /* position: relative; */
+
   margin: 0 auto;
 }
 
 .container .content {
-  position: absolute; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1; /* Grey text */
-  width: 100%; /* Full width */
-  padding: 20px; /* Some padding */
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.3);
+  color: #f1f1f1;
+  width: 100%;
+  /* padding: 20px; */
+  /* height: 66%; */
 }
 
+.content{
+  padding-bottom: 50px;
+
+}
 .backgroundImage {
-  /* padding-top: 10px; */
   height: 100%;
+  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,8 +34,11 @@
 }
 
 .description {
-  text-align: justify;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
   color: white;
+  margin-bottom: 0px;
 }
 
 .button {
@@ -47,7 +52,7 @@
   margin: 50px 10px 0px 0;
   padding: 10px;
   cursor: pointer;
-  width: 150px;
+  width: 100px;
 }
 
 .center {
@@ -55,6 +60,6 @@
   justify-content: center;
 }
 
-a{
+a {
   text-align: center;
 }
