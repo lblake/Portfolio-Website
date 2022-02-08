@@ -9,11 +9,9 @@ export default function ProjectPage() {
 
   return (
     <div className={styles.container}>
-      <img
-        className={styles.backgroundImage}
-        src={projects[projectName].image}
-        alt='projects'
-      />
+      <div className={styles.backgroundImage}>
+        <img src={projects[projectName].image} alt='projects' />
+      </div>
 
       <div className={styles.content}>
         <h1 className={styles.heading}>{projects[projectName].title}</h1>

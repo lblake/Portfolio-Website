@@ -2,30 +2,26 @@
   /* position: relative; */
 
   margin: 0 auto;
+  padding-top: 5px;
 }
 
 .container .content {
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
-  background: rgb(0, 0, 0);
+  /* background: rgb(0, 0, 0); */
   background: rgba(0, 0, 0, 0.3);
   color: #f1f1f1;
   width: 100%;
-  /* padding: 20px; */
+  padding-bottom: 10px;
   /* height: 66%; */
 }
 
-.content{
+/* .content {
   padding-bottom: 50px;
+} */
 
-}
 .backgroundImage {
-  height: 100%;
-  
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .heading {
@@ -34,7 +30,7 @@
 }
 
 .description {
-  text-align: center;
+  text-align: justify;
   padding-left: 40px;
   padding-right: 40px;
   color: white;
@@ -49,7 +45,7 @@
   color: #437dcb;
   border: 2px solid #437dcb;
   background-color: white;
-  margin: 50px 10px 0px 0;
+  margin: 25px 5px 0px 5px;
   padding: 10px;
   cursor: pointer;
   width: 100px;
@@ -63,3 +59,7 @@
 a {
   text-align: center;
 }
+
+/* img {
+  padding-top: 5px;
+} */
