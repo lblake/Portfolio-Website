@@ -5,6 +5,10 @@
   padding-top: 5px;
 
   /* min-width: 1261px; */
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .container .content {
@@ -17,7 +21,7 @@
 }
 
 .content {
-  height: 315px;
+  height: 330px;
 }
 
 .backgroundImage {
@@ -81,14 +85,22 @@ a {
   }
 
   .container {
-    position: relative;
-    padding: 0px;
-    min-width:1002px;
+    /* position: relative; */
+  padding: 0px;
+  min-width: 1002px;
+
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+    
   }
-  .container .content {
+
+
+  /* .container .content {
     position: absolute;
     height: 200px;
-  }
+  } */
 
   .backgroundImage {
     border: 0;

@@ -3,9 +3,10 @@ import weatherImage from './images/Weather.jpeg';
 import columnImage from './images/Blocks.jpg';
 import filterImage from './images/Filter.jpg';
 
+
 export const projects = {
   pricing: {
-    title: 'CSS HTML JavaScript Component with Toggle',
+    title: 'CSS HTML with Toggle',
     description:
       'Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei',
     image: pricingImage,
@@ -33,9 +34,9 @@ export const projects = {
   },
 
   column: {
-    title: 'CSS HTML 3-Column Preview Card Component',
+    title: 'CSS HTML Card Component',
     description:
-      'Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei',
+      'This project was one of the Frontendmentor newbie challenges. I choose this challenge after completing Kevin Powells Conquering Responsive Layouts and CSS Demystified course.  This project was completed using the following frontend skills: Translation of Figma design into website, Flexbox, HTML, CSS custom properties and Mobile-first workflow. ',
     image: columnImage,
     link: 'https://frontend-mentor-3-column-preview-component.netlify.app/',
     github:
