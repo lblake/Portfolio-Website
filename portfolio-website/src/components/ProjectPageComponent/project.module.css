@@ -90,7 +90,7 @@ a {
     padding: 0px;
     min-width: 1261px;
 
-    height: calc(125vh - 100px);
+    height: calc(130vh - 100px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
