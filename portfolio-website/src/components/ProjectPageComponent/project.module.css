@@ -5,10 +5,11 @@
   padding-top: 5px;
 
   /* min-width: 1261px; */
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: scroll;
 }
 
 .container .content {
@@ -20,9 +21,9 @@
   padding-bottom: 10px;
 }
 
-.content {
+/* .content {
   height: 330px;
-}
+} */
 
 .backgroundImage {
   border: 2px solid rgba(0, 0, 0, 0.3);
@@ -86,16 +87,19 @@ a {
 
   .container {
     /* position: relative; */
-  padding: 0px;
-  min-width: 1002px;
+    padding: 0px;
+    min-width: 1261px;
 
-  height: calc(100vh - 100px);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-    
+    height: calc(125vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 
+  /* .content{
+    position: absolute;
+    height: 250px;
+  } */
 
   /* .container .content {
     position: absolute;

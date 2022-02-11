@@ -6,9 +6,9 @@ import filterImage from './images/Filter.jpg';
 
 export const projects = {
   pricing: {
-    title: 'CSS HTML with Toggle',
+    title: 'CSS HTML with Toggle Component',
     description:
-      'Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei',
+      'This project was one of the Frontend Mentor\'s junior challenges to build a component with a toggle. I chose to complete this challenge after finishing Kevin Powell\'s Conquering Responsive Layouts and CSS Demystified course.  This project used the following frontend skills: Translation of Figma design into website, Flexbox, HTML, CSS custom properties and Mobile-first workflow.',
     image: pricingImage,
     link: 'https://frontend-mentor-pricing-component-with-toggle.netlify.app/',
     github:
@@ -36,7 +36,7 @@ export const projects = {
   column: {
     title: 'CSS HTML Card Component',
     description:
-      'This project was one of the Frontendmentor newbie challenges. I choose this challenge after completing Kevin Powells Conquering Responsive Layouts and CSS Demystified course.  This project was completed using the following frontend skills: Translation of Figma design into website, Flexbox, HTML, CSS custom properties and Mobile-first workflow. ',
+      'This project was one of the Frontend Mentor\'s newbie challenges. I choose to complete this challenge after finishing Kevin Powell\'s Conquering Responsive Layouts and CSS Demystified course.  This project used the following frontend skills: Translation of Figma design into website, Flexbox, HTML, CSS custom properties and Mobile-first workflow. ',
     image: columnImage,
     link: 'https://frontend-mentor-3-column-preview-component.netlify.app/',
     github:
