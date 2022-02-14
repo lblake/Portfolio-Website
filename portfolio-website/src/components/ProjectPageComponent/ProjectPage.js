@@ -15,8 +15,12 @@ export default function ProjectPage() {
 
       <div className={styles.content}>
         <h1 className={styles.heading}>{projects[projectName].title}</h1>
-        <p className={styles.description}>
-          {projects[projectName].description}
+        <p
+          className={styles.description}
+          dangerouslySetInnerHTML={{
+            __html: projects[projectName].description,
+          }}
+        >
         </p>
         <div className={styles.center}>
           <a
