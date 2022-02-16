@@ -7,10 +7,13 @@ import Footer from '../FooterComponent/Footer';
 export default function ProjectPage() {
   const { projectName } = useParams();
 
+  
   return (
     <div className={styles.container}>
-      <div className={styles.backgroundImage}>
-        <img src={projects[projectName].image} alt='projects' />
+      <div className={styles.backgroundImage}
+      style={{backgroundImage: `url(${projects[projectName].image})`}}
+      >
+        {/* <img src={projects[projectName].image} alt='projects' /> */}
       </div>
 
       <div className={styles.content}>
@@ -20,8 +23,7 @@ export default function ProjectPage() {
           dangerouslySetInnerHTML={{
             __html: projects[projectName].description,
           }}
-        >
-        </p>
+        ></p>
         <div className={styles.center}>
           <a
             className={styles.button}
