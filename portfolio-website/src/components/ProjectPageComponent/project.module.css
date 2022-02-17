@@ -21,7 +21,7 @@
   border: 2px solid rgba(0, 0, 0, 0.3);
   border-bottom: 0;
   /* width: %; */
-  height: 320px;
+  height:320px;
   background-size: cover;
   background-position: center;
 }
@@ -71,7 +71,8 @@ a {
   }
 
   .content {
-    height: 230px;
+    /* height: 230px; */
+    padding-bottom: 50px;
   }
   .description {
     text-align: center;
@@ -93,8 +94,8 @@ a {
   .container {
     /* position: relative; */
     padding: 0px;
-    min-width: 1261px;
-    height: calc(130vh - 100px);
+    /* min-width: 1261px; */
+    /* height: calc(130vh - 100px); */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -103,12 +104,14 @@ a {
   .backgroundImage {
     border: 0;
     /* width: 100%; */
-    height: 1200px;
+    /* height: 1200px; */
     background-size: cover;
     background-position: center;
   }
 
   .content {
-    height: 430px;
+    /* height: 430px; */
+    padding-bottom: 50px;
+    
   }
 }
