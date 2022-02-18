@@ -10,7 +10,6 @@ function App() {
       <Router>
         <Routes>
           <Route exact path='/' element={<Home />} />
-
           <Route path='/projects/:projectName' element={<ProjectPage />} />
           <Route path='*' element={<ErrorPage />} />
         </Routes>
