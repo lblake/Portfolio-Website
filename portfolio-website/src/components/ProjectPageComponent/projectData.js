@@ -17,7 +17,9 @@ export const projects = {
   weather: {
     title: 'React Weather API',
     description:
-      'Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei',
+      'This was a self study project on how-to use an API to display weather information. I used OpenWeather <a href="https://openweathermap.org/api/one-call-api">One Call API</a>  endpoint .' +
+      ' To display daily and 7 day weather forecast for a users location, using React Hooks (useState, useEffect). ',
+
     image: weatherImage,
     link: 'https://api-react-weather.netlify.app/',
     github: 'https://github.com/lblake/react-weather-api',
@@ -26,7 +28,7 @@ export const projects = {
   users: {
     title: 'React API Users App',
     description:
-      'This was a self study project on how-to use an API to display user information. I used JSON Placeholder website <a href="https://jsonplaceholder.typicode.com/">users</a>  endpoint and <a href="https://github.com/axios/axios">axios</a>  .'+
+      'This was a self study project on how-to use an API to display user information. I used JSON Placeholder website <a href="https://jsonplaceholder.typicode.com/">users</a>  endpoint and <a href="https://github.com/axios/axios">axios</a>  .' +
       ' To fetch a list of users data and display their information using React Hooks (useState, useEffect, useContex) and  <a href="https://www.npmjs.com/package/react-paginate">React-Paginate</a> to display X number of users per page. ',
     image: filterImage,
     link: 'https://react-users-api.netlify.app/',
