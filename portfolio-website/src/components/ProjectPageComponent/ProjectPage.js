@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { projects } from './projectData';
 import styles from './project.module.css';
 import Footer from '../FooterComponent/Footer';
+import NavBar from '../NavBarComponent/NavBar'
 
 export default function ProjectPage() {
   const { projectName } = useParams();
@@ -10,10 +11,10 @@ export default function ProjectPage() {
   
   return (
     <div className={styles.container}>
+    <NavBar/>
       <div className={styles.backgroundImage}
       style={{backgroundImage: `url(${projects[projectName].image})`}}
       >
-        {/* <img src={projects[projectName].image} alt='projects' /> */}
       </div>
 
       <div className={styles.content}>
