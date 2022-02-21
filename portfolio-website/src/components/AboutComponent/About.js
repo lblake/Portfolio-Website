@@ -15,7 +15,13 @@ export default function About() {
         <h1 className={styles.aboutTitle}>About Me</h1>
 
         <p className={styles.aboutDescription}>
-          I'm Frontend developer who loves to convert beautiful designs, into
+          I'm <a
+            href='https://github.com/lblake'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Frontend developer
+          </a> who loves to convert beautiful designs, into
           pixel perfect web interfaces. I have a really good eye for details, so
           this kind of challenges are really amazing for me. Currently I'm being
           mentored by a Senior Software Engineer from{' '}

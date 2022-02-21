@@ -7,7 +7,7 @@ export default function Contact() {
     <div className={styles.contactContainer}>
       <h1 className={styles.contactTitle}>Contact Me</h1>
       <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
-        send me an email
+        email me
       </a>
 
       <Link
