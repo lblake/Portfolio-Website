@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './contact.module.css';
+import { Link } from 'react-router-dom';
 
 export default function Contact() {
   return (
@@ -8,9 +9,15 @@ export default function Contact() {
       <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
         send me an email
       </a>
-      <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
-        download resume  
-      </a>
+
+      <Link
+        className={styles.contactEmail}
+        to='Lloyd-Blake-Frontend-Developer.pdf'
+        target='_blank'
+        download
+      >
+        download resume
+      </Link>
     </div>
   );
 }
