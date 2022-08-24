@@ -10,12 +10,12 @@ function Intro() {
           <h1 className={styles.introName}>Lloyd Blake</h1>
           <div className={styles.introTitle}>
             <div className={styles.introTitleWrapper}>
-              <div className={styles.introTitleItem}>Frontend Developer</div>
+              <div className={styles.introTitleItem}></div>
             </div>
           </div>
           <p className={styles.introTitleDescription}>
-            I design and develop websites for customers of all sizes,
-            specializing in creating stylish, modern websites.
+          I have a wide range of experience testing on different platforms and technologies 
+          with a particular emphasis on web technologies 
           </p>
         </div>
       </div>

@@ -15,16 +15,14 @@ export default function About() {
         <h1 className={styles.aboutTitle}>About Me</h1>
 
         <p className={styles.aboutDescription}>
-          I'm <a
+          I am <a
             href='https://github.com/lblake'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Frontend developer
-          </a> who loves to convert beautiful designs, into
-          pixel perfect web interfaces. I have a really good eye for details, so
-          this kind of challenges are really amazing for me. Currently I'm being
-          mentored by a Senior Software Engineer from{' '}
+             Senior QA Automation Engineer
+          </a> who loves learning new technologies. I set myself a goal to gain an  understanding
+           of how React and it's related components work together.  During this process I was mentored by a Senior Software Engineer from{' '}
           <a
             href='https://www.cinch.co.uk'
             target='_blank'
@@ -32,9 +30,9 @@ export default function About() {
           >
             Cinch.co.uk
           </a>
-          , who has helped me level up my technical skills, showing me different
+          , who helped me level up my technical skills, showing me different
           ways to resolve my issues, and how to write clean and modular code. I
-          have created multiple projects from{' '}
+          have created a number of projects from{' '}
           <a
             href='https://www.frontendmentor.io/challenges'
             target='_blank'
@@ -42,8 +40,8 @@ export default function About() {
           >
             Frontend Mentor
           </a>
-          , and some set by my mentor. My favourite tools of the trade are CSS,
-          JavaScript, React and I'm ready to take on new challenges.
+          , and some set by my mentor. The end result was I gained a deeper understanding of how to create React apps and websites using web technologies such as CSS,
+          JavaScript & React and I'm ready to take on new challenges.
         </p>
       </div>
     </div>
