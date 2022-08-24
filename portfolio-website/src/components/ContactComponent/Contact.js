@@ -12,7 +12,7 @@ export default function Contact() {
 
       <Link
         className={styles.contactEmail}
-        to='Lloyd-Blake-Frontend-Developer.pdf'
+        to='LloydBlakeCV.pdf'
         target='_blank'
         download
       >
