@@ -15,14 +15,17 @@ export default function About() {
         <h1 className={styles.aboutTitle}>About Me</h1>
 
         <p className={styles.aboutDescription}>
-          I am <a
+          I am{' '}
+          <a
             href='https://github.com/lblake'
             target='_blank'
             rel='noopener noreferrer'
           >
-             Senior QA Automation Engineer
-          </a> who loves learning new technologies. I set myself a goal to gain an  understanding
-           of how React and it's related components work together.  During this process I was mentored by a Senior Software Engineer from{' '}
+            Frontend Web Developer
+          </a>{' '}
+          who loves learning new technologies. I set myself a goal to gain an
+          understanding of how React and it's related components work together.
+          During this process I was mentored by a Senior Software Engineer from{' '}
           <a
             href='https://www.cinch.co.uk'
             target='_blank'
@@ -32,16 +35,32 @@ export default function About() {
           </a>
           , who helped me level up my technical skills, showing me different
           ways to resolve my issues, and how to write clean and modular code. I
-          have created a number of projects from{' '}
+          have also recently completed a Full-Stack coding bootcamp run by{' '}
+          <a
+            href='https://www.techreturners.com/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Tech Returners
+          </a>{' '} in partnership with <a
+            href='https://northcoders.com/our-courses/coding-bootcamp'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            North Coders.
+          </a>{' '}
+          I have also created a number of projects from{' '}
           <a
             href='https://www.frontendmentor.io/challenges'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Frontend Mentor
+            Frontend Mentor.{' '} 
           </a>
-          , and some set by my mentor. The end result was I gained a deeper understanding of how to create React apps and websites using web technologies such as CSS,
-          JavaScript & React and I'm ready to take on new challenges.
+          The end result was I gained a deeper
+          understanding of how to create React apps and websites using web
+          technologies such as CSS, JavaScript & React and I'm ready to take on
+          new challenges.
         </p>
       </div>
     </div>

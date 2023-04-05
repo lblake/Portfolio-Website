@@ -10,14 +10,14 @@ export default function Contact() {
         email me
       </a>
 
-      <Link
+      {/* <Link
         className={styles.contactEmail}
         to='LloydBlakeCV.pdf'
         target='_blank'
         download
       >
         download resume
-      </Link>
+      </Link> */}
     </div>
   );
 }
