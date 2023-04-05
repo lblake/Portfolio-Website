@@ -2,4 +2,4 @@
 
 This site is to showcase the frontend projects I completed..
 
-https://lloyd-blake-portfolio-website.netlify.app/
+https://lloyd-blake-frontend-portfolio.netlify.app/
