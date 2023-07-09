@@ -25,14 +25,14 @@ export const icons = [
   },
   {
     id: 5,
-    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg',
-    alt: 'git',
-    link: 'https://git-scm.com/'
+    img: 'https://www.cloudwards.net/wp-content/uploads/2018/09/Shopify-Liquid-ProgLang.png',
+    alt: 'liquid',
+    link: 'https://www.shopify.com/uk/partners/shopify-cheat-sheet'
   },
   {
     id: 6,
-    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg',
-    alt: 'jest',
-    link: 'https://jestjs.io/'
+    img: 'https://github.com/Shopify/theme-check-vscode/blob/main/images/shopify_glyph.png?raw=true',
+    alt: 'shopify',
+    link: 'https://www.shopify.com/uk'
   },
 ];
