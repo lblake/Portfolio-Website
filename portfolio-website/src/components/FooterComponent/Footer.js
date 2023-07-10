@@ -4,7 +4,7 @@ import styles from './footer.module.css';
 export default function Footer() {
   return (
     <div className={styles.footer}>
-      <p>@2022 : Lloyd Blake</p>
+      <p>@2023 : lloydblake.dev</p>
     </div>
   );
 }

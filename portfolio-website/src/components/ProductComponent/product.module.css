@@ -75,6 +75,7 @@
   margin: 0px;
   padding: 14px 28px;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .button {

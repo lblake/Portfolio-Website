@@ -5,9 +5,18 @@ import styles from './contact.module.css';
 export default function Contact() {
   return (
     <div className={styles.contactContainer}>
-      <h1 className={styles.contactTitle}>Contact Me</h1>
+      <h1 className={styles.contactTitle}>Let's Connect</h1>
       <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
-        email me
+        Email 
+      </a>
+      {/* <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
+        Github
+      </a> */}
+      <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
+        Linkedin 
+      </a>
+      <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
+        Resume
       </a>
 
       {/* <Link
@@ -19,5 +28,8 @@ export default function Contact() {
         download resume
       </Link> */}
     </div>
+
+    
   );
+  
 }
