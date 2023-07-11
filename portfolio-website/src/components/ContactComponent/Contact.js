@@ -7,13 +7,17 @@ export default function Contact() {
     <div className={styles.contactContainer}>
       <h1 className={styles.contactTitle}>Let's Connect</h1>
       <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
-        Email 
+        Email
       </a>
       {/* <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
         Github
       </a> */}
-      <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
-        Linkedin 
+      <a
+        className={styles.contactEmail}
+        href=' https://www.linkedin.com/in/lloyd-blake-2411383/'
+        target='_blank'
+      >
+        Linkedin
       </a>
       <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
         Resume
@@ -28,8 +32,5 @@ export default function Contact() {
         download resume
       </Link> */}
     </div>
-
-    
   );
-  
 }
