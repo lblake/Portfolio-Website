@@ -70,8 +70,8 @@
   font-weight: 500;
   display: inline-block;
   color: #437dcb; 
-  border: 2px solid #437dcb;
-  background-color: white;
+  border: 5px solid #437dcb;
+  background-color: rgb(243, 242, 242); 
   margin: 0px;
   padding: 14px 28px;
   cursor: pointer;
@@ -79,11 +79,11 @@
 }
 
 .button {
-  border-color: #a1bee5;
+  border-color: #977322;
   color: #3d79c9;
 }
 .button:hover {
-  background: rgb(243, 242, 242);
+  background: #d88e31;
   color: #3d79c9;
 }
 

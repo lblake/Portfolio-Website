@@ -17,7 +17,7 @@
   color: #f1f1f1;
   width: 100%;
   flex: 1;
-  padding-bottom: 50px; 
+  padding-bottom: 50px;
   padding-top: 50px;
 }
 
@@ -50,8 +50,8 @@
   font-weight: 500;
   display: inline-block;
   color: #437dcb;
-  border: 2px solid #437dcb;
-  background-color: white;
+  border: 5px solid #977322;
+  background-color: black;
   margin: 25px 5px 0px 5px;
   padding: 10px;
   cursor: pointer;
@@ -64,11 +64,18 @@
   justify-content: center;
 }
 
+.button:hover {
+  background-color: #d88e31;
+  color: #437dcb;
+}
 a {
   text-align: center;
   color: #437dcb;
 }
 
+a:hover {
+  color: #d88e31;
+}
 @media only screen and (min-width: 768px) {
   .container {
     padding-left: 10px;
