@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './about.module.css';
-import image from './Lloyd-Desk.jpg';
+import image from './image.png';
 
 export default function About() {
   return (
