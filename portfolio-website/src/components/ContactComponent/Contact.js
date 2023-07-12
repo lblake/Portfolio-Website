@@ -19,7 +19,8 @@ export default function Contact() {
       >
         Linkedin
       </a>
-      <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
+      <a className={styles.contactEmail} href='LloydBlakeCV.pdf'
+        target='_blank'>
         Resume
       </a>
 

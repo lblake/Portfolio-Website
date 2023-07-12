@@ -33,14 +33,14 @@
 .heading {
   text-align: center;
   font-size: 20px;
-  color: #fff;
+  color: #437dcb;
 }
 
 .description {
   text-align: justify;
   padding-left: 40px;
   padding-right: 40px;
-  color: #fff;
+  color: #a1bee5;
   margin-bottom: 0px;
 }
 
@@ -71,6 +71,7 @@
 a {
   text-align: center;
   color: #437dcb;
+  font-weight: 500;
 }
 
 a:hover {

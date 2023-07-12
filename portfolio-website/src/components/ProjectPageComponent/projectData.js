@@ -28,8 +28,8 @@ export const projects = {
   users: {
     title: 'React API Users App',
     description:
-      'This was a self study project on how-to use an API to display user information. I used JSON Placeholder website <a href="https://jsonplaceholder.typicode.com/" target="_blank">users</a>  endpoint and <a href="https://github.com/axios/axios" target="_blank">axios</a>  .' +
-      ' To fetch a list of users data and display their information using React Hooks (useState, useEffect, useContex) and  <a href="https://www.npmjs.com/package/react-paginate" target="_blank">React-Paginate</a> to display X number of users per page. ',
+      'This was a self study project on how-to use an API to display user information. I used the JSON Placeholder website <a href="https://jsonplaceholder.typicode.com/" target="_blank">users</a>  endpoint and <a href="https://github.com/axios/axios" target="_blank">axios</a>  .' +
+      ' To fetch a list of users data and display their information using React Hooks (useState, useEffect, useContex) and  <a href="https://www.npmjs.com/package/react-paginate" target="_blank">React-Paginate</a> to display X number of users per page. You can also use the search bar to filter which user is displayed. ',
     image: filterImage,
     link: 'https://react-users-api.netlify.app/',
     github: 'https://github.com/lblake/react-api-users',
