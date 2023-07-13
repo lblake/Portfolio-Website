@@ -14,7 +14,7 @@ function Intro() {
             </div>
           </div>
           <p className={styles.introTitleDescription}>
-          It's supposed to be hard. If it wasn't hard, everyone would do it. The hard... is what makes it great.
+          "It's supposed to be hard. If it wasn't hard, everyone would do it. The hard... is what makes it great."
           </p>
         </div>
       </div>

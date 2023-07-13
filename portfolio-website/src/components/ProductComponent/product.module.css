@@ -3,14 +3,17 @@
   width: 90%;
   height: 40vh;
   margin: 10px 10px 0px 10px;
-  border: 2px solid rgb(243, 242, 242);
+  /* border: 2px solid rgb(243, 242, 242); */
+  border: 2px solid #fafafa;
   border-radius: 10px 10px 10px 10px;
   overflow: hidden;
 }
 
 .productBrowser {
   height: 20px;
-  background-color: rgb(243, 242, 242);
+  /* background-color: rgb(243, 242, 242); */
+  background-color: #fafafa;
+
   display: flex;
   align-items: center;
 }
@@ -53,7 +56,8 @@
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: rgb(243, 242, 242);
+  /* background-color: rgb(243, 242, 242); */
+  background-color: #fafafa;
 }
 
 .container:hover .overLay {
@@ -71,7 +75,8 @@
   display: inline-block;
   color: #437dcb; 
   border: 5px solid #437dcb;
-  background-color: rgb(243, 242, 242); 
+  /* background-color: rgb(243, 242, 242);  */
+  background-color: #fafafa;
   margin: 0px;
   padding: 14px 28px;
   cursor: pointer;
