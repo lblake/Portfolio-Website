@@ -1,6 +1,6 @@
 .heading {
   font-family: 'Exo', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   color: #437dcb;
   /* background-color: #a6c2e6; */
   padding: 10px;
@@ -8,5 +8,5 @@
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }

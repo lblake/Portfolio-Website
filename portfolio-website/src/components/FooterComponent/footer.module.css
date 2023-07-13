@@ -12,6 +12,9 @@ p {
   color: #437dcb;
 }
 
+a {
+  font-weight: 550;
+}
 @media only screen and (max-width: 320px) {
   .footer {
     display: none;

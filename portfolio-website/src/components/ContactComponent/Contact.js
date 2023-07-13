@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <div className={styles.contactContainer}>
       <h1 className={styles.contactTitle}>Let's Connect</h1>
-      <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
+      <a className={styles.contactEmail} href='mailto:lloyd@lloydblake.dev'>
         Email
       </a>
       {/* <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
