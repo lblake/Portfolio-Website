@@ -73,7 +73,7 @@
   font-size: 16px;
   font-weight: 500;
   display: inline-block;
-  color: #437dcb; 
+  color: #437dcb;
   border: 5px solid #437dcb;
   /* background-color: rgb(243, 242, 242);  */
   background-color: #fafafa;
@@ -114,6 +114,11 @@ a:active {
     height: 50vh;
     margin: 10px 10px;
   }
+  .overLay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -126,5 +131,13 @@ a:active {
     width: 45%;
     height: 40vh;
     margin: 10px 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .overLay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }

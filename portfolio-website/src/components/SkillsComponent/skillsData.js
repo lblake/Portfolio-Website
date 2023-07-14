@@ -27,7 +27,7 @@ export const icons = [
     id: 5,
     img: 'https://www.cloudwards.net/wp-content/uploads/2018/09/Shopify-Liquid-ProgLang.png',
     alt: 'liquid',
-    link: 'https://www.shopify.com/uk/partners/shopify-cheat-sheet'
+    link: 'https://shopify.dev/docs/api/liquid'
   },
   {
     id: 6,

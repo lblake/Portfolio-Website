@@ -21,46 +21,56 @@ export default function About() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            Frontend Web Developer
+            Frontend Shopify Developer
           </a>{' '}
-          who loves learning new technologies. I set myself a goal to gain an
-          understanding of how React and it's related components work together.
-          During this process I was mentored by a Senior Software Engineer from{' '}
+          specializing in creating seamless online stores. With expertise in
+          Shopify theme development. I excel at building visually stunning and
+          user-friendly e-commerce experiences. I possess a solid understanding
+          of Shopify Liquid, the Shopify platform its components.
+          Leveraging them to enhance Shopify themes with dynamic and interactive
+          elements. I recently completed a comprehensive Freelance Shopify
+          Developer Bootcamp run by{' '}
           <a
-            href='https://www.cinch.co.uk'
+            href='https://www.freemote.com'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Cinch.co.uk
-          </a>
-          , who helped me level up my technical skills, showing me different
-          ways to resolve my issues, and how to write clean and modular code. I
-          have also recently completed a Full-Stack coding bootcamp run by{' '}
+            Freemote.
+          </a>{' '}
+          This bootcamp enabled me gain a deeper understanding of the Shopify
+          ecosystem. I have also recently completed a Full-Stack coding bootcamp
+          run by{' '}
           <a
             href='https://www.techreturners.com/'
             target='_blank'
             rel='noopener noreferrer'
           >
             Tech Returners
-          </a>{' '} in partnership with <a
+          </a>{' '}
+          in collaboration with{' '}
+          <a
             href='https://northcoders.com/our-courses/coding-bootcamp'
             target='_blank'
             rel='noopener noreferrer'
           >
             North Coders.
           </a>{' '}
-          I have also created a number of projects from{' '}
+          Equipping me with a broad range of skills including working as part of
+          team, React, Typescript, Javascript, CSS, HTML etc. Participation in{' '}
           <a
             href='https://www.frontendmentor.io/challenges'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Frontend Mentor.{' '} 
+            Frontend Mentor{' '}
           </a>
-          The end result was I gained a deeper
-          understanding of how to create React apps and websites using web
-          technologies such as CSS, JavaScript & React and I'm ready to take on
-          new challenges.
+          challenges has sharpened my frontend development skills, enabling me
+          to deliver exceptional user interfaces. Finally I bring extensive
+          experience in Shopify development, a diverse skill set acquired
+          through the bootcamp(s), self-learning and over 10+ years of IT
+          experience. I'm actively seeking new projects to bring captivating
+          online stores to life. Let's collaborate and create an impactful
+          e-commerce presence!.
         </p>
       </div>
     </div>
