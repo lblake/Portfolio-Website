@@ -1,7 +1,12 @@
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
 
-.error{
-    display:flex;
+a {
+    display: flex;
     align-items: center;
-    text-align:center;
-    
+    justify-content: center;  
 }

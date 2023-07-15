@@ -1,10 +1,15 @@
 import React from 'react';
 import styles from './error.module.css'
 
+
+
+
 export default function ErrorPage() {
   return (
       <div >
-         <h1 className={styles.error}>Page Not Found</h1>
+         <h1 className={styles.error}>404 Page not found</h1>
+         <a href="https://lloydblake.dev/">Navigate to Portfolio Page</a>
+      
       </div>
   )
 }
