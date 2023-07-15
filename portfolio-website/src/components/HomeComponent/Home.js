@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Intro from '../IntroComponent/intro';
 import About from '../AboutComponent/About';
 import ProductList from '../ProductListComponent/ProductList';
@@ -7,16 +7,16 @@ import Footer from '../FooterComponent/Footer';
 import Skills from '../SkillsComponent/Skills';
 
 export default function Home() {
-  // const [reload, setReload] = useState(false);
-  // const [pageLoaded, setPageLoaded] = useState(false);
+  const [reload] = useState(false);
+  const [pageLoaded, setPageLoaded] = useState(false);
 
-  // useEffect(() => {
-  //   if (!pageLoaded) {
-  //     setPageLoaded(true);
-  //   } else if (reload) {
-  //     window.location.reload();
-  //   }
-  // }, [reload, pageLoaded]);
+  useEffect(() => {
+    if (!pageLoaded) {
+      setPageLoaded(true);
+    } else if (reload) {
+      window.location.reload();
+    }
+  }, [reload, pageLoaded]);
 
   return (
     <div>
