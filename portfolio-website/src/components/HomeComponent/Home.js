@@ -7,17 +7,17 @@ import Footer from '../FooterComponent/Footer';
 import Skills from '../SkillsComponent/Skills';
 
 export default function Home() {
-  const [reload, setReload] = useState(false);
+  // const [reload, setReload] = useState(false);
 
-  useEffect(() => {
-    setReload(true);
-  }, []);
+  // useEffect(() => {
+  //   setReload(true);
+  // }, []);
 
-  useEffect(() => {
-    if (reload) {
-      window.location.reload();
-    }
-  }, [reload]);
+  // useEffect(() => {
+  //   if (reload) {
+  //     window.location.reload();
+  //   }
+  // }, [reload]);
 
   return (
     <div>
