@@ -38,7 +38,7 @@ export default function About() {
             Freemote.
           </a>{' '}
           This bootcamp enabled me gain a deeper understanding of the Shopify
-          ecosystem. I have also recently completed a Full-Stack coding bootcamp
+          ecosystem. Another course I completed was a Full-Stack coding bootcamp
           run by{' '}
           <a
             href='https://www.techreturners.com/'

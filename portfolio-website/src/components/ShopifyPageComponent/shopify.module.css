@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  display: block; /* iframes are inline by default */
+  background: black;
+  border: none; /* Reset default border */
+  height: 100vh; /* Viewport-relative units */
+  width: 100vw;
+  
+}
