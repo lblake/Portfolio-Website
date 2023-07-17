@@ -1,5 +1,23 @@
 export const products = [
   {
+    id: 5,
+    img: '/images/galaxy.png',
+    link: '/projects/weather',
+    description: 'React API Weather App',
+  },
+  {
+    id: 6,
+    img: '/images/zay.png',
+    link: '/projects/weather',
+    description: 'React API Weather App',
+  },
+  {
+    id: 7,
+    img: '/images/slate.png',
+    link: '/projects/weather',
+    description: 'React API Weather App',
+  },
+  {
     id: 1,
     img: '/images/pricing-component-annually-screenshot.png',
     link: '/projects/pricing',
@@ -17,10 +35,11 @@ export const products = [
     link: '/projects/users',
     description: 'React API Users App',
   },
-  {
-    id: 4,
-    img: '/images/react-weather.png',
-    link: '/projects/weather',
-    description: 'React API Weather App',
-  },
+  // {
+  //   id: 4,
+  //   img: '/images/react-weather.png',
+  //   link: '/projects/weather',
+  //   description: 'React API Weather App',
+  // },
+  
 ];

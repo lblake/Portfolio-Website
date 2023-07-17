@@ -64,12 +64,13 @@ export default function About() {
           >
             Frontend Mentor{' '}
           </a>
-          challenges has sharpened my frontend development skills, enabling me
-          to deliver exceptional user interfaces. Finally I bring extensive
-          experience, a diverse skill set acquired through the bootcamp(s),
-          self-learning & over 10+ years of IT experience working in various sectors. I'm actively
-          seeking new projects to bring captivating online stores to life. Let's
-          collaborate and create an impactful e-commerce presence!.
+          challenges has sharpened my frontend development skills further,
+          enabling me to deliver exceptional user interfaces. Finally I bring
+          extensive experience, a diverse skill set acquired through the
+          bootcamp(s), self-learning & over 10+ years of IT experience working
+          in various sectors. I'm actively seeking new projects to bring
+          captivating online stores to life. Let's collaborate and create an
+          impactful e-commerce presence!.
         </p>
       </div>
     </div>
