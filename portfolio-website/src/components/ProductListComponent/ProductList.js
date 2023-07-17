@@ -9,7 +9,8 @@ export default function ProductList() {
       <div className={styles.productListText}>
         <h1 className={styles.productListTitle}>Create & Inspire</h1>
         <p className={styles.productListDescription}>
-          Below includes Shopify stores & websites I've built <span>(mouse over each image to "Learn More")</span>
+          Below includes Shopify stores & websites I've built{' '}
+          <span>(click to "Learn More")</span>
         </p>
       </div>
       <div className={styles.productList}>

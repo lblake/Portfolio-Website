@@ -16,7 +16,7 @@ export default function skills() {
               rel='noopener noreferrer'
             >
               <img className={styles.icon}  src={icon.img} alt={icon.alt} />
-              <p className={styles.text}>More Info</p>
+              {/* <p className={styles.text}>More Info</p> */}
             </a>
           </li>
         ))}

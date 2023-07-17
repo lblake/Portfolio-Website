@@ -6,7 +6,7 @@ function Intro() {
     <div className={styles.introContainer}>
       <div className={styles.introLeft}>
         <div className={styles.introLeftWrapper}>
-          <h2 className={styles.introHeading}>Hello, My name is</h2>
+          <h2 className={styles.introHeading}>Hello, my name is</h2>
           <h1 className={styles.introName}>Lloyd Blake</h1>
           <div className={styles.introTitle}>
             <div className={styles.introTitleWrapper}>
