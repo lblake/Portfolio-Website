@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    img: '/images/galaxy.png',
+    img: '/images/body.png',
     link: '/projects/weather',
     description: 'React API Weather App',
   },
