@@ -7,7 +7,7 @@ export const projects = {
   pricing: {
     title: 'CSS HTML with Toggle Component',
     description:
-      'This project was  one of <a href="https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC" target="_blank">Frontend Mentor\'s</a> challenges. I completed this challenge after finishing  Kevin Powell\'s <a href="https://courses.kevinpowell.co/conquering-responsive-layouts" target="_blank">Conquering Responsive Layouts </a> and <a href="https://cssdemystified.com/" target="_blank">CSS Demystified</a> courses.  This project used the following frontend skills: Translation of Figma design into website, Flexbox, HTML, CSS custom properties and Mobile-first workflow.',
+      'This project was  one of <a href="https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC" target="_blank">Frontend Mentor\'s</a> challenges. I completed this challenge after finishing  Kevin Powell\'s <a href="https://courses.kevinpowell.co/conquering-responsive-layouts" target="_blank">Conquering Responsive Layouts </a> and <a href="https://cssdemystified.com/" target="_blank">CSS Demystified</a> courses.  This project used the following frontend skills: Translation of Figma design into website, Flexbox, HTML, Javascript, CSS custom properties & Mobile-first workflow.',
     image: pricingImage,
     link: 'https://frontend-mentor-pricing-component-with-toggle.netlify.app/',
     github:
@@ -38,7 +38,7 @@ export const projects = {
   column: {
     title: 'CSS HTML Card Component',
     description:
-      'This project was one of <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-" target="_blank">Frontend Mentor\'s </a> challenges. I completed this challenge after finishing  Kevin Powell\'s <a href="https://courses.kevinpowell.co/conquering-responsive-layouts" target="_blank">Conquering Responsive Layouts </a> and <a href="https://cssdemystified.com/" target="_blank">CSS Demystified</a> courses.  This project used the following frontend skills: Translation of Figma design into website, Flexbox, HTML, Javascript & CSS custom properties and Mobile-first workflow. ',
+      'This project was one of <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-" target="_blank">Frontend Mentor\'s </a> challenges. I completed this challenge after finishing  Kevin Powell\'s <a href="https://courses.kevinpowell.co/conquering-responsive-layouts" target="_blank">Conquering Responsive Layouts </a> and <a href="https://cssdemystified.com/" target="_blank">CSS Demystified</a> courses.  This project used the following frontend skills: Translation of Figma design into website, Flexbox, HTML, CSS custom properties & Mobile-first workflow. ',
     image: columnImage,
     link: 'https://frontend-mentor-3-column-preview-component.netlify.app/',
     github:
