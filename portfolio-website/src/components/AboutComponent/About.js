@@ -15,7 +15,7 @@ export default function About() {
         <h1 className={styles.aboutTitle}>About Me</h1>
 
         <p className={styles.aboutDescription}>
-          I am{' '}
+          I am a{' '}
           <a
             href='https://github.com/lblake'
             target='_blank'
