@@ -10,12 +10,13 @@
 }
 
 .productBrowser {
-  height: 20px;
-  /* background-color: rgb(243, 242, 242); */
-  background-color: #fafafa;
-
   display: flex;
   align-items: center;
+  height: 20px;
+  background-color: rgb(243, 242, 242);
+  /* background-color: #fafafa; */
+
+  
 }
 
 .circle {
@@ -23,7 +24,7 @@
   height: 6px;
   border-radius: 50%;
   margin: 3px;
-  background-color: white;
+  /* background-color: grey; */
 }
 
 .productImage {

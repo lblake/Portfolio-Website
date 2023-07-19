@@ -7,13 +7,13 @@ export const products = [
   },
   {
     id: 2,
-    img: '/images/zay.png',
+    img: '/images/zay-yo.png',
     link: '/projects/weather',
     description: 'React API Weather App',
   },
   {
     id: 3,
-    img: '/images/slate.png',
+    img: '/images/s.png',
     link: '/projects/weather',
     description: 'React API Weather App',
   },
