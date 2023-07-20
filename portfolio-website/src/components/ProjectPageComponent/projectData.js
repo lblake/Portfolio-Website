@@ -54,7 +54,7 @@ export const projects = {
     image: slateImage,
     link: 'https://lloydblake.dev/slate',
     github:
-      'https://github.com/lblake/Front-End-Projects/tree/main/3-column-preview-card-component',
+      'https://github.com/lblake/FreeMote-Projects/tree/main/slate-coffee',
   },
   zay: {
     title: 'Fashion Brand Shopify Store',
@@ -72,6 +72,6 @@ export const projects = {
     image: galaxyImage,
     link: 'https://lloydblake.dev/galaxy',
     github:
-      'https://github.com/lblake/Front-End-Projects/tree/main/3-column-preview-card-component',
+      'https://github.com/lblake/FreeMote-Projects/tree/main/galaxy-box',
   },
 };
