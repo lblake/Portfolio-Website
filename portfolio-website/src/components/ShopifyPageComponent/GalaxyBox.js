@@ -6,7 +6,7 @@ import styles from './shopify.module.css';
 function GalaxyBox() {
   return (
     <div>
-      <h1>GalaxyBox Stars Shopify store</h1>
+      <h1 className={styles.heading}>Single Product Shopify Store Demo</h1>
 
       <div className={styles.container}>
         <iframe
@@ -14,7 +14,7 @@ function GalaxyBox() {
           title='Shopify Store'
           frameborder='0'
           webkitallowfullscreen
-          mozallowfullscreen
+          mozallowfullscreen  
           allowfullscreen
         ></iframe>
       </div>

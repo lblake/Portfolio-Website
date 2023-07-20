@@ -10,5 +10,12 @@ iframe {
   border: none; /* Reset default border */
   height: 100vh; /* Viewport-relative units */
   width: 100vw;
-  
+}
+
+.heading{
+  font-family: 'Exo', 'sans-serif';
+  text-align: center;
+  color: #437dcb;
+  font-size: 40px;
+
 }

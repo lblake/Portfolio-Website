@@ -48,7 +48,7 @@ export const projects = {
       'https://github.com/lblake/Front-End-Projects/tree/main/3-column-preview-card-component',
   },
   slate: {
-    title: 'CSS HTML Card Component',
+    title: 'Coffee Brand Shopify Store',
     description:
       'This project was one of <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-" target="_blank">Frontend Mentor\'s </a> challenges. I completed this challenge after finishing  Kevin Powell\'s <a href="https://courses.kevinpowell.co/conquering-responsive-layouts" target="_blank">Conquering Responsive Layouts </a> and <a href="https://cssdemystified.com/" target="_blank">CSS Demystified</a> courses.  This project used the following frontend skills: Translation of Figma design into website, Flexbox, HTML, CSS custom properties & a mobile-first workflow. ',
     image: slateImage,
@@ -57,7 +57,7 @@ export const projects = {
       'https://github.com/lblake/Front-End-Projects/tree/main/3-column-preview-card-component',
   },
   zay: {
-    title: 'CSS HTML Card Component',
+    title: 'Fashion Brand Shopify Store',
     description:
       'This project was one of <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-" target="_blank">Frontend Mentor\'s </a> challenges. I completed this challenge after finishing  Kevin Powell\'s <a href="https://courses.kevinpowell.co/conquering-responsive-layouts" target="_blank">Conquering Responsive Layouts </a> and <a href="https://cssdemystified.com/" target="_blank">CSS Demystified</a> courses.  This project used the following frontend skills: Translation of Figma design into website, Flexbox, HTML, CSS custom properties & a mobile-first workflow. ',
     image: zayImage,
@@ -66,7 +66,7 @@ export const projects = {
       'https://github.com/lblake/Front-End-Projects/tree/main/3-column-preview-card-component',
   },
   galaxy: {
-    title: 'CSS HTML Card Component',
+    title: 'Single Product Shopify Store',
     description:
       'This project was one of <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-" target="_blank">Frontend Mentor\'s </a> challenges. I completed this challenge after finishing  Kevin Powell\'s <a href="https://courses.kevinpowell.co/conquering-responsive-layouts" target="_blank">Conquering Responsive Layouts </a> and <a href="https://cssdemystified.com/" target="_blank">CSS Demystified</a> courses.  This project used the following frontend skills: Translation of Figma design into website, Flexbox, HTML, CSS custom properties & a mobile-first workflow. ',
     image: galaxyImage,
