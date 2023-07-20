@@ -2,20 +2,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  /* border: 5px solid red; */
+  margin: 20px 200px 200px 200px;
+  
+  
+  
+  
+
 }
 
 iframe {
   display: block; /* iframes are inline by default */
   background: black;
-  border: none; /* Reset default border */
-  height: 100vh; /* Viewport-relative units */
-  width: 100vw;
+  border: none;
+  height: 80vh; /* Viewport-relative units */
+  width: 80vw; 
+  border: solid 5px #437dcb; 
+  
+  
 }
 
-.heading{
+.heading {
   font-family: 'Exo', 'sans-serif';
   text-align: center;
   color: #437dcb;
   font-size: 40px;
-
 }
