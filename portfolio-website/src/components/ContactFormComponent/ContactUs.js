@@ -95,7 +95,7 @@ function ContactUs() {
 
   return (
     <FormContainer>
-      <Form onSubmit={handleSubmit}>
+      <Form  name="contact" method="POST"  data-netlify="true" onSubmit={handleSubmit}>
         <Label htmlFor='name'>Name:</Label>
         <Input
           type='text'

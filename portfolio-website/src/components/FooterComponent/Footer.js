@@ -14,7 +14,7 @@ export default function Footer() {
               title='linkedin'
             >
               {' '}
-              <i class="fa fa-linkedin-square fa-2x" aria-hidden='true'></i>
+              <i className="fa fa-linkedin-square fa-2x" aria-hidden='true'></i>
             </a>
           </li>
           <li>
@@ -25,7 +25,7 @@ export default function Footer() {
               title='facebook'
             >
               {' '}
-              <i class='fa fa-facebook-square fa-2x' aria-hidden='true'></i>
+              <i className='fa fa-facebook-square fa-2x' aria-hidden='true'></i>
             </a>
           </li>
           <li>
@@ -35,7 +35,7 @@ export default function Footer() {
               rel='noopener noreferrer'
               title='github'
             >
-              <i class='fa fa-github-square fa-2x' aria-hidden='true'></i>
+              <i className='fa fa-github-square fa-2x' aria-hidden='true'></i>
             </a>
           </li>
         </ul>
