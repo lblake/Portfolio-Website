@@ -77,15 +77,29 @@
       body {
         background-color: black;
       }
+      .hidden{
+        display: none;
+      }
     </style>
 
     <title>Portfolio Website</title>
   </head>
   <body>
-    <form name='contactForm' netlify hidden>
-      <input type='text' name='name' />
-      <input type='email' name='email' />
-      <textarea name='message'></textarea>
+    <form
+      name="contactForm"
+      method="POST"
+      netlify-honeypot="bot-field"
+      netlify
+      hidden
+    >
+      <p class="hidden">
+        <label>
+          Don’t fill this out if you’re human: <input name="bot-field" />
+        </label>
+      </p>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
     </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
