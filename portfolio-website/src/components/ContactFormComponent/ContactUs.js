@@ -93,8 +93,8 @@ function ContactUs() {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({ 'form-name': 'contactForm', ...formData })
     })
-      .then(() => alert('Success!'))
-      .catch(error => alert(error))
+      // .then(() => alert('Success!'))
+      // .catch(error => alert(error))
     e.preventDefault()
     
     // e.preventDefault();
