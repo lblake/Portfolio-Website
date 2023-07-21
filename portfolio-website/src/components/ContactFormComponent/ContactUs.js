@@ -11,7 +11,7 @@ const Form = styled.form`
   display: flex;
   flex-direction: column;
   border-style: solid red;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 `;
 
 const Label = styled.label`
@@ -48,6 +48,9 @@ const TextArea = styled.textarea`
 `;
 
 const Button = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Montserrat, sans-serif;
   font-weight: 16px;
   padding: 10px;
@@ -59,6 +62,8 @@ const Button = styled.button`
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
+  margin-left: 35px;
+  margin-top: 20px;
 
   &:hover {
     background-color: #d78c30;

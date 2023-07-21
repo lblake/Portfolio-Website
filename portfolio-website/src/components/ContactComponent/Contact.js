@@ -6,13 +6,13 @@ export default function Contact() {
   return (
     <div className={styles.contactContainer}>
       <h1 className={styles.contactTitle}>Let's Connect</h1>
-      <a className={styles.contactEmail} href='mailto:lloyd@lloydblake.dev'>
+      {/* <a className={styles.contactEmail} href='mailto:lloyd@lloydblake.dev'>
         Email
-      </a>
+      </a> */}
       {/* <a className={styles.contactEmail} href='mailto:treleven.lloyd@gmail.com'>
         Github
       </a> */}
-      <a
+      {/* <a
         className={styles.contactEmail}
         href=' https://www.linkedin.com/in/lloyd-blake-2411383/'
         target='_blank'
@@ -22,7 +22,7 @@ export default function Contact() {
       <a className={styles.contactEmail} href='LloydBlakeCV.pdf'
         target='_blank'>
         Resume
-      </a>
+      </a> */}
 
       {/* <Link
         className={styles.contactEmail}
