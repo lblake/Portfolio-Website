@@ -1,6 +1,11 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 
+const encode = (data) => {
+  return Object.keys(data)
+    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])).join('&');
+}
+
 const FormContainer = styled.div`
   max-width: 400px;
   margin: 0 auto;
@@ -83,7 +88,16 @@ function ContactUs() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({ 'form-name': 'contactForm', ...formData })
+    })
+      .then(() => alert('Success!'))
+      .catch(error => alert(error))
+    e.preventDefault()
+    
+    // e.preventDefault();
     // Add code here to handle form submission (e.g., send data to the server)
     console.log('Form submitted:', formData);
     setFormData({
