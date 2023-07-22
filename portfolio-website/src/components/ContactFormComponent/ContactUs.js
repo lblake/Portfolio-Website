@@ -3,8 +3,9 @@ import styled from 'styled-components';
 
 const encode = (data) => {
   return Object.keys(data)
-    .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key])).join('&');
-}
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&');
+};
 
 const FormContainer = styled.div`
   max-width: 400px;
@@ -91,14 +92,12 @@ function ContactUs() {
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encode({ 'form-name': 'contactForm', ...formData })
+      body: encode({ 'form-name': 'contactForm', ...formData }),
     })
-      // .then(() => alert('Success!'))
-      // .catch(error => alert(error))
-    e.preventDefault()
-    
-    // e.preventDefault();
-    // Add code here to handle form submission (e.g., send data to the server)
+      .then(() => alert('Success!'))
+      .catch((error) => alert(error));
+    e.preventDefault();
+
     console.log('Form submitted:', formData);
     setFormData({
       name: '',
