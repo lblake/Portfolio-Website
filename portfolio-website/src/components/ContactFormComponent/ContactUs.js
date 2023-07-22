@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import styled from 'styled-components';
 
@@ -79,7 +79,7 @@ const Button = styled.button`
 `;
 
 function ContactUs() {
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
     name: '',
@@ -100,8 +100,8 @@ function ContactUs() {
     })
       .then(() => {
         // On successful submission, navigate to the success page
-        // navigate('/success');
-        alert("succes!!")
+        navigate('/success');
+        // alert("succes!!")
       })
       .catch((error) => alert(error));
     e.preventDefault();
