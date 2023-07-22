@@ -2,9 +2,10 @@ import React from 'react';
 import ProjectPage from './components/ProjectPageComponent/ProjectPage';
 import Home from './components/HomeComponent/Home';
 import ErrorPage from './components/ErrorPageComponent/ErrorPage';
-import ZayYoPage  from './components/ShopifyPageComponent/ZayYo';
-import SlateCoffeePage  from './components/ShopifyPageComponent/SlateCoffee';
+import ZayYoPage from './components/ShopifyPageComponent/ZayYo';
+import SlateCoffeePage from './components/ShopifyPageComponent/SlateCoffee';
 import GalaxyBoxPage from './components/ShopifyPageComponent/GalaxyBox';
+import SuccessPage from './components/ContactFormComponent/success';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route exact path='/zay' element={<ZayYoPage />} />
           <Route exact path='/slate' element={<SlateCoffeePage />} />
           <Route exact path='/galaxy' element={<GalaxyBoxPage />} />
+          <Route exact path='/success' element={<SuccessPage />} />
           <Route path='/projects/:projectName' element={<ProjectPage />} />
           <Route path='*' element={<ErrorPage />} />
         </Routes>

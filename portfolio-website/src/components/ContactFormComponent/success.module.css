@@ -1,0 +1,17 @@
+.container {
+  text-align: center;
+}
+
+.text {
+  font-weight: 550;
+  overflow-wrap: break-word;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.successImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}

@@ -90,6 +90,7 @@
       method="POST"
       action="/success"
       netlify-honeypot="bot-field"
+      data-netlify-recaptcha="true"
       netlify
       hidden
     >
@@ -101,6 +102,9 @@
       <input type="text" name="name" />
       <input type="email" name="email" />
       <textarea name="message"></textarea>
+    </p>
+    <div data-netlify-recaptcha="true"></div>
+    <p>
     </form>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>

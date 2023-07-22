@@ -41,7 +41,7 @@ export default function Footer() {
         </ul>
       </div>
       <p>
-        @ 2023{' '}
+      &copy; {new Date().getFullYear()}{' '}
         <a href='https://lloydblake.dev/'>
           {' '}
           <i class='fa fa-globe'></i> lloydblake.dev

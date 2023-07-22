@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-
 import styled from 'styled-components';
 
 const encode = (data) => {
@@ -99,7 +98,6 @@ function ContactUs() {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({ 'form-name': 'contactForm', ...formData }),
     })
-      // .then(() => alert("Email Sent!!"))
       .then(() => {
         // On successful submission, navigate to the success page
         navigate('/success');
