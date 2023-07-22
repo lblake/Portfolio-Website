@@ -94,7 +94,7 @@ function ContactUs() {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
       body: encode({ 'form-name': 'contactForm', ...formData }),
     })
-      .then(() => alert('../../../../portfolio-website/public/success.html'))
+      .then(() => alert("Email Sent!!"))
       .catch((error) => alert(error));
     e.preventDefault();
 
