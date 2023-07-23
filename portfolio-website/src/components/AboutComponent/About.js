@@ -23,13 +23,9 @@ export default function About() {
           >
             Frontend Shopify Developer
           </a>{' '}
-          specializing in creating seamless online stores. With expertise in
-          Shopify theme development. I excel at building visually stunning and
-          user-friendly e-commerce experiences. I possess a solid understanding
-          of the Shopify platform its components, including Shopify Liquid.
-          Leveraging them to enhance Shopify themes with dynamic and interactive
-          elements. I recently completed a comprehensive Freelance Shopify
-          Developer Bootcamp run by{' '}
+          with expertise in creating visually stunning and user-friendly
+          e-commerce experiences. I recently completed a comprehensive Freelance
+          Shopify Developer Bootcamp run by{' '}
           <a
             href='https://www.freemote.com'
             target='_blank'
@@ -37,9 +33,9 @@ export default function About() {
           >
             Freemote.
           </a>{' '}
-          This bootcamp enabled me gain a deeper understanding of the Shopify
-          ecosystem. Another course I completed was a Full-Stack coding bootcamp
-          run by{' '}
+          Gaining a deeper understanding of the Shopify ecosystem and enhancing
+          Shopify themes with dynamic elements. Additionally, I completed a
+          Full-Stack coding bootcamp by{' '}
           <a
             href='https://www.techreturners.com/'
             target='_blank'
@@ -47,7 +43,7 @@ export default function About() {
           >
             Tech Returners
           </a>{' '}
-          in collaboration with{' '}
+          in association with{' '}
           <a
             href='https://northcoders.com/our-courses/coding-bootcamp'
             target='_blank'
@@ -56,7 +52,7 @@ export default function About() {
             North Coders.
           </a>{' '}
           Equipping me with a broad range of skills including working as part of
-          team, React, Typescript, Javascript, CSS, & HTML. Participation in{' '}
+          team, React, Typescript, Javascript, CSS, & HTML. Through{' '}
           <a
             href='https://www.frontendmentor.io/challenges'
             target='_blank'
@@ -64,13 +60,12 @@ export default function About() {
           >
             Frontend Mentor{' '}
           </a>
-          challenges has sharpened my frontend development skills further,
-          enabling me to deliver exceptional user interfaces. Finally I bring
-          extensive experience, a diverse skill set acquired through the
-          bootcamp(s), self-learning & over 10+ years of IT experience working
-          in various sectors. I'm actively seeking new projects to bring
-          captivating online stores to life. Let's collaborate and create an
-          impactful e-commerce presence!.
+          challenges, I have sharpened my frontend development skills to deliver
+          exceptional user interfaces. Finally I bring a
+          diverse skill set acquired through the bootcamp(s), self-learning &
+          over 10+ years of IT experience working in various sectors. I am
+          actively seeking new projects to bring captivating online stores to
+          life. Let's collaborate and create an impactful e-commerce presence!.
         </p>
       </div>
     </div>
