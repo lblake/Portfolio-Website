@@ -63,7 +63,7 @@ export const projects = {
     image: zayImage,
     link: 'https://lloydblake.dev/zay',
     github:
-      'https://github.com/lblake/Front-End-Projects/tree/main/3-column-preview-card-component',
+      'https://github.com/lblake/FreeMote-Projects/tree/main/zay-yo',
   },
   galaxy: {
     title: 'Single Product Shopify Store',
