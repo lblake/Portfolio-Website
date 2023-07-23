@@ -1,5 +1,5 @@
 .container {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .text {
@@ -14,4 +14,20 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+}
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  position: absolute;
+  top: 10%;
+  left: 49.5%; 
+  transform: translate(-50%, -50%);
+  color: white;
+  border-style: solid;
+  padding: 10px;
+  
 }
