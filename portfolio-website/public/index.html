@@ -85,7 +85,13 @@
     <title>Portfolio Website</title>
   </head>
   <body>
-    <form name="contactForm" method="POST" netlify hidden>
+    <form
+      name="contactForm"
+      method="POST"
+      netlify-honeypot="bot-field"
+      netlify
+      hidden
+    >
       <!-- <p class="hidden">
         <label>
           Don’t fill this out if you’re human: <input name="bot-field" />

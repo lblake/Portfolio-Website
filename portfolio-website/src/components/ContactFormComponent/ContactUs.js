@@ -85,6 +85,7 @@ function ContactUs() {
     name: '',
     email: '',
     message: '',
+    botField: '',
   });
 
   const handleChange = (e) => {
@@ -93,6 +94,13 @@ function ContactUs() {
   };
 
   const handleSubmit = (e) => {
+    // Check if the honeypot field is filled, indicating potential bot activity
+    if (formData.botField) {
+      // Handle the bot activity, e.g., log it or prevent form submission
+      console.log('Bot activity detected!');
+      return;
+    }
+
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -111,6 +119,7 @@ function ContactUs() {
       name: '',
       email: '',
       message: '',
+      botField: '',
     });
   };
 
@@ -146,7 +155,20 @@ function ContactUs() {
           required
           rows='8'
         />
-
+        <input
+          type='text'
+          name='botField'
+          value={formData.botField}
+          onChange={handleChange}
+          style={{ display: 'none' }}
+        />
+        <input
+          type='text'
+          name='botField'
+          value={formData.botField}
+          onChange={handleChange}
+          style={{ display: 'none' }}
+        />
         <Button type='submit'>Submit</Button>
       </Form>
     </FormContainer>
