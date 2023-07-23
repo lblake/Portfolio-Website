@@ -47,7 +47,7 @@
 
 .overLay {
   position: absolute;
-  top: 0;
+  top: -10px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -58,6 +58,7 @@
   /* background-color: rgb(243, 242, 242); */
   /* background-color: #fafafa; */
   background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px 10px 10px 10px;
   z-index: 2;
 }
 
