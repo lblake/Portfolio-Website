@@ -75,7 +75,7 @@
   .aboutLeft {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom:10rem;
+    margin-bottom:9rem;
   }
 
   .aboutRight {
