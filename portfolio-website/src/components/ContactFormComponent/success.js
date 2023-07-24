@@ -6,7 +6,7 @@ import image from './success-image.png';
 function success() {
   return (
     <div className={styles.container}>
-      <p className={styles.heading}>Your Message Has Been Sent</p> 
+      <p className={styles.heading}>Your Message Has Been Recieved</p> 
 
       <img className={styles.successImage} src={image} alt='' />
       <p className={styles.text}>
