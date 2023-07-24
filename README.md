@@ -1,5 +1,5 @@
 # Portfolio-Website
 
-This site is to showcase the frontend projects I completed..
+This portfolio website showcases the shopify stores and frontend projects I've completed
 
 https://lloydblake.dev/
