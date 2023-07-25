@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <div className={styles.navbar}>
       <Link to='/'>
-        <img className={styles.icon} src={image} alt='icon' />
+        <img className={styles.navbar} src={image} alt='icon' />
       </Link>
       <ul className={styles.navlink}>
         <li className={styles.item}>

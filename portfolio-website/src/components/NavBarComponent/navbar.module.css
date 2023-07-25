@@ -30,12 +30,12 @@
   border-style: none;
 }
 
-.navbar {
+/* .navbar {
   width: 100vw;
   height: 7.5vh;
   color: #fff;
   padding: 0 5vw;
-}
+} */
 
 .navbar {
   display: flex;
@@ -43,7 +43,7 @@
   justify-content: space-between;
 }
 
-.icon {
+.navbar img{
   width: 40px;
   height: 40px;
   background-color: black;
