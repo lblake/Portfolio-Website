@@ -2,12 +2,50 @@
   font-family: 'Exo', sans-serif;
   font-weight: 700;
   color: #437dcb;
-  font-size: 40px;
+  font-size: 20px;
   /* background-color: #a6c2e6; */
   padding: 10px;
   cursor: pointer;
   text-align: center;
   margin-top: 0;
   margin-bottom: 0;
-  /* text-decoration: underline; */
+}
+
+.navlink {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item:not(:first-of-type) {
+  margin-left: 1.5em;
+}
+
+.navlink {
+  color: #fff;
+  text-decoration: none;
+  border-style: none;
+  font-weight: 500;
+}
+.navlink li {
+  border-style: none;
+}
+
+.navbar {
+  width: 100vw;
+  height: 7.5vh;
+  color: #fff;
+  padding: 0 5vw;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  opacity: 1;
 }

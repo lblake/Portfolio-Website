@@ -125,7 +125,7 @@ function ContactUs() {
 
   return (
     <FormContainer>
-      <Form name='contactform' method='POST' onSubmit={handleSubmit}>
+      <Form id="contact"name='contactform' method='POST' onSubmit={handleSubmit}>
         <Label htmlFor='name'>Name:</Label>
         <Input
           type='text'
