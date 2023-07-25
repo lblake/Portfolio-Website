@@ -125,13 +125,13 @@ function ContactUs() {
 
   return (
     <FormContainer>
-      <Form id="contact"name='contactform' method='POST' onSubmit={handleSubmit}>
+      <Form name='contactform' method='POST' onSubmit={handleSubmit}>
         <Label htmlFor='name'>Name:</Label>
         <Input
           type='text'
           id='name'
           name='name'
-          placeholder="Enter your name:"
+          placeholder='Enter your name:'
           value={formData.name}
           onChange={handleChange}
           required
@@ -142,7 +142,7 @@ function ContactUs() {
           type='email'
           id='email'
           name='email'
-          placeholder="Enter your email:"
+          placeholder='Enter your email:'
           value={formData.email}
           onChange={handleChange}
           required
@@ -152,7 +152,7 @@ function ContactUs() {
         <TextArea
           id='message'
           name='message'
-          placeholder="Enter your message:"
+          placeholder='Enter your message:'
           value={formData.message}
           onChange={handleChange}
           required
