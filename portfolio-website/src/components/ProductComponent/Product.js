@@ -17,6 +17,7 @@ export default function Product({ link, img, description }) {
           <Link
             className={styles.button}
             to={link}
+            target="_blank"
         
           >
             Learn More
