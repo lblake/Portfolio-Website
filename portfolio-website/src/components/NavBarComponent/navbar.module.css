@@ -43,7 +43,7 @@
   justify-content: space-between;
 }
 
-.navbar img{
+.navbar img {
   width: 40px;
   height: 40px;
   background-color: black;
@@ -51,8 +51,7 @@
 }
 
 @media only screen and (min-width: 992px) {
-   .navbar img {
-    margin-left:10px;
-
+  .navbar img {
+    margin-left: 10px;
   }
 }
