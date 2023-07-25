@@ -4,7 +4,7 @@
   color: #437dcb;
   font-size: 20px;
   /* background-color: #a6c2e6; */
-  padding: 10px;
+  /* padding: 10px; */
   cursor: pointer;
   text-align: center;
   margin-top: 0;
@@ -48,4 +48,11 @@
   height: 40px;
   background-color: black;
   opacity: 1;
+}
+
+@media only screen and (min-width: 992px) {
+   .navbar img {
+    margin-left:10px;
+
+  }
 }
