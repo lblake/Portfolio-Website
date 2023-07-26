@@ -32,7 +32,7 @@ export default function ProjectPage() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            Website
+            Live Demo
           </a>
           <a
             className={styles.button}
