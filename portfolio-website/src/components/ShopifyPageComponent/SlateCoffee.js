@@ -5,7 +5,7 @@ import styles from './shopify.module.css';
 function SlateCoffee() {
   return (
     <div>
-      <h1 className={styles.heading}>Coffee Brand Shopify Store Demo</h1>
+      <h1 className={styles.heading}>Beverage Brand Shopify Store Demo</h1>
       <div className={styles.container}>
         <iframe
           src={'https://app.screencast.com/NWaxwuwt28nYc/e'}

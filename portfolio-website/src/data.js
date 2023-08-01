@@ -3,19 +3,19 @@ export const products = [
     id: 1,
     img: '/images/galaxy1.png',
     link: '/projects/galaxy',
-    description: 'React API Weather App',
+    description: 'Single Product Store',
   },
   {
     id: 2,
     img: '/images/zay-yo.png',
     link: '/projects/zay',
-    description: 'React API Weather App',
+    description: 'Fashion Store',
   },
   {
     id: 3,
     img: '/images/slate2.png',
     link: '/projects/slate',
-    description: 'React API Weather App',
+    description: 'Beverage Store',
   },
   {
     id: 4,
