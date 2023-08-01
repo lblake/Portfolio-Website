@@ -80,6 +80,7 @@
 .introTitleDescription {
   visibility: hidden;
   font-style: italic;
+  font-weight: 400;
 }
 
 .introImage {
@@ -132,7 +133,7 @@
     line-height: 1.5;
     visibility: visible;
     width: 70%;
-    font-weight: 500;
+    font-weight: 400;
   }
   .introContainer {
     height: 30vh;
