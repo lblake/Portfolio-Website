@@ -1,0 +1,32 @@
+.servicesContainer {
+  max-width: 768px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+.servicesTitle {
+  font-family: 'Exo', 'sans-serif';
+  font-size: 40px;
+  text-align: center;
+  color: #437dcb;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.services {
+  padding: 10px;
+  margin: 5px auto;
+  border: solid 3px #977323;
+  height: 50px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 10px;
+  color: #a1bee5;
+  font-size: 20px;
+}

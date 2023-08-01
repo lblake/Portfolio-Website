@@ -35,10 +35,4 @@ export const products = [
     link: '/projects/users',
     description: 'React API Users App',
   },
-  // {
-  //   id: 4,
-  //   img: '/images/react-weather.png',
-  //   link: '/projects/weather',
-  //   description: 'React API Weather App',
-  // },
 ];

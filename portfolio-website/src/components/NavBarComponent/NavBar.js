@@ -25,11 +25,6 @@ export default function NavBar() {
             <h2 className={styles.heading}>Contact</h2>
           </Link>
         </li>
-        {/* <li className='{styles.item}'>
-          <Link to='/'>
-            <h2 className={styles.heading}>Contact</h2>
-          </Link>
-        </li> */}
       </ul>
     </div>
   );

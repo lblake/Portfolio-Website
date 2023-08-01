@@ -11,6 +11,11 @@
   margin-bottom: 0;
 }
 
+
+.heading:hover {
+  color:#d78c30;
+}
+
 .navlink {
   display: flex;
   list-style: none;

@@ -3,7 +3,7 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .aboutCardBackground {
@@ -14,14 +14,14 @@
 }
 
 .aboutCard {
-  width: 90%;
+  width: 100%;
   height: 30vh;
   border-radius: 30px;
   position: relative;
   overflow: hidden;
   margin-bottom: 50px;
-  margin-right:0px;
-  margin-left: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
   border: 5px solid #977322;
 }
 
@@ -44,40 +44,79 @@
 }
 
 .aboutDescription {
-  font-weight: 500;
+  /* font-weight: 500; */
   line-height: 1.5em;
   color: #a1bee5;
   margin-bottom: 0px;
   max-width: 1070px;
   margin: 0 auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
-@media only screen and (min-width: 768px) {
-  .aboutCard {
-    margin-top: 50px;
-  }
-  .aboutDescription {
-    padding-right: 50px;
-    padding-left: 50px;
-    font-size: 20px;
-  }
+.aboutLeft{
+  /* margin-top:20px; */
+}
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.buttonContainer button {
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  /* display:flex;
+  flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  color: #437dcb; */
+  font-size: 16px;
+  font-weight: 500;
+  border: 5px solid #977323;
+  background-color: black;
+  color: #437dcb;
+  /* padding: 0px; */
+  height: 80px;
+  width: 180px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 10px auto;
+  /* margin-top: 10px; */
+  margin-left: 20px;
+  padding: 0px;
+}
+
+.buttonContainer button:hover {
+  background-color: #d78c30;
+  color: #fafafa;
 }
 
 @media only screen and (min-width: 992px) {
   .aboutContainer {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    /* CHANGE THIS TO DISPLAY IMAGE ABOVE TEXT */
+    flex-direction: column;
+    /* align-items: center; */
     margin: 0 auto;
     max-width: 1048px;
   }
 
-  .aboutLeft {
+  /* .aboutLeft {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom:9rem;
-  }
+    margin-bottom: 50px;
+    margin-top: 0px;
+  } */
 
+  .aboutLeft{
+    margin-top:0px;
+  }
   .aboutRight {
     text-align: left;
     padding-left: 10px;
@@ -96,6 +135,33 @@
   }
 
   .aboutCard {
-    margin: 0px 0px 0px 50px;
+    /* margin: 0px 0px 0px 0px; */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutCard {
+    margin-top: 0px;
+  }
+
+  .aboutLeft{
+    margin-top: 100px;
+  }
+  .aboutDescription {
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .aboutLeft {
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutLeft {
+    margin-top: 100px;
   }
 }

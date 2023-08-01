@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './about.module.css';
-import image from './my-test-image.png';
+import image from './my-test-image.jpg';
+import {Link } from 'react-scroll'
 
 export default function About() {
   return (
@@ -11,19 +12,39 @@ export default function About() {
           <img src={image} alt='desktop' className={styles.aboutImage} />
         </div>
       </div>
+      <div className={styles.buttonContainer}>
+            <Link
+              to='contact'
+              spy={true}
+              smooth={true}
+              offset={300}
+              duration={1000}
+            >
+              <button>Contact Me</button>
+            </Link>
+            <Link
+              to='projects'
+              spy={true}
+              smooth={true}
+              offset={5}
+              duration={1000}
+            >
+              <button >View Projects</button>
+            </Link>
+          </div>
       <div className={styles.aboutRight}>
-        <h1 className={styles.aboutTitle}>About Me</h1>
+        {/* <h1 className={styles.aboutTitle}>About Me</h1> */}
 
         <p className={styles.aboutDescription}>
-          I am a{' '}
-          <a
+          I have{' '}
+          {/* <a
             href='https://github.com/lblake'
             target='_blank'
             rel='noopener noreferrer'
           >
             Frontend Shopify Developer
-          </a>{' '}
-          with expertise in creating visually stunning and user-friendly
+          </a>{' '} */}
+           expertise in creating visually stunning and user-friendly
           e-commerce experiences. I recently completed a comprehensive Freelance
           Shopify Developer Bootcamp run by{' '}
           <a

@@ -21,12 +21,12 @@
   margin-top: 20px;
 }
 
-.text {
+/* .text {
   border: 2px solid #977322;
   font-weight: 500;
   padding: 2px;
   border-radius: 5px;
-}
+} */
 
 .icon {
   width: 80px;
@@ -45,8 +45,8 @@ li {
 }
 
 li:hover .text {
-  background-color: #d88e31; 
-  cursor: pointer
+  background-color: #d88e31;
+  cursor: pointer;
   /* margin-top: -5px; */
   /* visibility: visible; */
 }

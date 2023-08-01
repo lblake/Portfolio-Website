@@ -65,7 +65,7 @@ const Button = styled.button`
   padding-left: 150px;
   padding-right: 150px;
   background-color: #437dcb;
-  color: white;
+  color: #fafafa;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -125,7 +125,12 @@ function ContactUs() {
 
   return (
     <FormContainer>
-      <Form name='contactform' method='POST' onSubmit={handleSubmit}>
+      <Form
+        id='contact'
+        name='contactform'
+        method='POST'
+        onSubmit={handleSubmit}
+      >
         <Label htmlFor='name'>Name:</Label>
         <Input
           type='text'
@@ -135,6 +140,13 @@ function ContactUs() {
           value={formData.name}
           onChange={handleChange}
           required
+        />
+        <input
+          type='text'
+          name='botField'
+          value={formData.botField}
+          onChange={handleChange}
+          style={{ display: 'none' }}
         />
 
         <Label htmlFor='email'>Email:</Label>
@@ -147,6 +159,13 @@ function ContactUs() {
           onChange={handleChange}
           required
         />
+        <input
+          type='text'
+          name='botField'
+          value={formData.botField}
+          onChange={handleChange}
+          style={{ display: 'none' }}
+        />
 
         <Label htmlFor='message'>Message:</Label>
         <TextArea
@@ -157,13 +176,6 @@ function ContactUs() {
           onChange={handleChange}
           required
           rows='8'
-        />
-        <input
-          type='text'
-          name='botField'
-          value={formData.botField}
-          onChange={handleChange}
-          style={{ display: 'none' }}
         />
         <input
           type='text'

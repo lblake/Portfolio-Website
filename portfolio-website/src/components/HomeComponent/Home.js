@@ -1,11 +1,12 @@
-import React, {useEffect, useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import Intro from '../IntroComponent/intro';
 import About from '../AboutComponent/About';
 import ProductList from '../ProductListComponent/ProductList';
 import Contact from '../ContactComponent/Contact';
 import Footer from '../FooterComponent/Footer';
 import Skills from '../SkillsComponent/Skills';
-import ContactForm from '../ContactFormComponent/ContactUs'
+import ContactForm from '../ContactFormComponent/ContactUs';
+import Services from '../ServicesComponent/Services';
 
 export default function Home() {
   const [reload] = useState(false);
@@ -23,10 +24,12 @@ export default function Home() {
     <div>
       <Intro />
       <About />
+      <Services />
       <ProductList />
       <Skills />
+      
       <Contact />
-      <ContactForm/>
+      <ContactForm />
       <Footer />
     </div>
   );

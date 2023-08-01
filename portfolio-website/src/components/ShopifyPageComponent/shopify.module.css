@@ -15,8 +15,8 @@ iframe {
   display: block; /* iframes are inline by default */
   background: black;
   border: none;
-  height: 80vh; /* Viewport-relative units */
-  width: 80vw; 
+  height: 60vh; /* Viewport-relative units */
+  width: 60vw; 
   border: solid 5px #437dcb; 
   border-radius: 30px;
   
