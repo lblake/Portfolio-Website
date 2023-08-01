@@ -18,7 +18,7 @@ export default function About() {
               spy={true}
               smooth={true}
               offset={300}
-              duration={1000}
+              duration={3000}
             >
               <button>Contact Me</button>
             </Link>
@@ -27,7 +27,7 @@ export default function About() {
               spy={true}
               smooth={true}
               offset={5}
-              duration={1000}
+              duration={2000}
             >
               <button >View Projects</button>
             </Link>
