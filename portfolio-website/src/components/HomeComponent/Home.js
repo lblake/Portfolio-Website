@@ -26,10 +26,9 @@ export default function Home() {
       <About />
       <Services />
       <ProductList />
-      <Skills />
-      
       <Contact />
       <ContactForm />
+      <Skills />
       <Footer />
     </div>
   );

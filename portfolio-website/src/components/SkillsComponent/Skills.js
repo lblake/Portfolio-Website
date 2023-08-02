@@ -5,7 +5,7 @@ import { icons } from './skillsData';
 export default function skills() {
   return (
     <div className={styles.skillsContainer}>
-      <h1 className={styles.skillsTitle}>Skills</h1>
+      {/* <h1 className={styles.skillsTitle}>Skills</h1> */}
       <ul className={styles.skillsList}>
         {icons.map((icon) => (
           <li className={styles.skillsList} key={icon.id}>
