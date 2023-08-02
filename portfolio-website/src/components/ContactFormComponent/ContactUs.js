@@ -60,13 +60,12 @@ const Button = styled.button`
   align-items: center;
   justify-content: center;
   font-family: Montserrat, sans-serif;
-  font-weight: 500;
+  font-weight: 600;
   padding: 10px;
   padding-left: 150px;
   padding-right: 150px;
   background-color: black;
   color: #427bc8;
-  /* border: none; */
   border: 5px solid #977323;
 
   border-radius: 4px;
