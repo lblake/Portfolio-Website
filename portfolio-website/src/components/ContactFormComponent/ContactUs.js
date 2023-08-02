@@ -60,13 +60,15 @@ const Button = styled.button`
   align-items: center;
   justify-content: center;
   font-family: Montserrat, sans-serif;
-  font-weight: 16px;
+  font-weight: 500;
   padding: 10px;
   padding-left: 150px;
   padding-right: 150px;
-  background-color: #437dcb;
-  color: #fafafa;
-  border: none;
+  background-color: black;
+  color: #427bc8;
+  /* border: none; */
+  border: 5px solid #977323;
+
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
@@ -75,6 +77,7 @@ const Button = styled.button`
 
   &:hover {
     background-color: #d78c30;
+    color: #fff;
   }
 `;
 
