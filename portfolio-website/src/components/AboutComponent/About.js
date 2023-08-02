@@ -29,7 +29,7 @@ export default function About() {
               offset={5}
               duration={2000}
             >
-              <button >View Projects</button>
+              <button >My Work</button>
             </Link>
           </div>
       <div className={styles.aboutRight}>
