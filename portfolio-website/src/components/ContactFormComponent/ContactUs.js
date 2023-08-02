@@ -126,7 +126,7 @@ function ContactUs() {
   return (
     <FormContainer>
       <Form
-        id='contact'
+        id='contactMe'
         name='contactform'
         method='POST'
         onSubmit={handleSubmit}

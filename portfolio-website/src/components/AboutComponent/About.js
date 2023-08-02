@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './about.module.css';
 import image from './my-test-image.jpg';
-import {Link } from 'react-scroll'
+import { Link } from 'react-scroll';
 
 export default function About() {
   return (
@@ -12,26 +12,29 @@ export default function About() {
           <img src={image} alt='desktop' className={styles.aboutImage} />
         </div>
       </div>
-      <div className={styles.buttonContainer}>
-            <Link
-              to='contact'
-              spy={true}
-              smooth={true}
-              offset={300}
-              duration={3000}
-            >
-              <button>Contact Me</button>
-            </Link>
-            <Link
-              to='projects'
-              spy={true}
-              smooth={true}
-              offset={5}
-              duration={2000}
-            >
-              <button >My Work</button>
-            </Link>
-          </div>
+     <div className={styles.buttonContainer}>
+        <Link
+          activeClass='active' 
+          to='contactMe'
+          spy={true}
+          smooth={true}
+          offset={1000}
+          duration={3000}
+        >
+          <button>Contact Me</button>
+        </Link>
+        <Link
+          activeClass='active'
+          to='projects'
+          spy={true}
+          smooth={true}
+          offset={5}
+          duration={2000}
+          
+        >
+          <button>My Work</button>
+        </Link>
+      </div>
       <div className={styles.aboutRight}>
         {/* <h1 className={styles.aboutTitle}>About Me</h1> */}
 
@@ -44,9 +47,9 @@ export default function About() {
           >
             Frontend Shopify Developer
           </a>{' '} */}
-           expertise in creating visually stunning and user-friendly
-          e-commerce experiences. I recently completed a comprehensive Freelance
-          Shopify Developer Bootcamp run by{' '}
+          expertise in creating visually stunning and user-friendly e-commerce
+          experiences. I recently completed a comprehensive Freelance Shopify
+          Developer Bootcamp run by{' '}
           <a
             href='https://www.freemote.com'
             target='_blank'
@@ -82,11 +85,11 @@ export default function About() {
             Frontend Mentor{' '}
           </a>
           challenges, I have sharpened my frontend development skills to deliver
-          exceptional user interfaces. Finally I bring a
-          diverse skill set acquired through the bootcamp(s), self-learning &
-          over 10+ years of IT experience working in various sectors. I am
-          actively seeking new projects to bring captivating online stores to
-          life. Let's collaborate and create an impactful e-commerce presence!.
+          exceptional user interfaces. Finally I bring a diverse skill set
+          acquired through the bootcamp(s), self-learning & over 10+ years of IT
+          experience working in various sectors. I am actively seeking new
+          projects to bring captivating online stores to life. Let's collaborate
+          and create an impactful e-commerce presence!.
         </p>
       </div>
     </div>
