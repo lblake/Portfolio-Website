@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './success.module.css';
 import Footer from '../FooterComponent/Footer';
 import NavBar from '../NavBarComponent/NavBar';
-import image from './success-image.jpg';
+import image from './success-image.avif';
 
 function success() {
   return (
