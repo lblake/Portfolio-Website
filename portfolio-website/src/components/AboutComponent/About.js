@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './about.module.css';
-import image from './my-test-image.jpg';
+import image from './my-image.avif';
 import { Link } from 'react-scroll';
 
 export default function About() {
