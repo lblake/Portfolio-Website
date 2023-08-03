@@ -1,9 +1,9 @@
-import pricingImage from './images/Pricing.jpg';
+import pricingImage from './images/Pricing.avif';
 import weatherImage from './images/Weather.jpeg';
-import columnImage from './images/Blocks.jpg';
-import filterImage from './images/Filter.jpg';
-import slateImage from './images/Slate.jpg';
-import galaxyImage from './images/Galaxy.jpg';
+import columnImage from './images/Blocks.avif';
+import filterImage from './images/Filter.avif';
+import slateImage from './images/Slate.avif';
+import galaxyImage from './images/Galaxy.avif';
 import zayImage from './images/Zay.avif';
 
 export const projects = {
