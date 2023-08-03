@@ -4,7 +4,7 @@ import columnImage from './images/Blocks.jpg';
 import filterImage from './images/Filter.jpg';
 import slateImage from './images/Slate.jpg';
 import galaxyImage from './images/Galaxy.jpg';
-import zayImage from './images/Zay.jpg';
+import zayImage from './images/Zay.avif';
 
 export const projects = {
   pricing: {

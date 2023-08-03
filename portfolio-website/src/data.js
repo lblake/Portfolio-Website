@@ -13,7 +13,7 @@ export const products = [
   },
   {
     id: 3,
-    img: '/images/slate2.png',
+    img: '/images/slate3.png',
     link: '/projects/slate',
     description: 'Beverage Store',
   },
