@@ -1,15 +1,19 @@
 import React from 'react';
 import styles from './about.module.css';
-import image from './my-image.avif';
+// import image from './my-image.avif';
 import { Link } from 'react-scroll';
 
 export default function About() {
+
+  const image = new Image();
+  image.src = require('./my-image.avif')
+
   return (
     <div className={styles.aboutContainer}>
       <div className={styles.aboutLeft}>
         <div className={styles.aboutCardBackground}></div>
         <div className={styles.aboutCard}>
-          <img src={image} alt='desktop' className={styles.aboutImage} />
+          <img src={image.src} alt='desktop' className={styles.aboutImage} loading="lazy"/>
         </div>
       </div>
      <div className={styles.buttonContainer}>
