@@ -12,13 +12,13 @@ const encode = (data) => {
 const FormContainer = styled.div`
   max-width: 400px;
   margin: 0 auto;
-  border-style: solid red;
+  /* border-style: solid red; */
 `;
 
 const Form = styled.form`
   display: flex;
   flex-direction: column;
-  border-style: solid red;
+  /* border-style: solid red; */
   /* padding-bottom: 100px; */
 `;
 
@@ -34,9 +34,9 @@ const Input = styled.input.attrs((props) => ({
     backgroundColor:
       props.id === 'name' || props.id === 'email' ? '#fafafa' : '#f0f0f0',
     border:
-      props.id === 'name' || props.id === 'email'
-        ? 'solid 5px #977323'
-        : '1px solid #ccc',
+      (props.id === 'name' || props.id === 'email') && !props.value
+        ? 'solid 5px red'
+        : 'solid  5px #977323',
   },
 }))`
   padding: 8px;
@@ -46,10 +46,14 @@ const Input = styled.input.attrs((props) => ({
   width: 100%;
 `;
 
-const TextArea = styled.textarea`
+const TextArea = styled.textarea.attrs((props) => ({
+  style: {
+    borderColor: props.hasMessage ? '#977323' : 'red',
+  },
+}))`
   padding: 8px;
   margin-bottom: 16px;
-  border: 5px solid #977323;
+  border: 5px solid red;
   border-radius: 4px;
   background-color: #fafafa;
   width: 100%;
@@ -178,6 +182,8 @@ function ContactUs() {
           onChange={handleChange}
           required
           rows='8'
+          hasMessage={formData.message.trim() !== ''}
+
         />
         <input
           type='text'
