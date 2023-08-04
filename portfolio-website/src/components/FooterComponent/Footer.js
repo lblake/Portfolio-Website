@@ -30,19 +30,19 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href='https://www.instagram.com/lloydblake.dev/'
+              href='https://github.com/lblake'
               target='_blank'
               rel='noopener noreferrer'
               title='github'
             >
-              <i className='fa fa-instagram fa-2x' aria-hidden='true'></i>
+              <i className='fa fa-github fa-2x' aria-hidden='true'></i>
             </a>
           </li>
         </ul>
       </div>
       <p>
       &copy; {new Date().getFullYear()}{' '}
-        <a href='https://lloydblake.dev/'>
+        <a className={styles.link}href='https://lloydblake.dev/'>
           {' '}
           <i class='fa fa-globe'></i> lloydblake.dev
         </a>{' '}
