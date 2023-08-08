@@ -34,8 +34,8 @@ const Input = styled.input.attrs((props) => ({
     backgroundColor:
       props.id === 'name' || props.id === 'email' ? '#fafafa' : '#f0f0f0',
     border:
-      (props.id === 'name' || props.id === 'email') && !props.value
-        ? 'solid 5px red'
+      (props.id === 'name' || props.id === 'email' ) && !props.value
+        ? 'solid 5px #437dcb'
         : 'solid  5px #977323',
   },
 }))`
@@ -48,7 +48,7 @@ const Input = styled.input.attrs((props) => ({
 
 const TextArea = styled.textarea.attrs((props) => ({
   style: {
-    borderColor: props.hasMessage ? '#977323' : 'red',
+    borderColor: props.$messagepresent === 'true' ? '#977323' : '#437dcb',
   },
 }))`
   padding: 8px;
@@ -64,11 +64,11 @@ const Button = styled.button`
   align-items: center;
   justify-content: center;
   font-family: Montserrat, sans-serif;
-  font-weight: 600;
+  font-weight: 500;
   padding: 10px;
   padding-left: 150px;
   padding-right: 150px;
-  background-color: black;
+  background-color: #d78c30;
   color: #427bc8;
   border: 5px solid #977323;
 
@@ -79,7 +79,7 @@ const Button = styled.button`
   margin-top: 20px;
 
   &:hover {
-    background-color: #d78c30;
+    /* background-color: #d78c30; */
     color: #fff;
   }
 `;
@@ -103,7 +103,7 @@ function ContactUs() {
     // Check if the honeypot field is filled, indicating potential bot activity
     if (formData.botField) {
       // Handle the bot activity, e.g., log it or prevent form submission
-      console.log('Bot activity detected!');
+      // console.log('Bot activity detected!');
       return;
     }
 
@@ -182,7 +182,7 @@ function ContactUs() {
           onChange={handleChange}
           required
           rows='8'
-          hasMessage={formData.message.trim() !== ''}
+          $messagepresent={formData.message.trim() !== '' ? 'true' : 'false'}
 
         />
         <input

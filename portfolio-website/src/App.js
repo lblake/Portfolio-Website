@@ -16,8 +16,8 @@ function App() {
       <Router>
         <Routes>
           <Route exact path='/' element={<Home />} />
-          {/* <Route exact path='/' element={<IntroPage />} />
-          <Route exact path='/contact' element={<ContactPage />} /> */}
+         {/* <Route exact path='/' element={<IntroPage />} /> */}
+         {/* <Route exact path='/contact' element={<ContactPage />} />  */}
           <Route exact path='/zay' element={<ZayYoPage />} />
           <Route exact path='/slate' element={<SlateCoffeePage />} />
           <Route exact path='/galaxy' element={<GalaxyBoxPage />} />

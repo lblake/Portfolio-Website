@@ -25,7 +25,7 @@ export default function About() {
           offset={1000}
           duration={3000}
         >
-          <button>Contact Me</button>
+          <button className={styles.contactButton}>Contact Me</button>
         </Link>
         <Link
           activeClass='active'
@@ -36,10 +36,10 @@ export default function About() {
           duration={2000}
           
         >
-          <button>My Work</button>
+          <button className={styles.workButton}>My Work</button>
         </Link>
       </div>
-      <div className={styles.aboutRight}>
+      <div id="aboutMe" className={styles.aboutRight}>
         {/* <h1 className={styles.aboutTitle}>About Me</h1> */}
 
         <p className={styles.aboutDescription}>

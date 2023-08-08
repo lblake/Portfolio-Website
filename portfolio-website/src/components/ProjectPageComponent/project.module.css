@@ -65,8 +65,40 @@
   justify-content: center;
 }
 
-.button:hover {
+.liveButton {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  color: #437dcb;
+  border: 5px solid #977322;
   background-color: #d88e31;
+  margin: 25px 5px 0px 5px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 10px;
+}
+
+.liveButton:hover {
+  color: #fafafa;
+}
+
+.gitButton {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  display: inline-block;
+  color: #437dcb;
+  border: 5px solid #977322;
+  background-color: black;
+  margin: 25px 5px 0px 5px;
+  padding: 10px;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 10px;
+}
+.gitButton:hover {
   color: #fafafa;
 }
 a {

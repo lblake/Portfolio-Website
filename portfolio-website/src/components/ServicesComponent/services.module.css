@@ -3,12 +3,13 @@
   margin: 0 auto;
   margin-bottom: 20px;
   display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .servicesTitle {
   font-family: 'Exo', 'sans-serif';
   font-size: 40px;
+  line-height: 48px;
   text-align: center;
   color: #437dcb;
   margin: 0 auto;
@@ -29,4 +30,14 @@
   margin-top: 10px;
   color: #a1bee5;
   font-size: 20px;
+}
+
+.tooltip {
+  opacity: 1;
+}
+.tooltip li {
+  border-style: none;
+  color: #a1bee5;
+  padding: 0px;
+  font-weight: 700;
 }

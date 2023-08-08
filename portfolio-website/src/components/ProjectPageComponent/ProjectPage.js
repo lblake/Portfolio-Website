@@ -27,7 +27,7 @@ export default function ProjectPage() {
         ></p>
         <div className={styles.center}>
           <a
-            className={styles.button}
+            className={styles.liveButton}
             href={projects[projectName].link}
             target='_blank'
             rel='noopener noreferrer'
@@ -35,7 +35,7 @@ export default function ProjectPage() {
             Live Demo
           </a>
           <a
-            className={styles.button}
+            className={styles.gitButton}
             href={projects[projectName].github}
             target='_blank'
             rel='noopener noreferrer'

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './navbar.module.css';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import image from './icon1.png';
 
 export default function NavBar() {
@@ -16,14 +17,14 @@ export default function NavBar() {
           </Link>
         </li>
         <li className={styles.item}>
-          <Link to='/'>
+          <HashLink to='/#aboutMe'>
             <h2 className={styles.heading}>About</h2>
-          </Link>
+          </HashLink>
         </li>
         <li className={styles.item}>
-          <Link to='/'>
+          <HashLink to='/#contactMe'>
             <h2 className={styles.heading}>Contact</h2>
-          </Link>
+          </HashLink>
         </li>
       </ul>
     </div>

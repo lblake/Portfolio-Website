@@ -44,7 +44,7 @@ export default function Footer() {
       &copy; {new Date().getFullYear()}{' '}
         <a className={styles.link}href='https://lloydblake.dev/'>
           {' '}
-          <i class='fa fa-globe'></i> lloydblake.dev
+          <i className='fa fa-globe'></i> lloydblake.dev
         </a>{' '}
         POWERED BY REACT{' '}
       </p>
