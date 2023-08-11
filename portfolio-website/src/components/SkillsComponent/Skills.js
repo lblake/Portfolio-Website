@@ -9,15 +9,15 @@ export default function skills() {
       <ul className={styles.skillsList}>
         {icons.map((icon) => (
           <li className={styles.skillsList} key={icon.id}>
-            {/* <a
+            <a
               className={styles.button}
               href={icon.link}
               target='_blank'
               rel='noopener noreferrer'
-            > */}
+            >
               <img className={styles.icon}  src={icon.img} alt={icon.alt} />
               {/* <p className={styles.text}>More Info</p> */}
-            {/* </a> */}
+            </a>
           </li>
         ))}
       </ul>
