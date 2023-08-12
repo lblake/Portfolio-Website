@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    img: '/images/galaxy1.png',
+    img: '/images/galaxy-box.jpg',
     link: '/projects/galaxy',
     description: 'Single Product Store',
   },
