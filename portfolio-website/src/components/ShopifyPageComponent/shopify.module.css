@@ -12,13 +12,18 @@
 }
 
 iframe {
-  display: block; 
+  /* display: block; 
   background: black;
   border: none;
-  height: 360px; 
-  width: 640px; 
+  height: 100%; 
+  width: 100%; 
   border: solid 5px #437dcb; 
-  border-radius: 30px;
+  border-radius: 30px; */
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .heading {
