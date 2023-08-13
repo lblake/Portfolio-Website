@@ -3,14 +3,11 @@
   align-items: center;
   justify-content: center;
   margin: 20px 200px 200px 200px; */
-  
+
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
   height: 0;
-  
-  
-
 }
 
 iframe {
@@ -34,5 +31,4 @@ iframe {
   color: #437dcb;
   font-size: 40px;
   margin-top: 20px;
-  margin-bottom: 100px;
 }
