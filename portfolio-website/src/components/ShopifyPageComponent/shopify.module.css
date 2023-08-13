@@ -12,15 +12,13 @@
 }
 
 iframe {
-  display: block; /* iframes are inline by default */
+  display: block; 
   background: black;
   border: none;
-  height: 360px; /* Viewport-relative units */
+  height: 360px; 
   width: 640px; 
   border: solid 5px #437dcb; 
   border-radius: 30px;
-  
-  
 }
 
 .heading {

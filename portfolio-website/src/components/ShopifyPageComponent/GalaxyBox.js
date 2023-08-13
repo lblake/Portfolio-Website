@@ -11,12 +11,12 @@ function GalaxyBox() {
       
       <div className={styles.container}>
         <iframe
-          src={'https://app.screencast.com/NWaxwuwt28nYc/e'}
+          src={'https://www.youtube.com/embed/9b9Vf_4-bXI'}
           title='Shopify Store'
-          frameborder='0'
+          frameBorder='0'
           webkitallowfullscreen
           mozallowfullscreen
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </div>
       <Footer />
