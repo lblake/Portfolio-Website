@@ -10,12 +10,12 @@ function ZayYo() {
       <h1 className={styles.heading}>Fashion Brand Shopify Store Demo</h1>
       <div className={styles.container}>
          <iframe
-         src={'https://app.screencast.com/NWaxwuwt28nYc/e'}
+         src={'https://www.youtube.com/watch?v=hWn2E7o435I'}
           title='Shopify Store'
-          frameborder='0'
+          frameBorder='0'
           webkitallowfullscreen
           mozallowfullscreen
-          allowfullscreen
+          allowFullScreen
         ></iframe> 
       </div>
       <Footer />
