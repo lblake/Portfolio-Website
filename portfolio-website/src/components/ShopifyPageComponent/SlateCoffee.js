@@ -10,7 +10,7 @@ function SlateCoffee() {
       <h1 className={styles.heading}>Beverage Brand Shopify Store Demo</h1>
       <div className={styles.container}>
         <iframe
-          src={'https://app.screencast.com/NWaxwuwt28nYc/e'}
+          src={'https://www.youtube.com/embed/HDT19bdcIbw'}
           title='Shopify Store'
           frameborder='0'
           webkitallowfullscreen
