@@ -19,20 +19,20 @@ export const products = [
   },
   {
     id: 4,
+    img: '/images/react-api-users.png',
+    link: '/projects/users',
+    description: 'React API Users App',
+  },
+  {
+    id: 5,
     img: '/images/pricing-component-annually-screenshot.png',
     link: '/projects/pricing',
     description: 'CSS, HTML, JavaScript Component with Toggle',
   },
   {
-    id: 5,
+    id: 6,
     img: '/images/3-column-preview-card.png',
     link: '/projects/column',
     description: 'CSS, HTML 3 Column Preview Component',
-  },
-  {
-    id: 6,
-    img: '/images/react-api-users.png',
-    link: '/projects/users',
-    description: 'React API Users App',
   },
 ];
