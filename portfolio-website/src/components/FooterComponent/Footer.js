@@ -14,7 +14,7 @@ export default function Footer() {
               title='linkedin'
             >
               {' '}
-              <i className="fa fa-linkedin-square fa-2x" aria-hidden='true'></i>
+              <i className='fa fa-linkedin-square fa-2x' aria-hidden='true'></i>
             </a>
           </li>
           <li>
@@ -30,19 +30,20 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href='https://github.com/lblake'
+              href='https://www.upwork.com/freelancers/~014a8e2ab85e5795de?viewMode=1'
               target='_blank'
               rel='noopener noreferrer'
-              title='github'
+              title='upwork'
             >
-              <i className='fa fa-github fa-2x' aria-hidden='true'></i>
+              {/* <i className='fa fa-github fa-2x' aria-hidden='true'></i> */}
+              <img src='../images/upwork.png' alt='upwork' className={styles.socialIcon}  />
             </a>
           </li>
         </ul>
       </div>
       <p>
-      &copy; {new Date().getFullYear()}{' '}
-        <a className={styles.link}href='https://lloydblake.dev/'>
+        &copy; {new Date().getFullYear()}{' '}
+        <a className={styles.link} href='https://lloydblake.dev/'>
           {' '}
           <i className='fa fa-globe'></i> lloydblake.dev
         </a>{' '}
