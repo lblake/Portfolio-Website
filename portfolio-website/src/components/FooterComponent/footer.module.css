@@ -41,7 +41,7 @@ a {
   font-weight: 550;
 }
 
-img {
+.socialIcon {
   width:23px;
   height:24px;
   font-weight: 550;
@@ -50,7 +50,7 @@ img {
   border-radius: 3px;
 }
 
-img:hover {
+.socialIcon:hover {
   background-color: #d78c30;
 }
 @media only screen and (max-width: 320px) {
