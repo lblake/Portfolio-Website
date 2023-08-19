@@ -32,7 +32,7 @@ export default function ProjectPage() {
             target='_blank'
             rel='noopener noreferrer'
           >
-           Project
+           Demo
           </a>
           <a
             className={styles.gitButton}
