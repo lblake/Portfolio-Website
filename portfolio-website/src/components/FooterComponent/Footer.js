@@ -47,7 +47,7 @@ export default function Footer() {
           {' '}
           <i className='fa fa-globe'></i> lloydblake.dev
         </a>{' '}
-        POWERED BY REACT{' '}
+        Powered by React{' '}
       </p>
     </div>
   );
