@@ -35,8 +35,13 @@ export default function Footer() {
               rel='noopener noreferrer'
               title='upwork'
             >
-              {/* <i className='fa fa-github fa-2x' aria-hidden='true'></i> */}
-              <img src='../images/upwork.png' alt='upwork' className={styles.socialIcon}  />
+              {/* <i className='fa-brands fa-instagram fa-2x' aria-hidden='true'></i> */}
+              <img
+                src='../images/upwork.png'
+                alt='upwork'
+                className={styles.socialIcon}
+                aria-hidden='true'
+              />
             </a>
           </li>
         </ul>
