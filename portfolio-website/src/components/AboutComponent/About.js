@@ -4,21 +4,25 @@ import styles from './about.module.css';
 import { Link } from 'react-scroll';
 
 export default function About() {
-
   const image = new Image();
-  image.src = require('./my-image.avif')
+  image.src = require('./my-image.avif');
 
   return (
     <div className={styles.aboutContainer}>
       <div className={styles.aboutLeft}>
         <div className={styles.aboutCardBackground}></div>
         <div className={styles.aboutCard}>
-          <img src={image.src} alt='desktop' className={styles.aboutImage} loading="lazy"/>
+          <img
+            src={image.src}
+            alt='desktop'
+            className={styles.aboutImage}
+            loading='lazy'
+          />
         </div>
       </div>
-     <div className={styles.buttonContainer}>
+      <div className={styles.buttonContainer}>
         <Link
-          activeClass='active' 
+          activeClass='active'
           to='contactMe'
           spy={true}
           smooth={true}
@@ -34,12 +38,11 @@ export default function About() {
           smooth={true}
           offset={5}
           duration={2000}
-          
         >
           <button className={styles.workButton}>My Work</button>
         </Link>
       </div>
-      <div id="aboutMe" className={styles.aboutRight}>
+      <div id='aboutMe' className={styles.aboutRight}>
         {/* <h1 className={styles.aboutTitle}>About Me</h1> */}
 
         <p className={styles.aboutDescription}>
@@ -51,7 +54,7 @@ export default function About() {
           >
             Frontend Shopify Developer
           </a>{' '} */}
-          expertise in creating visually stunning and user-friendly e-commerce
+          expertise in creating visually stunning and user-friendly Shopify
           experiences. I recently completed a comprehensive Freelance Shopify
           Developer Bootcamp run by{' '}
           <a
@@ -62,7 +65,7 @@ export default function About() {
             Freemote.
           </a>{' '}
           Gaining a deeper understanding of the Shopify ecosystem and enhancing
-          Shopify themes with dynamic elements. Additionally, I completed a
+          Shopify themes with dynamic sections. Additionally, I also completed a
           Full-Stack coding bootcamp by{' '}
           <a
             href='https://www.techreturners.com/'
@@ -80,20 +83,20 @@ export default function About() {
             North Coders.
           </a>{' '}
           Equipping me with a broad range of skills including working as part of
-          team, React, Typescript, Javascript, CSS, & HTML. Through the {' '}
+          team, React, Typescript, Javascript, CSS, & HTML. I bring a diverse
+          skill set acquired through the bootcamp(s), self-learning & over 10+
+          years of IT experience working in various sectors. Finally through the {' '}
           <a
             href='https://lunatemplates.co/pages/shopify-course-for-designers'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Design Freedom on Shopify {' '} 
+            Design Freedom on Shopify {' '}
           </a>
-           course. I have sharpened my design skills using tools such as Figma & Adobe XD to create
-          Shopify stores from designs. Finally I bring a diverse skill set
-          acquired through the bootcamp(s), self-learning & over 10+ years of IT
-          experience working in various sectors. I am actively seeking new
-          projects to bring captivating Shopify stores to life. Let's collaborate
-          and create an impactful e-commerce presence!.
+          course. I have sharpened my design skills using tools such as Figma &
+          Adobe XD. To enable me to create any design on any Shopify theme. I am
+          actively seeking new projects to bring captivating Shopify stores to
+          life. Let's collaborate and create an impactful Shopify presence!.
         </p>
       </div>
     </div>
