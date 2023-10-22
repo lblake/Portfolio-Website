@@ -80,19 +80,19 @@ export default function About() {
             North Coders.
           </a>{' '}
           Equipping me with a broad range of skills including working as part of
-          team, React, Typescript, Javascript, CSS, & HTML. Through{' '}
+          team, React, Typescript, Javascript, CSS, & HTML. Through the {' '}
           <a
-            href='https://www.frontendmentor.io/challenges'
+            href='https://lunatemplates.co/pages/shopify-course-for-designers'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Frontend Mentor{' '}
+            Design Freedom on Shopify {' '} 
           </a>
-          challenges, I have sharpened my frontend development skills to deliver
-          exceptional user interfaces. Finally I bring a diverse skill set
+           course. I have sharpened my design skills using tools such as Figma & Adobe XD to create
+          Shopify stores from designs. Finally I bring a diverse skill set
           acquired through the bootcamp(s), self-learning & over 10+ years of IT
           experience working in various sectors. I am actively seeking new
-          projects to bring captivating online stores to life. Let's collaborate
+          projects to bring captivating Shopify stores to life. Let's collaborate
           and create an impactful e-commerce presence!.
         </p>
       </div>
