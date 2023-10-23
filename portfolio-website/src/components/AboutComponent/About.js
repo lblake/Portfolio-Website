@@ -64,7 +64,7 @@ export default function About() {
           >
             Freemote.
           </a>{' '}
-          Gaining a deeper understanding of the Shopify ecosystem and enhancing
+          Gaining a deeper understanding of the Shopify ecosystem including enhancing
           Shopify themes with dynamic sections. Additionally, I also completed a
           Full-Stack coding bootcamp by{' '}
           <a
