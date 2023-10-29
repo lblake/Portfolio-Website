@@ -30,12 +30,12 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href='https://github.com/lblake'
+              href='https://www.instagram.com/lloydblake.dev/'
               target='_blank'
               rel='noopener noreferrer'
               title='github'
             >
-              <i className='fa fa-github-square fa-2x' aria-hidden='true'></i>
+              <i className='fa fa-instagram fa-2x' aria-hidden='true'></i>
               {/* <img
                 src='../images/upwork.png'
                 alt='upwork'
