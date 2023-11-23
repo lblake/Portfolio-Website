@@ -8,7 +8,7 @@ export default function Footer() {
         <ul>
           <li>
             <a
-              href='https://www.linkedin.com/in/lloyd-blake-2411383/'
+              href='https://www.linkedin.com/in/shopifyfrontenddeveloper'
               target='_blank'
               rel='noopener noreferrer'
               title='linkedin'
