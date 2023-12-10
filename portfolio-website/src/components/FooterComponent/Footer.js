@@ -19,13 +19,13 @@ export default function Footer() {
           </li>
           <li>
             <a
-              href='https://www.facebook.com/profile.php?id=100094665382021'
+              href='https://github.com/lblake'
               target='_blank'
               rel='noopener noreferrer'
-              title='facebook'
+              title='github'
             >
               {' '}
-              <i className='fa fa-facebook-square fa-2x' aria-hidden='true'></i>
+              <i className='fa fa-github-square fa-2x' aria-hidden='true'></i>
             </a>
           </li>
           <li>
