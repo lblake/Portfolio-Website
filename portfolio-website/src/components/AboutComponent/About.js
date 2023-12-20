@@ -55,7 +55,7 @@ export default function About() {
             Frontend Shopify Developer
           </a>{' '} */}
           expertise in creating visually stunning and user-friendly Shopify
-          experiences. I recently completed a comprehensive Freelance Shopify
+          experiences. I've completed a comprehensive Shopify
           Developer Bootcamp run by{' '}
           <a
             href='https://www.freemote.com'
@@ -65,7 +65,7 @@ export default function About() {
             Freemote.
           </a>{' '}
           Gaining a deeper understanding of the Shopify ecosystem including enhancing
-          Shopify themes with dynamic sections. Additionally, I also completed a
+          Shopify themes with dynamic sections. Additionally, I've also completed a
           Full-Stack coding bootcamp by{' '}
           <a
             href='https://www.techreturners.com/'
@@ -93,10 +93,10 @@ export default function About() {
           >
             Design Freedom on Shopify {' '}
           </a>
-          course has been a game-changer for me. With newfound proficiency in Figma &
+          course has been a game-changer for me and for you. With newfound proficiency in Figma &
           Adobe XD, I'm well-equipped to breathe life into any design on any Shopify theme. I am
           actively seeking new projects to bring captivating Shopify stores to
-          life. Let's collaborate and create an impactful Shopify presence!.
+          life. Let's get to work creating an impactful Shopify presence together.
         </p>
       </div>
     </div>

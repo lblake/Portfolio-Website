@@ -15,9 +15,11 @@ function Intro() {
             </div>
           </div>
           <p className={styles.introTitleDescription}>
-            "It's supposed to be hard. If it wasn't hard, everyone would do it.
-            The hard... is what makes it great."
-          </p> 
+            "Eager to bring my expertise in Shopify development to a dynamic
+            role, where I can seamlessly blend my creativity and technical
+            finesse to contribute to the success of an innovative e-commerce
+            powerhouse."
+          </p>
         </div>
       </div>
       <div className={styles.introRight}>
