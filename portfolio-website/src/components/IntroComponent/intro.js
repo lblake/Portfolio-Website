@@ -15,7 +15,7 @@ function Intro() {
             </div>
           </div>
           <p className={styles.introTitleDescription}>
-            "Eager to bring my expertise in Shopify development to a dynamic
+            "Eager to bring my expertise in frontend development to a dynamic
             role, where I can seamlessly blend my creativity and technical
             finesse to contribute to the success of an innovative e-commerce
             powerhouse."

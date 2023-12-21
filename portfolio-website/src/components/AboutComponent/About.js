@@ -54,7 +54,7 @@ export default function About() {
           >
             Frontend Shopify Developer
           </a>{' '} */}
-          expertise in creating visually stunning and user-friendly Shopify
+          expertise in creating visually stunning and user-friendly e-commerce 
           experiences. I've completed a comprehensive Shopify
           Developer Bootcamp run by{' '}
           <a
@@ -96,7 +96,7 @@ export default function About() {
           course has been a game-changer for me and for you. With newfound proficiency in Figma &
           Adobe XD, I'm well-equipped to breathe life into any design on any Shopify theme. I am
           actively seeking new projects to bring captivating Shopify stores to
-          life. Let's get to work creating an impactful Shopify presence together.
+          life. Let's get to work creating an impactful e-commerce presence together.
         </p>
       </div>
     </div>
