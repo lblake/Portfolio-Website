@@ -96,7 +96,7 @@ export default function About() {
           course has been a game-changer for me and for you. With newfound proficiency in Figma &
           Adobe XD, I'm well-equipped to breathe life into any design on any Shopify theme. I am
           actively seeking new projects to bring captivating Shopify stores to
-          life. Let's get to work creating an impactful e-commerce.
+          life. Let's get to work creating an impactful e-commerce store.
         </p>
       </div>
     </div>
