@@ -8,7 +8,7 @@ function Intro() {
         <div className={styles.introLeftWrapper}>
           <h2 className={styles.introHeading}>Hello, my name is</h2>
           <h1 className={styles.introName}>Lloyd Blake</h1>
-          <h2 className={styles.introJob}>Shopify Developer</h2>
+          <h2 className={styles.introJob}>Shopify Website Developer</h2>
           <div className={styles.introTitle}>
             <div className={styles.introTitleWrapper}>
               <div className={styles.introTitleItem}></div>
