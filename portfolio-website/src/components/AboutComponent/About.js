@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 
 export default function About() {
   const image = new Image();
-  image.src = require('./smile-photo.jpeg');
+  image.src = require('./black-top-smiling.jpeg');
 
   return (
     <div className={styles.aboutContainer}>
