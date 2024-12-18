@@ -1,5 +1,7 @@
 [[redirects]]
   from = "/*"
   to = "/index.html"
+  from = "https://lloydblake.dev/"
+  to = "https://lloydblake-dev.webflow.io/"
   status = 200
   force = false
