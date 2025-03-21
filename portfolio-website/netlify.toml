@@ -5,7 +5,8 @@
   force = false
 
 [[redirects]]
-  from = "https://lloydblake.dev/"
-  to = "https://lloydblake-dev.webflow.io/"
-  status = 200
-  force = false
+  from = "/*"
+  to = "https://lloydblake-dev.webflow.io/design-packs"
+  status = 301
+  force = true
+
