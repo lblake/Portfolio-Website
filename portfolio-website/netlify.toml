@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "https://lloydblake-dev.webflow.io/design-packs"
+  to = "https://lloydblake-dev.webflow.io"
   status = 301
   force = true
 
