@@ -1,11 +1,5 @@
 [[redirects]]
   from = "/*"
-  to = "/index.html"
-  status = 200
-  force = false
-
-[[redirects]]
-  from = "/*"
   to = "https://lloydblake-dev.webflow.io/design-packs"
   status = 301
   force = true
