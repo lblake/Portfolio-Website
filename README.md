@@ -8,4 +8,4 @@
    https://lloydblake.dev/
 </p>
 
-![image](./portfolio-website/public/images/lloydblake.dev.png)
+![image](./portfolio-website/public/images/lloydblake-dev-portfolio.png)
